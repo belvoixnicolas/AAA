@@ -1,0 +1,30 @@
+
+ody{
+  width: 800px;
+  height: auto;
+}
+
+#blocInfos{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  }
+
+  #blocDescription{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+
+
+.ficheDescription{
+  margin-top: 20px;
+}
