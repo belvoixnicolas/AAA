@@ -1,11 +1,11 @@
 ///// NAV \\\\\
 
 100px de hauteur
-logo 70x70 clicable qui redirige sur la page d'acceuill
-centrer on hauteur.
-la nav doit etre on position stycky
+logo 70x70 clickable qui redirige sur la page d'acceuil
+centré en hauteur.
+la nav doit être on position sticky
 
 //// FOOTER \\\\\
 
 deux liste
-reseaux social est une suite d'image clicable qui renvoie vers un lien. Les image font 70x70
+réseaux sociaux et une suite d'image clickable qui renvoie vers un lien. Les image font 70x70.
