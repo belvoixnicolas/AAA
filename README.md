@@ -1,7 +1,7 @@
 ///// NAV \\\\\
 
 100px de hauteur
-logo 70x70 clickable qui redirige sur la page d'acceuil
+logo 70x70 clickable qui redirige sur la page d'accueil
 centré en hauteur.
 la nav doit être on position sticky
 
