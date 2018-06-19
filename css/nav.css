@@ -1,0 +1,27 @@
+nav {
+  background-color: black;
+  position: sticky;
+  top: 0px;
+  height: 100px;
+  padding: 0 20px;
+}
+
+nav a, nav img {
+  float: left;
+  font-size: 25px;
+  line-height: 100px;
+  color: white;
+  border: 1px solid blue;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav .right {
+  float: right;
+  border: 1px solid green;
+}
+
+nav .tel {
+  height: 25px;
+  margin: 37.7px 7px 37.7px 0;
+}
