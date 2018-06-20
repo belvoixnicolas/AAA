@@ -5,12 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Voiture</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
 
 <body>
-  <header>
-  </header>
+  <?php include 'include/navbar.html'; ?>
 
   <main>
     <div class="photo_voiture">
