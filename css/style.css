@@ -23,6 +23,7 @@ header {
      font-size: 30px;
      background-color: black;
      cursor: pointer;
+     font-family: 'Exo', sans-serif;
  }
 
  #acheter, #vendre {
@@ -33,4 +34,29 @@ header {
  #acheter:hover, #vendre:hover {
      color: black;
      box-shadow: white 0 0px 0px 40px inset;
+ }
+
+ #partenaires h2{
+    text-align: center;
+    font-size: 250%;
+    padding-top: 2%;
+    font-family: 'Exo', sans-serif;
+    padding-bottom: 2%;
+ }
+
+.logo{
+  width:200px;
+	height:200px;
+	background:#069;
+  transition: transform .3s;
+}
+
+.logo:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+ .container{
+   display: flex;
+   justify-content: space-around;
  }
