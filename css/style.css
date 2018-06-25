@@ -59,6 +59,11 @@ main .temoignage {
 
 }
 
+#temoin h2 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
 #avis p {
   font-size: 18px;
   text-align: justify;
