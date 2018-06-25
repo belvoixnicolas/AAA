@@ -43,7 +43,7 @@
       </div>
       <section id="partenaire">
 
-      </div>
+      </section>
     </main>
     <footer>
 
