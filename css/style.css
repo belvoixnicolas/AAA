@@ -9,12 +9,13 @@ header {
 }
 
  button {
-     -webkit-transition: all 3000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-     -moz-transition: all 3000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-     -ms-transition: all 3000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-     -o-transition: all 3000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-     transition: all 3000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-     display: block;
+     -webkit-transition: all 2000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+     -moz-transition: all 2000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+     -ms-transition: all 2000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+     -o-transition: all 2000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+     transition: all 2000ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+     display: flex;
+     justify-content: center;
      width: 300px;
      margin-right: 100px;
      margin-left: 100px;
@@ -32,13 +33,4 @@ header {
  #acheter:hover, #vendre:hover {
      color: black;
      box-shadow: white 0 0px 0px 40px inset;
-
  }
-
-
-
-
-
-#avis {
-
-}
