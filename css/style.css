@@ -92,3 +92,7 @@ main .logo:hover{
    display: flex;
    justify-content: space-around;
  }
+
+ #partenaires {
+   height: 350px;
+ }
