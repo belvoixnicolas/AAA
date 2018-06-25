@@ -28,3 +28,17 @@ ody{
 .ficheDescription{
   margin-top: 20px;
 }
+
+/* Accceuil -------------------*/
+
+.imagebanniere{
+  max-width: 100%;
+height: 335px;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/cars/porsche-911-silver-color-top-speed-car-web-header.jpg");
+}
