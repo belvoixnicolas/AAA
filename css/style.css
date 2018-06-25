@@ -74,7 +74,7 @@ main .temoignage {
 
 main .logo{
   width:150px;
-	height:1500px;
+	height:150px;
 	background:#069;
   transition: transform .3s;
 }
