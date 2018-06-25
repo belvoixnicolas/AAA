@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
 
 nav {
-  background-color: black;
+  background-color: #000;
   position: sticky;
   top: 0px;
   height: 100px;
@@ -13,7 +13,7 @@ nav a, nav img {
   float: left;
   font-size: 25px;
   line-height: 100px;
-  color: white;
+  color: #FFF;
   margin: 0 20px;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
