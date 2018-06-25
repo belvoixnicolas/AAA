@@ -54,8 +54,7 @@
     </section>
 
     </main>
-    <footer>
+    <?php include 'include/footer.html'; ?>
 
-    </footer>
   </body>
 </html>
