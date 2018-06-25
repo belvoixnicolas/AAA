@@ -72,10 +72,14 @@ main .temoignage {
     padding-bottom: 2%;
  }
 
+#partenaires{
+  height: 350px;
+}
+
 main .logo{
   width:150px;
 	height:150px;
-	background:#069;
+	background:grey;
   transition: transform .3s;
 }
 
