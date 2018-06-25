@@ -58,7 +58,6 @@ main .temoignage {
   width:20%;
 
 }
-
 #temoin h2 {
   font-size: 38px;
   font-weight: bold;
@@ -77,15 +76,10 @@ main .temoignage {
     padding-bottom: 2%;
  }
 
-#partenaires{
-  height: 350px;
-}
-
-
 main .logo{
   width:150px;
 	height:150px;
-	background:grey;
+	background:#069;
   transition: transform .3s;
 }
 
