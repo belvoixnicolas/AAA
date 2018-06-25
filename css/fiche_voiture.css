@@ -6,23 +6,22 @@ line-height: 1.2;
 }
 
 main{
-  font-family: 'Exo', sans-serif;
+
   margin-left: 8%;
   margin-right: 8%;
 }
 
 #blocDescription{
-  width: 100% ;
-  margin: auto;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 50px;
   font-size: 20px;
+  font-family: 'Exo', sans-serif;
   }
   #blocTitre{
-    width: 100% ;
-    margin: auto;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -31,9 +30,11 @@ main{
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Exo', sans-serif;
   }
 
   .photo_voiture{
     width: 100%;
     height: auto;
+    max-width: 100%;
   }
