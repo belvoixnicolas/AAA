@@ -14,15 +14,19 @@ header {
 }
 
 button {
-  display: flex;
-  justify-content: center;
+
+     display: flex;
+     justify-content: center;
      width: 300px;
      margin-right: 100px;
      margin-left: 100px;
      height: 50px;
      font-size: 30px;
+     background-color: black;
+     cursor: pointer;
  }
 
+<<<<<<< HEAD
  @import "bourbon";
 
  $col-primary: #00c7ec;
@@ -106,6 +110,12 @@ button {
 
 
 
+=======
+ #acheter, #vendre {
+     color: white;
+     box-shadow:black 0 0px 0px 2px inset;
+ }
+>>>>>>> e48199b4692067bf89141f80f13007ebb1500b61
 
 
 #presentation {
