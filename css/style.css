@@ -30,25 +30,27 @@ button {
 
 #presentation {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width:100%;
   height:450px;
   text-align: center;
 }
-#pres {
-  width:70%;
-}
-#pres p {
+
+#zonetexte p {
   font-size: 24px;
   text-align: justify;
+}
+#zonetexte {
+  width:50%;
+  margin-right: 30px;
 }
 #avis {
   display: flex;
   justify-content: space-around;
   height:350px;
   align-items: center;
-  background: grey;
+
 }
 main .temoignage {
   width:20%;
@@ -58,6 +60,9 @@ main .temoignage {
   font-size: 38px;
   font-weight: bold;
   text-align: center;
+}
+#temoin {
+  background: grey;
 }
 #avis p {
   font-size: 18px;
@@ -92,3 +97,21 @@ main .logo:hover{
  #partenaires {
    height: 350px;
  }
+
+ .temoignage img {
+   width: 25px;
+ }
+ #blanche {
+   width:25px;
+
+ }
+.temoignage {
+  display: flex;
+  flex-direction: column;
+}
+.pasclasse {
+  display: flex;
+}
+.zut {
+  display: flex;
+}
