@@ -8,11 +8,17 @@
       <link rel="icon" type="image/x-icon" href="favicon.ico">
       <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="resource/img/favicon.ico" /><![endif]-->
       <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" type="text/css" href="css/nav.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
 
     </head>
     <body>
+      <?php include 'include/navbar.html'; ?>
+
+<header>
+
+</header>
 
 
 
@@ -21,7 +27,6 @@
 
 
 
-
-
+    <?php include 'include/footer.html'; ?>
     </body>
   </html>
