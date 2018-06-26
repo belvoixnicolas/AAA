@@ -22,8 +22,13 @@
     </header>
     <main>
       <section id="presentation">
-<div id="pres">
-    <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris</p>
+        <div id="img">
+          <img src="img/voiture1.png" alt="">
+  </div>
+        <div id="zonetexte">
+            <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris</p>
+        </div>
+
 </div>
 
     </section>
@@ -31,7 +36,18 @@
       <h2>Nos clients témoignent</h2>
       <div id="avis">
         <div class="temoignage">
-          <p><strong>Alexsandraps (08):</strong></p><p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur</p>
+          <div class="pasclasse">
+            <div class="">
+              <p><strong>Jean Neymar (75):</strong></p>
+            </div>
+            <div class="zut">
+              <img src="img/goldenstar.png" alt=""><img src="img/goldenstar.png" alt=""><img src="img/goldenstar.png" alt=""><img src="img/goldenstar.png" alt=""><img src="img/goldenstar.png" alt=""></p>
+            </div>
+
+          </div>
+          <div class="">
+            <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur"</p>
+          </div>
         </div>
         <div class="temoignage">
           <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur</p>
