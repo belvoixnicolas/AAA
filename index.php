@@ -18,6 +18,7 @@
     <header>
       <button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
         <button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
+
     </header>
     <main>
       <section id="presentation">
