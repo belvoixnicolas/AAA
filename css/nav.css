@@ -6,7 +6,7 @@ nav {
   top: 0px;
   height: 100px;
   padding: 0 20px;
-  
+
 }
 
 nav a, nav img {
@@ -17,15 +17,17 @@ nav a, nav img {
   margin: 0 20px;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
-  transition: .5s;
+  /*transition: .5s;*/
 }
 
 nav a:hover {
   color: #41B0C9;
+  transition: .5s;
 }
 
 nav a:hover .tel {
   filter: hue-rotate(91deg) saturate(68%) brightness(53%);
+  transition: .5s;
 }
 
 nav .right {
