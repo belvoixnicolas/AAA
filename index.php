@@ -41,33 +41,92 @@
       <div id="avis">
         <div class="temoignage">
           <div class="pasclasse">
-            <div class="">
-              <p><strong>Greg L (08):</strong></p>
+            <div class="test">
+              <div class="">
+                <img src="./img/homer.jpg" id="homer" alt="">
+              </div>
+              <div class="">
+                <p><strong>Homer Simpson (08):</strong></p>
+                <p><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i></p>
+              </div>
+
             </div>
             <div class="zut">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="temoignage">
+          <div class="pasclasse">
+            <div class="test">
+              <div class="">
+                <img src="./img/fed1.jpg" id="homer" alt="">
+              </div>
+              <div class="">
+                <p><strong>Roger F (Suisse):</strong></p>
+                <p><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i></p>
+              </div>
 
             </div>
-
+            <div class="zut">
+              <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "</p>
+            </div>
           </div>
-          <div class="">
-            <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur"</p>
-          </div>
-        </div>
-        <div class="temoignage">
-          <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur</p>
-        </div>
-        <div class="temoignage">
-          <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur</p>
-        </div>
-        <div class="temoignage">
-          <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur</p>
-        </div>
 
+        </div>
+        <div class="temoignage">
+          <div class="pasclasse">
+            <div class="test">
+              <div class="">
+                <img src="./img/homer.jpg" id="homer" alt="">
+              </div>
+              <div class="">
+                <p><strong>Homer Simpson (08):</strong></p>
+                <p><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i></p>
+              </div>
+
+            </div>
+            <div class="zut">
+              <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="temoignage">
+          <div class="pasclasse">
+            <div class="test">
+              <div class="">
+                <img src="./img/homer.jpg" id="homer" alt="">
+              </div>
+              <div class="">
+                <p><strong>Homer Simpson (08):</strong></p>
+                <p><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i></p>
+              </div>
+
+            </div>
+            <div class="zut">
+              <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
