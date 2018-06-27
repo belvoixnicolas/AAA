@@ -21,7 +21,19 @@ button {
      margin-left: 100px;
      height: 50px;
      font-size: 30px;
+     color: black;
+     border: none;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    background-color: white;
  }
+
+ #acheter:hover, #vendre:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 #presentation {
   display: flex;
