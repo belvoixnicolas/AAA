@@ -21,14 +21,11 @@ button {
      margin-left: 100px;
      height: 50px;
      font-size: 30px;
-
-
   color: #000000;
   text-transform: uppercase;
   font-weight: bold;
-
- }
 }
+
 #presentation {
   display: flex;
   justify-content: space-between;
