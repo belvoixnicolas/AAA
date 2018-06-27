@@ -35,7 +35,6 @@
         </div>
 
 
-    </section>
     <section id="temoin">
       <h2>Nos clients témoignent</h2>
       <div id="avis">

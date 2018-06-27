@@ -21,12 +21,14 @@ button {
      margin-left: 100px;
      height: 50px;
      font-size: 30px;
-
-
   color: #000000;
   font-weight: bold;
+<<<<<<< HEAD
 
  }
+=======
+}
+>>>>>>> ff8228be5085646b6eae027de0c5b6572a2657bd
 
 #presentation {
   display: flex;
