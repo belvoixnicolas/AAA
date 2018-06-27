@@ -42,7 +42,7 @@
         <div class="temoignage">
           <div class="pasclasse">
             <div class="">
-              <p><strong>Jean Neymar (75):</strong></p>
+              <p><strong>Greg L (08):</strong></p>
             </div>
             <div class="zut">
               <i class="fas fa-star"></i>
