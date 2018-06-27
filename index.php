@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -17,6 +18,7 @@
     <?php include 'include/navbar.html'; ?>
     <header>
       <button type="button" name="button1" id="acheter" class="button">ACHETER</button>
+      <button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
         <button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
 
     </header>
