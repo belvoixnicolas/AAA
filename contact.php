@@ -22,7 +22,7 @@
 
         <section>
           <div class="coordoner">
-            <h2>Nos coordoner</h2>
+            <h2>Nos coordonnées</h2>
             <ul>
               <li>Closse Jordan</li>
               <li>jordanclosse@maitrise-web.fr</li>
