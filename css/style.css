@@ -21,28 +21,11 @@ button {
      margin-left: 100px;
      height: 50px;
      font-size: 30px;
-     @padding_top: 5px;
-  @font-size: 20px;
-
-  position: relative;
-  display: inline-block;
   color: #000000;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: @font-size;
-  padding: @padding_top 12px;
-  margin-bottom: 20px;
-  border: 2px solid #000000;
-  text-decoration: none;
-  transition:all ease 500ms;
-  overflow: hidden;
 
-  //&, &:before, &:after { transition:all ease 1000ms }
-  &:hover {
-      background: #222222;
-      color: white;
  }
-}
+
 #presentation {
   display: flex;
   justify-content: space-between;
@@ -129,4 +112,13 @@ main .logo:hover{
 }
 .zut {
   display: flex;
+  padding-top: 2px;
+
+}
+.fa-star{
+  color: yellow;
+  padding-top: 2px;
+  padding-left: 5px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1px 0 black, 0 -1px black;
+
 }
