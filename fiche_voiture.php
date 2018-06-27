@@ -17,7 +17,6 @@
 
   <main>
     <div class="photo_voiture">
-      <img class="voiture" src="img/voiture1.png" alt="voiture" />
     </div>
 
 
