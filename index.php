@@ -23,7 +23,7 @@
       <button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
         <button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
 
- 
+
     </header>
     <main>
       <section id="presentation">
@@ -56,7 +56,7 @@
 
           </div>
           <div class="">
-            <p>"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur"</p>
+            <p>"J'ai réussi à vendre ma clio de merde grâce à vous merci, je suis très content, je reviendrai vers vous quand mon nouveau Porsche Cayenne sera trop vieux"</p>
           </div>
         </div>
         <div class="temoignage">
