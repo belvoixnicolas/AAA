@@ -1,0 +1,53 @@
+main {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+main section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 70px 0;
+}
+
+main li, main a, main h2, main input, main textarea {
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+main h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+main li {
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.form input[type=text], .form textarea {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: inset 0 0 5px 0 lightgrey;
+}
+
+.form input[type=submit] {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #000;
+  color: #FFF;
+}
