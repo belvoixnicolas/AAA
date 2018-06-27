@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<title>Agence Automobile Ardennaise</title>
 	</head>
 	<body>
@@ -36,15 +37,15 @@
 						<div class="pasclasse">
 							<div class="">
 								<p>
-									<strong>Jean Neymar (75):</strong>
+									<strong>Jean Neymar (75) : </strong>
 								</p>
 							</div>
 							<div class="zut">
-								<img src="img/goldenstar.png" alt="">
-								<img src="img/goldenstar.png" alt="">
-								<img src="img/goldenstar.png" alt="">
-								<img src="img/goldenstar.png" alt="">
-								<img src="img/goldenstar.png" alt="">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
 							</p>
 						</div>
 					</div>
