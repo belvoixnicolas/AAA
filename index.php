@@ -42,11 +42,11 @@
         <div class="temoignage">
           <div class="pasclasse">
             <div class="test">
-              <div class="">
-                <img src="./img/homer.jpg" id="homer" alt="">
+              <div class="centre">
+                <img src="./img/images.jpeg" id="homer" alt="">
               </div>
-              <div class="">
-                <p><strong>Homer Simpson (08):</strong></p>
+              <div class="centre">
+                <p><strong>Sarah V. (35):</strong></p>
                 <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -67,7 +67,7 @@
               <div class="">
                 <img src="./img/fed1.jpg" id="homer" alt="">
               </div>
-              <div class="">
+              <div class="centre">
                 <p><strong>Roger F (Suisse):</strong></p>
                 <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -87,10 +87,10 @@
           <div class="pasclasse">
             <div class="test">
               <div class="">
-                <img src="./img/homer.jpg" id="homer" alt="">
+                <img src="./img/anne.jpeg" id="homer" alt="">
               </div>
-              <div class="">
-                <p><strong>Homer Simpson (08):</strong></p>
+              <div class="centre">
+                <p><strong>Anne H. (51):</strong></p>
                 <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -109,10 +109,10 @@
           <div class="pasclasse">
             <div class="test">
               <div class="">
-                <img src="./img/homer.jpg" id="homer" alt="">
+                <img src="./img/face1.jpeg" id="homer" alt="">
               </div>
-              <div class="">
-                <p><strong>Homer Simpson (08):</strong></p>
+              <div class="centre">
+                <p><strong>DAvid S. (08):</strong></p>
                 <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
