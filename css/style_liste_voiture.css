@@ -10,4 +10,19 @@ html {
 #container {
   width:100%;
   display: flex;
+  justify-content: space-between;
+}
+input {
+  width:80%;
+}
+section {
+  width:20%
+}
+#corps {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+#listing_voitures {
+  display: flex;
 }

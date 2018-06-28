@@ -27,10 +27,18 @@
 
       </div>
       <div id="container">
-        <section>
+        <section id="recherche1">
 
         </section>
         <div id="corps">
+          <div id="recherche2">
+            <form action="traitement" method="GET">
+			      		<input type="text" name="" value="" placeholder="Recherchez un véhicule" />
+					  </form> 
+          </div>
+          <div id="listing_voitures">
+
+          </div>
 
         </div>
       </div>
