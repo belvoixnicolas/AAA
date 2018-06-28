@@ -1,7 +1,9 @@
-main p, h1, h2, button {
+html, main p, h1, h2, button {
   font-family: 'Exo', sans-serif;
 }
-
+html {
+  font-size: 62.5%;
+}
 
 header {
   background-image: url('../img/tesla-banner.jpg');
@@ -20,7 +22,7 @@ button {
      margin-right: 100px;
      margin-left: 100px;
      height: 50px;
-     font-size: 30px;
+     font-size: 3rem;
   color: #000000;
   font-weight: bold;
 
@@ -36,7 +38,7 @@ button {
 }
 
 #zonetexte p {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-align: justify;
 }
 #zonetexte {
@@ -55,7 +57,7 @@ main .temoignage {
 
 }
 #temoin h2 {
-  font-size: 38px;
+  font-size: 3.8rem;
   font-weight: bold;
   text-align: center;
 }
@@ -63,13 +65,14 @@ main .temoignage {
   background: grey;
 }
 #avis p {
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: justify;
 }
 
 #partenaires h2{
     text-align: center;
-    font-size: 250%;
+    font-size: 3.8rem;
+    font-weight: bold;
     padding-top: 2%;
     font-family: 'Exo', sans-serif;
     padding-bottom: 2%;
