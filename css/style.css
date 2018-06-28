@@ -12,7 +12,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 button {
@@ -23,9 +22,19 @@ button {
      margin-left: 100px;
      height: 50px;
      font-size: 3rem;
-  color: #000000;
+  color: white;
+  background: #020809;
   font-weight: bold;
-
+  border: none;
+  border-radius:10px;
+  text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
+ }
+ button:hover {
+   color: #01152b;
+   background: #f0f0f0;
+   text-shadow: 2px;
+   transition: 1.2s;
+   text-shadow: 1px 1px 1px red, 0 0 1em #01152b;
  }
 
 #presentation {
@@ -62,7 +71,7 @@ main .temoignage {
   text-align: center;
 }
 #temoin {
-  background: grey;
+  background: #f0f0f0;
 }
 #avis p {
   font-size: 1.8rem;
