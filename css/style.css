@@ -12,7 +12,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 5px 35px;
+  /* Set a specific height */
+min-height: 500px;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 button {
@@ -152,5 +158,4 @@ main .logo:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
