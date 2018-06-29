@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="resource/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -15,11 +14,11 @@
 
 
   <title>Agence Automobile Ardennaise</title>
-  </head>
+</head>
 
   <body>
     <?php include 'include/navbar.html'; ?>
-    <header>
+    <header id="header">
       <button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
         <button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
 
@@ -145,5 +144,9 @@
     </main>
     <?php include 'include/footer.html'; ?>
 
+<script type="text/javascript" src="js/script.js">
+
+</script>
+</script>
   </body>
 </html>
