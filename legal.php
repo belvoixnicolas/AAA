@@ -22,23 +22,23 @@
     <?php include 'include/navbar.html'; ?>
 
     <main>
-    <h2 class="titre_mentions">Mentions légales</h2>
 
-  <ul>
-    <li>Raison sociale</li>
-    <li>Siège social</li>
-    <li>Téléphone</li>
-    <li>Directeur de publication</li>
-    <li>RCS</li>
-    <li>Nom de l'hébergeur</li>
-    <li>Adresse de l'hébergeur</li>
-    <li>Numéro de téléphone de l'hébergeur</li>
-  </ul>
+      <h2 class="titre_mentions">Mentions légales</h2>
 
+      <ul>
+        <li>Raison sociale</li>
+        <li>Siège social</li>
+        <li>Téléphone</li>
+        <li>Directeur de publication</li>
+        <li>RCS</li>
+        <li>Nom de l'hébergeur</li>
+        <li>Adresse de l'hébergeur</li>
+        <li>Numéro de téléphone de l'hébergeur</li>
+      </ul>
 
-
-</main>
+    </main>
 
   <?php include 'include/footer.html'; ?>
+    
  </body>
 </html>
