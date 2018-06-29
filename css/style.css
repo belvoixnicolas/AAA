@@ -12,7 +12,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 10px 30px;
+  box-shadow: 1px 5px 35px;
 }
 
 button {
