@@ -1,7 +1,9 @@
-main p, h1, h2, button {
+html, main p, h1, h2, button {
   font-family: 'Exo', sans-serif;
 }
-
+html {
+  font-size: 62.5%;
+}
 
 header {
   background-image: url('../img/tesla-banner.jpg');
@@ -10,7 +12,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 button {
@@ -20,10 +21,20 @@ button {
      margin-right: 100px;
      margin-left: 100px;
      height: 50px;
-     font-size: 30px;
-  color: #000000;
+     font-size: 3rem;
+  color: white;
+  background: #020809;
   font-weight: bold;
-
+  border: none;
+  border-radius:10px;
+  text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
+ }
+ button:hover {
+   color: #01152b;
+   background: #f0f0f0;
+   text-shadow: 2px;
+   transition: 1.2s;
+   text-shadow: 1px 1px 1px red, 0 0 1em #01152b;
  }
 
 #presentation {
@@ -36,7 +47,7 @@ button {
 }
 
 #zonetexte p {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-align: justify;
 }
 #zonetexte {
@@ -55,21 +66,22 @@ main .temoignage {
 
 }
 #temoin h2 {
-  font-size: 38px;
+  font-size: 3.8rem;
   font-weight: bold;
   text-align: center;
 }
 #temoin {
-  background: grey;
+  background: #f0f0f0;
 }
 #avis p {
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: justify;
 }
 
 #partenaires h2{
     text-align: center;
-    font-size: 250%;
+    font-size: 3.8rem;
+    font-weight: bold;
     padding-top: 2%;
     font-family: 'Exo', sans-serif;
     padding-bottom: 2%;
@@ -137,5 +149,6 @@ main .logo:hover{
 .test {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
 }
