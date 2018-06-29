@@ -111,7 +111,7 @@
                 <img src="./img/face1.jpeg" id="homer" alt="">
               </div>
               <div class="centre">
-                <p><strong>DAvid S. (08):</strong></p>
+                <p><strong>David S. (08):</strong></p>
                 <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
