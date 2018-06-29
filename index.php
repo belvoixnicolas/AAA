@@ -144,8 +144,6 @@
     </main>
     <?php include 'include/footer.html'; ?>
 
-<script type="text/javascript" src="js/script.js">
-
 </script>
 </script>
   </body>
