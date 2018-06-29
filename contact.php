@@ -18,28 +18,31 @@
       <!-- navbar -->
 
       <main>
-        <h1>Nous contacter</h1>
-
         <section>
+          <h1>Nous contacter</h1>
+
           <div class="coordoner">
-            <h2>Nos coordonnées</h2>
+            <h2>Agence Automobile Ardennaise</h2>
+
             <ul>
               <li>Closse Jordan</li>
-              <li>jordanclosse@maitrise-web.fr</li>
+              <li>8 Rue de l'Artisanat</li>
+              <li>08000 Charleville-Mézières</li>
               <li>07.88.45.35.82</li>
-              <li><a href="https://goo.gl/maps/VCsKzJczMHu" target="_blank">8 rue de l'artisanat<br/>Charleville-Mézières</a></li>
+              <li>07.84.46.96.67</li>
+              <li>jordanclosse@maitrise-web.fr</li>
             </ul>
           </div>
 
-          <div class='form'>
-            <h2>Nous envoyer un mail</h2>
-            <form action="#" method="post">
-              <p><input type="text" name="sujet" placeholder="Sujet" required/></p>
-              <p><textarea name="message" placeholder="Text" required></textarea></p>
-              <p><input type="submit" value="Envoyer"/></p>
-            </form>
-          </div>
-      </section>
+          <form action="#" method="post">
+            <input type="text" name="nom" placeholder="Nom" required />
+            <input type="text" name="prenom" placeholder="Prénom" required />
+            <input type="email" name="mail" placeholder="Mail" required />
+            <input type="tel" name="tel" placeholder="Tel" required />
+            <textarea name="text" placeholder="Text" required></textarea>
+            <input type="submit" value="Envoyer" />
+          </form>
+        </section>
       </main>
 
       <!-- footer -->

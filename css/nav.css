@@ -17,7 +17,6 @@ nav a, nav img {
   margin: 0 20px;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
-  /*transition: .5s;*/
 }
 
 nav a:hover {
@@ -42,5 +41,5 @@ nav .logo {
 
 nav .tel {
   height: 25px;
-  margin: 37.7px 7px 37.7px 0;
+  margin: 37.7px 7px 0;
 }
