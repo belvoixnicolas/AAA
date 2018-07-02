@@ -132,11 +132,11 @@
       <section id="partenaires">
         <h2>Nos partenaires</h2>
       <div class="container">
-        <div class="logo"></div>
-        <div class="logo"></div>
-        <div class="logo"></div>
-        <div class="logo"></div>
-        <div class="logo"></div>
+        <img src="./img/logoaaa.jpg" class="logo" alt="">
+        <img src="./img/logoaaa.jpg" class="logo" alt="">
+        <img src="./img/logoaaa.jpg" class="logo" alt="">
+        <img src="./img/logoaaa.jpg" class="logo" alt="">
+        <img src="./img/logoaaa.jpg" class="logo" alt="">
       </div>
     </section>
 
