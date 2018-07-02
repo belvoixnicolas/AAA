@@ -23,27 +23,48 @@
 
             <p class="formTitres">Vos coordonnées</p>
             <p class="textform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div>
-              <label for="name">Votre nom : <span class="red">*</span></label>
+            <div class="part1">
               <input type="text" id="nom" class="mefform" name="name" placeholder="nom">
             </div>
 
             <div>
-              <label for="prenom">Votre prénom : <span class="red">*</span></label>
               <input type="text" id="prenom" class="mefform" name="firstname" placeholder="prénom">
             </div>
 
             <div>
-              <label for="email">Votre email : <span class="red">*</span></label>
               <input type="email" id="email" class="mefform" name="mail" placeholder="exemple@test.com">
             </div>
 
             <div>
-              <label for="tel">Votre téléphone : <span class="red">*</span></label>
+
               <input type="phone" id="tel" class="mefform" name="phone" placeholder="00 00 00 00 00">
             </div>
+
+
         </fieldset>
+
+        <fieldset>
+
+          <p class="formTitres">La voiture</p>
+          <p class="textform">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="part2">
+            <input type="text" id="marque" class="mefform" name="marque" placeholder="marque">
+          </div>
+
+          <div>
+            <input type="text" id="modele" class="mefform" name="modele" placeholder="modèle">
+          </div>
+
+          <div>
+            <input type="text" id="couleur" class="mefform" name="couleur" placeholder="couleur">
+          </div>
+
+          <div>
+            <input type="text" id="datemec" class="mefform" name="datemec" placeholder="Date de mise en circulation">
+          </div>
+      </fieldset>
+
+    </form>
       </main>
       <?php include 'include/footer.html'; ?>
     </body>
