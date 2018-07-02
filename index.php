@@ -132,23 +132,19 @@
       <section id="partenaires">
         <h2>Nos partenaires</h2>
       <div class="container">
-
-          <img src="./img/logoaaa.jpg" class="logo"  alt="">
-
-          <img src="./img/logoaaa.jpg" class="logo"  alt="">
-
-          <img src="./img/logoaaa.jpg" class="logo"  alt="">
-
-          <img src="./img/logoaaa.jpg" class="logo"  alt="">
-
-          <img src="./img/logoaaa.jpg" class="logo"  alt="">
+        <div class="logo"></div>
+        <div class="logo"></div>
+        <div class="logo"></div>
+        <div class="logo"></div>
+        <div class="logo"></div>
       </div>
     </section>
 
     </main>
     <?php include 'include/footer.html'; ?>
 
-</script>
+<script type="text/javascript" src="js/script.js">
+
 </script>
   </body>
 </html>
