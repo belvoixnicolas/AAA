@@ -25,13 +25,18 @@ fieldset{
   font-weight: bold;
 }
 
-.textform{
-  padding: 10px 20px;
-  text-align: justify;
-}
-
 h2{
   text-align: center;
   padding-top: 50px;
   font-size: 50px;
+}
+
+.textform{
+  text-align: justify;
+  margin: 10px 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
 }
