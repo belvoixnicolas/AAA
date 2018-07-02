@@ -4,7 +4,11 @@ main {
   align-items: center;
 }
 
-main h1, .coordoner, main form {
+main section {
+  width: 70%;
+}
+
+.coordoner, main form {
   margin: 50px;
 }
 
@@ -12,14 +16,10 @@ main h2, main li, main input, main textarea {
   font-family: 'Exo', sans-serif;
 }
 
-main h1 {
-  font-size: 60px;
-}
-
 .coordoner {
-  background: #000;
+  background: #000 url('../img/map.png') right no-repeat;
   padding: 15px;
-  width: 1000px; 
+  width: 100%;
 }
 
 .coordoner h2 {
@@ -42,16 +42,39 @@ main h1 {
   margin: 5px 30px 0;
 }
 
-main form {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
+main form, main form p {
+  width: 100%;
+  text-align: center;
 }
 
-main input, main textarea {
-  margin: 5px;
+main input[type=text], main input[type=email], main input[type=tel] {
+  width: 49.7%;
+  height: 40px;
 }
 
 main textarea {
   height: 150px;
+  width: 100%;
+  margin-bottom: 5px;
 }
+
+main input[type=submit] {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background: #000;
+  color: #FFF;
+}
+
+main p {
+  margin-bottom: 5px;
+}
+
+/*.left {
+  margin: 0 5px 5px 0;
+}
+
+.right {
+  margin: 0 0 5px 0;
+}*/

@@ -19,8 +19,6 @@
 
       <main>
         <section>
-          <h1>Nous contacter</h1>
-
           <div class="coordoner">
             <h2>Agence Automobile Ardennaise</h2>
 
@@ -35,12 +33,23 @@
           </div>
 
           <form action="#" method="post">
-            <input type="text" name="nom" placeholder="Nom" required />
-            <input type="text" name="prenom" placeholder="Prénom" required />
-            <input type="email" name="mail" placeholder="Mail" required />
-            <input type="tel" name="tel" placeholder="Tel" required />
-            <textarea name="text" placeholder="Text" required></textarea>
-            <input type="submit" value="Envoyer" />
+            <p>
+              <input type="text" class="left" name="nom" placeholder="Nom" required />
+              <input type="text" class="right" name="prenom" placeholder="Prénom" required />
+            </p>
+
+            <p>
+              <input type="email" class="left" name="mail" placeholder="Mail" required />
+              <input type="tel" class="right" name="tel" placeholder="Tel" required />
+            </p>
+
+            <p>
+              <textarea name="text" placeholder="Text" required></textarea>
+            </p>
+
+            <p>
+              <input type="submit" value="Envoyer" />
+            </p>
           </form>
         </section>
       </main>
