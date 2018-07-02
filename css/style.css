@@ -96,7 +96,6 @@ main .temoignage {
 main .logo{
   width:150px;
 	height:150px;
-	background:#787878;
   transition: transform .3s;
 }
 
