@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E"></script>
 
   <title>Agence Automobile Ardennaise</title>
 </head>
@@ -33,8 +33,6 @@
             <p>Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris</p>
         </div>
     </section>
-
-
     <section id="temoin">
       <h2>Nos clients témoignent</h2>
       <div id="avis">
