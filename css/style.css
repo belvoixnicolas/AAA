@@ -12,7 +12,7 @@ header {
   align-items: center;
   justify-content: center;
   /* Set a specific height */
-min-height: 500px;
+min-height: 450px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -63,12 +63,13 @@ button {
 #avis {
   display: flex;
   justify-content: space-around;
-  height:300px;
+  min-height:300px;
   align-items: center;
 
 }
 main .temoignage {
   width:20%;
+  min-height:350px;
 
 }
 #temoin h2 {
