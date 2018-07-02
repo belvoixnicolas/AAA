@@ -1,0 +1,26 @@
+.red{
+  color: red;
+}
+
+form{
+  text-align:center;
+  margin: 20px auto;
+}
+fieldset{
+  border: 1px solid black;
+  margin: 100px;
+  color: black;
+}
+
+.mefform  {
+  margin: 10px;
+}
+
+.formTitres{
+  height: 50px;
+  color: white;
+  background: black;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
