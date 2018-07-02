@@ -15,17 +15,17 @@ footer p, footer a {
 
 footer .facebook {
   float: right;
-  margin-top: 10px;
+  line-height: 70px;
 }
 
 footer img {
   height: 50px;
-  filter:grayscale(100%);
+  filter: grayscale(100%);
   transition: .5s;
 }
 
 footer img:hover {
-  filter: grayscale(0%) contrast(200%);
+  filter: hue-rotate(90deg);
 }
 
 main {
