@@ -1,8 +1,5 @@
-html, main p, h1, h2, button {
-  font-family: 'Exo', sans-serif;
-}
 html {
-  font-size: 62.5%;
+  		font: 62.5% 'Exo', sans-serif;
 }
 
 header {
