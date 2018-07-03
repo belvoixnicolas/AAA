@@ -22,9 +22,9 @@
 		</header>
 		<main>
 			<section id="presentation">
-				<div id="img">
-					<img src="img/golf7.png" alt="">
-				</div>
+
+					<img src="img/description2.jpg" alt="">
+
 				<div id="zonetexte">
 					<p>
 						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris

@@ -4,9 +4,10 @@ html
 	font: 62.5% 'Exo', sans-serif;
 }
 
-#img
+#presentation img
 {
-
+	width: 47%;
+padding-left: 40px;
 }
 
 header
