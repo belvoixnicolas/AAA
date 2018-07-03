@@ -1,159 +1,281 @@
-html, main p, h1, h2, button {
-  font-family: 'Exo', sans-serif;
-}
-html {
-  font-size: 62.5%;
+
+html
+{
+	font: 62.5% 'Exo', sans-serif;
 }
 
-header {
-  background-image: url('../img/banniere.jpg');
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* Set a specific height */
-min-height: 450px;
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: contain;
+
+
+header
+{
+	background-image: url('../img/header.jpg');
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-bottom: 12px solid #b3cccc;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-     width: 300px;
-     margin-right: 100px;
-     margin-left: 100px;
-     height: 50px;
-     font-size: 3rem;
-  color: white;
-  background: #020809;
-  font-weight: bold;
-  border: none;
-  border-radius:10px;
-  text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
- }
- button:hover {
-   color: black;
-   background: #f0f0f0;
-   text-shadow: 2px;
-   transition: 1.2s;
-   text-shadow: 1px 1px 1px black;
-   cursor: pointer;
- }
-
-#presentation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width:100%;
-  height:450px;
-  text-align: center;
+button
+{
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	margin-right: 100px;
+	margin-left: 100px;
+	height: 50px;
+	font-size: 3rem;
+	color: white;
+	background: #020809;
+	font-weight: bold;
+	border: none;
+	border-radius:10px;
+	text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
 }
 
-#zonetexte p {
-  font-size: 2.4rem;
-  text-align: justify;
-}
-#zonetexte {
-  width:50%;
-  margin-right: 30px;
-}
-#avis {
-  display: flex;
-  justify-content: space-around;
-  min-height:300px;
-  align-items: center;
-
-}
-main .temoignage {
-  width:20%;
-  min-height:350px;
-
-}
-#temoin h2 {
-  font-size: 3.8rem;
-  font-weight: bold;
-  text-align: center;
-}
-#temoin {
-  background: #f0f0f0;
-}
-#avis p {
-  font-size: 1.8rem;
-  text-align: justify;
+button:hover
+{
+	color: black;
+	background: #f0f0f0;
+	text-shadow: 2px;
+	transition: 1.2s;
+	text-shadow: 1px 1px 1px black;
+	cursor: pointer;
 }
 
-#partenaires h2{
-    text-align: center;
-    font-size: 3.8rem;
-    font-weight: bold;
-    padding-top: 2%;
-    font-family: 'Exo', sans-serif;
-    padding-bottom: 2%;
- }
+#presentation
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+	height:450px;
+	text-align: center;
+	background: #000 url("../img/description2.png") left/50% no-repeat;
+}
 
-main .logo{
-  width:150px;
+#zonetexte p
+{
+	font-size: 2.4rem;
+	text-align: justify;
+		float: right;
+		color: white;
+}
+
+#zonetexte
+{
+	width:50%;
+	margin-right: 30px;
+}
+
+#avis
+{
+	display: flex;
+	justify-content: space-around;
+	min-height:300px;
+	align-items: center;
+}
+
+main .temoignage
+{
+	width:20%;
+	min-height:350px;
+}
+
+#temoin h2
+{
+	font-size: 3.8rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#temoin
+{
+	background: #f0f0f0;
+}
+
+#avis p
+{
+	font-size: 1.8rem;
+	text-align: justify;
+}
+
+#partenaires h2
+{
+	text-align: center;
+	font-size: 3.8rem;
+	font-weight: bold;
+	padding-top: 2%;
+	font-family: 'Exo', sans-serif;
+	padding-bottom: 2%;
+}
+
+main .logo
+{
+	width:150px;
 	height:150px;
-  transition: transform .3s;
+	transition: transform .3s;
 }
 
-main .logo:hover{
+main .logo:hover
+{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+main .container
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#partenaires
+{
+	height: 350px;
+}
+
+.temoignage img
+{
+	width: 25px;
+}
+
+#blanche
+{
+	width:25px;
+}
+
+.temoignage
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.pasclasse
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.zut
+{
+	display: flex;
+	padding-top: 2px;
+	margin-top: 10px;
+}
+
+#presentation img
+{
+	width: 80%;
+padding-left: 40px;
+}
+
+.fa-star
+{
+	color: yellow;
+	padding-top: 2px;
+	padding-left: 5px;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1px 0 black, 0 -1px black;
+}
+
+#homer
+{
+	width: 140px;
+	overflow:hidden;
+	-webkit-border-radius:110px;
+	-moz-border-radius:110px;
+	border-radius:110px;
+	position: relative;
+}
+
+.test
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.faq-heading {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.faq-subHeading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #14181c;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.question {
   cursor: pointer;
-  transform: scale(1.2);
+  font-weight: bolder;
 }
 
- main .container{
-   display: flex;
-   justify-content: space-around;
- }
-
- #partenaires {
-   height: 350px;
- }
-
- .temoignage img {
-   width: 25px;
- }
- #blanche {
-   width:25px;
-
- }
-.temoignage {
-  display: flex;
-  flex-direction: column;
+ul.box {
+  padding: 10px 0 10px 10px;
+  border: 1px solid black;
 }
-.pasclasse {
-  display: flex;
-  flex-direction: column;
 
+li.answer {
+  padding-right: 25px;
+  margin-top: 20px;
 }
-.zut {
-  display: flex;
-  padding-top: 2px;
-  margin-top: 10px;
 
+span.icon {
+  float: right;
+  width: 36px;
+  height: 26px;
+  padding-top: 10px;
+  margin-top: -10px;
+  padding-right: 15px;
 }
-.fa-star{
-  color: yellow;
-  padding-top: 2px;
-  padding-left: 5px;
-  text-shadow: -1.5px 0 black, 0 1.5px black, 1px 0 black, 0 -1px black;
 
+div.faqs {
+  padding: 0 10% 50px 10%;;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  background-color: rgb(251, 251, 251);
 }
-#homer {
-  width: 140px;
-  overflow:hidden;
-    -webkit-border-radius:110px;
-    -moz-border-radius:110px;
-    border-radius:110px;
-    position: relative;
 
+@media (max-width: 1200px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
 }
-.test {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+.rotate {
+/* Standard */
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+  z-index: 1000;
+}
+
+.reverse {
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  z-index: 1000;
+}
+li {
+	font-size: 2.4rem;
+}
+#faq {
+	padding: 40px;
 }
