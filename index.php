@@ -34,9 +34,7 @@
 				</div>
 			</section>
 
-			<section>
-				<div id="faq"></div>
-				
+			<section id="faq">
 			</section>
 
 			<section id="temoin">
@@ -161,5 +159,7 @@
 			</section>
 		</main>
 		<?php include 'include/footer.html'; ?>
+
+    <script type="text/javascript" src="js/faq.js"></script>
 	</body>
 </html>
