@@ -20,12 +20,14 @@ footer .facebook {
 
 footer img {
   height: 50px;
-  filter: grayscale(100%);
+  margin: 10px;
+  padding: 5px;
   transition: .5s;
 }
 
 footer img:hover {
-  filter: hue-rotate(90deg);
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 main {
