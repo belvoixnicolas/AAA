@@ -143,6 +143,7 @@
 					</div>
 				</div>
 			</section>
+			
 			<section id="partenaires">
 				<h2>Nos partenaires</h2>
 				<div class="container">
