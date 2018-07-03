@@ -23,7 +23,7 @@
 		<main>
 			<section id="presentation">
 				<div id="img">
-					<img src="img/voiture1.png" alt="">
+					<img src="img/golf7.png" alt="">
 				</div>
 				<div id="zonetexte">
 					<p>
@@ -143,7 +143,7 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<section id="partenaires">
 				<h2>Nos partenaires</h2>
 				<div class="container">

@@ -4,6 +4,11 @@ html
 	font: 62.5% 'Exo', sans-serif;
 }
 
+#img
+{
+
+}
+
 header
 {
 	background-image: url('../img/header.jpg');
@@ -159,6 +164,12 @@ main .container
 	display: flex;
 	padding-top: 2px;
 	margin-top: 10px;
+}
+
+#presentation img
+{
+	width: 80%;
+padding-left: 40px;
 }
 
 .fa-star
