@@ -16,24 +16,27 @@
 	</head>
 	<body>
 		<?php include 'include/navbar.html'; ?>
+
 		<header id="header">
 			<button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
 			<button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
 		</header>
 		<main>
+
 			<section id="presentation">
-
-					<img src="img/description2.jpg" alt="">
-
+				<div class="vide">
+				</div>
 				<div id="zonetexte">
 					<p>
 						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris
 					</p>
 				</div>
 			</section>
+
 			<section>
 				<div id="faq"></div>
 			</section>
+
 			<section id="temoin">
 				<h2>Nos clients témoignent</h2>
 				<div id="avis">
