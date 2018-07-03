@@ -35,8 +35,93 @@
 			</section>
 
 			<section>
-				<div id="faq"></div>
-				
+				<div id="faq">
+					<h2 class="text-center faq-heading"></h2>
+  <h1 class="text-center faq-subHeading">FAQS</h1>
+<div class="faqs">
+<div class="box-container-one">
+  <!-- Question 1 -->
+  <ul class="box">
+    <li class="question">How Does it work?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">Its simple and easy. You make a reservation with us online or over the phone, and receive an email confirming your trip details. Then your driver will show up on the specified date and time, in a private vehicle of your choosing, and provide you with a comfortable and luxurious way to travel.
+          </li>
+      </ul>
+
+  </ul>
+
+  <!-- Question 2 -->
+  <ul class="box">
+    <li class="question">Do I pay the driver when they arrive?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">All reservations are payed for with the provided credit card so there is no need to go through the payment process after you reach your destination. If by chance you do wish to pay the driver the full fare in cash, you may do so and your credit card will not be charged. As for the gratuity, you may select a percentage during your online reservation which will be charged on the provided credit card or you may choose to pay the gratuity to the driver in cash.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 3 -->
+  <ul class="box">
+    <li class="question">Is it possible to make it stop?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">Yes, a small charge of $20 will be charged for any stop on the way to your destination. Please let us know up front.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 4 -->
+  <ul class="box">
+    <li class="question">Do I bring my own child seat?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">No we provide child safety seat for no extra charge, but please let us know when you make your reservation.
+          </li>
+      </ul>
+  </ul>
+</div>
+
+<div class="box-container-two">
+  <!-- Question 5 -->
+  <ul class="box">
+    <li class="question">Do I have to share my ride?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">No, these are all private rides, we do not do share ride services.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 6 -->
+  <ul class="box">
+    <li class="question">Do you allow smoking?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">All of our vehicles are non-smoking.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 7 -->
+  <ul class="box">
+    <li class="question">What is your cancellation policy?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i>
+    </li></span>
+      <ul>
+          <li class="answer">You must call us 2 hours before to cancel any ride, if you don’t call us we charge 30% of reservation to your card.
+          </li>
+      </ul>
+  </ul>
+</div>
+</div>
+				</div>
 			</section>
 
 			<section id="temoin">
@@ -161,5 +246,6 @@
 			</section>
 		</main>
 		<?php include 'include/footer.html'; ?>
+		<script src="./js/faq.js"></script>
 	</body>
 </html>
