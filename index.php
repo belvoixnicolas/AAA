@@ -34,10 +34,8 @@
 				</div>
 			</section>
 
-<<<<<<< HEAD
-			<section>
-				<div id="faq">
-					<h2 class="text-center faq-heading"></h2>
+			<section id="faq">
+				<h2 class="text-center faq-heading">See What People Ask to Us</h2>
   <h1 class="text-center faq-subHeading">FAQS</h1>
 <div class="faqs">
 <div class="box-container-one">
@@ -122,10 +120,6 @@
   </ul>
 </div>
 </div>
-				</div>
-=======
-			<section id="faq">
->>>>>>> c753ccb2861877e2f59909a98e88e13f0811dfbb
 			</section>
 
 			<section id="temoin">
@@ -250,11 +244,6 @@
 			</section>
 		</main>
 		<?php include 'include/footer.html'; ?>
-<<<<<<< HEAD
 		<script src="./js/faq.js"></script>
-=======
-
-    <script type="text/javascript" src="js/faq.js"></script>
->>>>>>> c753ccb2861877e2f59909a98e88e13f0811dfbb
 	</body>
 </html>
