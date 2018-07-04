@@ -20,18 +20,17 @@
   </div>
 
 <script type="text/javascript">
-  function expandMenu () {
-    var el = document.getElementsByClassName('menu-burger');
-    el[0].classList.contains("is-expanded") ? el[0].classList.remove("is-expanded") : el[0].classList.add("is-expanded");
+    function expandMenu () {
+      var el = document.getElementsByClassName('menu-burger');
+      el[0].classList.contains("is-expanded") ? el[0].classList.remove("is-expanded") : el[0].classList.add("is-expanded");
 
-    var burger = document.getElementsByClassName('menu-burger')[0];
+      var nav = document.getElementsByTagName('nav')[0];
 
-    if (burger.classList[1] == "is-expanded") {
-      document.getElementById('burger').style.display = 'block';
-      $('nav').animate({height: '100vh'}, 'slow');
-    }else {
-      $('nav').animate({height: '100px'}, 'slow');
+      if (el[0].classList[1] == "is-expanded") {
+        $('#burger').animate({height: 'calc(100vh - 100px)'}, 'slow');
+      }else {
+        $('#burger').animate({height: '0px'}, 'slow');
+      }
     }
-  }
 </script>
 </nav>

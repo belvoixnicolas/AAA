@@ -8,7 +8,7 @@ nav {
   background-color: #000;
   position: sticky;
   top: 0px;
-  min-height: 100px;
+  height: 100px;
   padding: 0 20px;
   z-index: 100;
 }
@@ -56,8 +56,18 @@ nav .tel {
 }
 
 #burger {
-  display: none;
-  border: 1px solid red;
+  display: flex;
+  background: #000;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  height: 0;
+  width: 100%;
+  flex-flow: column-reverse nowrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset 0 10px 10px -10px grey;
+  overflow: hidden;
 }
 
 @media all and (max-width: 1055px) {
@@ -90,6 +100,24 @@ nav .tel {
   .burger {
     display: none;
   }
+}
 
+@media all and (max-width: 566px) {
+  nav {
+    height: 50px;
+  }
 
+  a[href = "tel:+33788453582"], nav img, nav a {
+    font-size: 1.5rem;
+  }
+
+  nav .logo {
+    height: 25px;
+    margin: 0;
+  }
+
+  a[href = "tel:+33788453582"] img {
+    height: 1.5rem;
+    margin: 0;
+  }
 }
