@@ -16,8 +16,8 @@ header
 	min-height: 600px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: contain;
-	border-bottom: 12px solid #b3cccc;
+	background-size: cover;
+	margin-bottom: 30px;
 }
 
 button
@@ -35,6 +35,8 @@ button
 	border: none;
 	border-radius:10px;
 	text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
+	opacity: 0.8;
+	border: 2px solid white;
 }
 
 button:hover
@@ -45,6 +47,7 @@ button:hover
 	transition: 1.2s;
 	text-shadow: 1px 1px 1px black;
 	cursor: pointer;
+	opacity: 0.7;
 }
 
 #presentation
@@ -91,17 +94,21 @@ main .temoignage
 	font-size: 3.8rem;
 	font-weight: bold;
 	text-align: center;
+	color:white;
+	padding-bottom: 18px;
 }
 
 #temoin
 {
-	background: #f0f0f0;
+	background:black;
+	padding: 30px;
 }
 
 #avis p
 {
 	font-size: 1.8rem;
 	text-align: justify;
+	color:white;
 }
 
 #partenaires h2
@@ -276,6 +283,9 @@ div.faqs {
 li {
 	font-size: 2.4rem;
 }
-#faq {
+#faqsss {
 	padding: 40px;
+}
+#faq1 p {
+	color:black;
 }
