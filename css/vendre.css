@@ -26,6 +26,7 @@ color: white;
 	margin-bottom: 4%;
 	border: 1.2px black solid;
 	margin-top: 4%;
+  padding-bottom: 3%;
 }
 
 main p{
@@ -72,7 +73,7 @@ input[type="radio"]{
 }
 
 .frm{
-	padding-left: 19%;
+	padding-left: 19.1%;
 }
 
 #prenom, #nom, #rue, #cp, #ville, #email, #tel{
