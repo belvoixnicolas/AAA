@@ -6,6 +6,7 @@ html
 
 
 
+
 header
 {
 	background-image: url('../img/header.jpg');
@@ -17,10 +18,11 @@ header
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	height:calc(100vh - 100px);
 }
 
-button
+.bouton
 {
 	display: flex;
 	justify-content: center;
@@ -37,9 +39,11 @@ button
 	text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
 	opacity: 0.8;
 	border: 2px solid white;
+	text-decoration: none;
+	line-height:50px;
 }
 
-button:hover
+.bouton:hover
 {
 	color: black;
 	background: #f0f0f0;
@@ -56,7 +60,6 @@ button:hover
 	justify-content: space-between;
 	align-items: center;
 	width:100%;
-	height:450px;
 	text-align: center;
 	background: #000 url("../img/description2.png") left/50% no-repeat;
 }
@@ -67,6 +70,7 @@ button:hover
 	text-align: justify;
 		float: right;
 		color: white;
+		margin-top:15px;
 }
 
 #zonetexte
@@ -95,7 +99,7 @@ main .temoignage
 	font-weight: bold;
 	text-align: center;
 	color:white;
-	padding-bottom: 18px;
+	padding-bottom: 30px;
 }
 
 #temoin
@@ -276,7 +280,7 @@ div.faqs {
 }
 
 .reverse {
-  transform: rotate(-45deg);
+  transform: rotate(0deg);
   transition: all 0.5s ease;
   z-index: 1000;
 }
@@ -286,8 +290,12 @@ li {
 #faqsss {
 	padding: 40px;
 }
+#faqsss h1 {
+	margin-bottom: 30px;
+}
 #faq1 p {
 	color:black;
+	visibility:hidden;
 }
 
 
@@ -295,16 +303,15 @@ li {
 
 
 .animated {
-            background-image: url(../img/homer.jpg);
-						background-size: 110px;
+						font-size: 3rem;
             background-repeat: no-repeat;
-            background-position: center top;
             padding-top:95px;
-            margin-bottom:60px;
+            margin-bottom:10px;
             -webkit-animation-duration: 2s;
             animation-duration: 3s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+
          }
 
          @-webkit-keyframes bounceInRight {
@@ -314,13 +321,13 @@ li {
             }
             60% {
                ;
-               -webkit-transform: translateX(-30px);
+               -webkit-transform: translateX(150px);
             }
             80% {
-               -webkit-transform: translateX(10px);
+               -webkit-transform: translateX(180px);
             }
             100% {
-               -webkit-transform: translateX(0);
+               -webkit-transform: translateX(170px);
             }
          }
 
@@ -331,17 +338,128 @@ li {
             }
             60% {
 
-               transform: translateX(-30px);
+               transform: translateX(150px);
             }
             80% {
-               transform: translateX(10px);
+               transform: translateX(180px);
             }
             100% {
-               transform: translateX(0);
+               transform: translateX(170px);
             }
          }
+
+				 .animated2 {
+				 						font-size: 3rem;
+				             background-repeat: no-repeat;
+				             padding-top:95px;
+				             margin-bottom:10px;
+				             -webkit-animation-duration: 2s;
+				             animation-duration: 3s;
+				             -webkit-animation-fill-mode: both;
+				             animation-fill-mode: both;
+										 animation-delay: 1.5s;
+
+				          }
+
+				          @-webkit-keyframes bounceInRight2 {
+				             0% {
+
+				                -webkit-transform: translateX(2000px);
+				             }
+				             60% {
+				                ;
+				                -webkit-transform: translateX(400px);
+				             }
+				             80% {
+				                -webkit-transform: translateX(430px);
+				             }
+				             100% {
+				                -webkit-transform: translateX(420px);
+				             }
+				          }
+
+				          @keyframes bounceInRight2 {
+				             0% {
+
+				                transform: translateX(2000px);
+				             }
+				             60% {
+
+				                transform: translateX(400px);
+				             }
+				             80% {
+				                transform: translateX(430px);
+				             }
+				             100% {
+				                transform: translateX(420px);
+				             }
+				          }
+
+									.animated3 {
+														 font-size: 3rem;
+															background-repeat: no-repeat;
+															padding-top:95px;
+															margin-bottom:10px;
+															-webkit-animation-duration: 2s;
+															animation-duration: 3s;
+															-webkit-animation-fill-mode: both;
+															animation-fill-mode: both;
+															animation-delay: 3s;
+
+
+													 }
+
+													 @-webkit-keyframes bounceInRight3 {
+															0% {
+
+																 -webkit-transform: translateX(2000px);
+															}
+															60% {
+																 ;
+																 -webkit-transform: translateX(650px);
+															}
+															80% {
+																 -webkit-transform: translateX(680px);
+															}
+															100% {
+																 -webkit-transform: translateX(670px);
+															}
+													 }
+
+													 @keyframes bounceInRight3 {
+															0% {
+
+																 transform: translateX(2000px);
+															}
+															60% {
+
+																 transform: translateX(650px);
+															}
+															80% {
+																 transform: translateX(680px);
+															}
+															100% {
+																 transform: translateX(670px);
+															}
+													 }
+
 
          .bounceInRight {
             -webkit-animation-name: bounceInRight;
             animation-name: bounceInRight;
          }
+
+				 .bounceInRight2 {
+            -webkit-animation-name: bounceInRight2;
+            animation-name: bounceInRight2;
+         }
+
+				 .bounceInRight3 {
+				 	 -webkit-animation-name: bounceInRight3;
+				 	 animation-name: bounceInRight3;
+				 }
+
+.animTitre {
+	display: flex;
+	height: 200px;
+}

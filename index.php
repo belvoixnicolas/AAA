@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="./js/smoothscroll.js"></script>
+		<script src="./js/onscroll.js"></script>
 
 		<title>Agence Automobile Ardennaise</title>
 	</head>
@@ -20,12 +21,15 @@
 		<?php include 'include/navbar.html'; ?>
 
 		<header id="header">
-			<button type="button" name="button1" id="acheter" class="bouton">ACHETER</button>
-			<button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
+
+			<a href="acheter.php" class="bouton">ACHETER</a>
+			<a href="vendre.php" class="bouton">VENDRE</a>
 		</header>
 		<main>
-			<section>
-				<div id="animated-example" class="animated bounceInRight"></div>
+			<section class="animTitre">
+				<div id="animated-example" class="animated bounceInRight">Réponse sous 24H</div>
+				<div id="animated-example" class="animated2 bounceInRight2">Vente simple et rapide</div>
+				<div id="animated-example" class="animated3 bounceInRight3">Véhicules Garantis 6 mois</div>
 			</section>
 			<section id="presentation">
 				<div class="vide">
@@ -35,7 +39,7 @@
 						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris
 					</p>
 					<div id="faq1">
-					<p id="faq">a</p>
+					<p id="faq">.</p>
 				</div>
 				</div>
 			</section>
