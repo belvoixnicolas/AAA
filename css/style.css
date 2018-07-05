@@ -1,4 +1,5 @@
 
+
 html
 {
 	font: 62.5% 'Exo', sans-serif;
@@ -309,7 +310,7 @@ li {
             padding-top:50px;
             margin-bottom:50px;
             -webkit-animation-duration: 2s;
-            animation-duration: 3s;
+            animation-duration: 2.5s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
 
@@ -323,16 +324,11 @@ li {
 
                -webkit-transform: translateX(110vw);
             }
-            60% {
+            100% {
                ;
-               -webkit-transform: translateX(0vw);
-            }
-            80% {
                -webkit-transform: translateX(3vw);
             }
-            100% {
-               -webkit-transform: translateX(2vw);
-            }
+
          }
 
          @keyframes bounceInRight {
@@ -340,16 +336,11 @@ li {
 
                transform: translateX(110vw);
             }
-            60% {
+            100% {
 
-               transform: translateX(0vw);
-            }
-            80% {
                transform: translateX(3vw);
             }
-            100% {
-               transform: translateX(2vw);
-            }
+
          }
 
 				 .animated2 {
