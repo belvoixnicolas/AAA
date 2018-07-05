@@ -33,25 +33,29 @@
             </ul>
           </div>
 
-          <form action="#" method="post">
-            <p>
-              <input type="text" class="left" name="nom" placeholder="Nom" required />
-              <input type="text" class="right" name="prenom" placeholder="Prénom" required />
-            </p>
+          <div class="fomfram">
+            <form action="#" method="post">
+              <p>
+                <input type="text" class="left" name="nom" placeholder="Nom" required />
+                <input type="text" class="right" name="prenom" placeholder="Prénom" required />
+              </p>
 
-            <p>
-              <input type="email" class="left" name="mail" placeholder="Mail" required />
-              <input type="tel" class="right" name="tel" placeholder="Tel" required />
-            </p>
+              <p>
+                <input type="email" class="left" name="mail" placeholder="Mail" required />
+                <input type="tel" class="right" name="tel" placeholder="Tel" required />
+              </p>
 
-            <p>
-              <textarea name="text" placeholder="Text" required></textarea>
-            </p>
+              <p>
+                <textarea name="text" placeholder="Text" required></textarea>
+              </p>
 
-            <p>
-              <input type="submit" value="Envoyer" />
-            </p>
-          </form>
+              <p>
+                <input type="submit" value="Envoyer" />
+              </p>
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.2552023387475!2d4.728826315705903!3d49.74364177938405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea121bccb2b497%3A0x766b04ea4ac3d061!2s8+Rue+de+l&#39;Artisanat%2C+08000+Charleville-M%C3%A9zi%C3%A8res!5e0!3m2!1sfr!2sfr!4v1530714057173" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </section>
       </main>
 

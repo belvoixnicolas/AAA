@@ -2,7 +2,7 @@
   <a href="index.php"><img src="img/logo.gif" alt="Agence Automobile Ardennaise" class="logo" /></a>
   <a href="tel:+33788453582"><img src="img/tel.png" alt="icon tel" class="tel" />07.88.45.35.82</a>
   <a href="contact.php" class="right burger">Contact</a>
-  <a href="#faq" class="right burger">Faq vente</a>
+  <a href="index.php#faq" class="right burger">Faq vente</a>
   <a href="vendre.php" class="right burger">Vendre</a>
   <a href="buy.php" class="right burger">Acheter</a>
 
@@ -27,9 +27,9 @@
       var nav = document.getElementsByTagName('nav')[0];
 
       if (el[0].classList[1] == "is-expanded") {
-        $('#burger').animate({height: '100%'}, 'slow');
+        $('nav').animate({height: '100vh'}, 'slow');
       }else {
-        $('#burger').animate({height: '0px'}, 'slow');
+        $('nav').animate({height: '100px'}, 'slow');
       }
     }
 </script>
