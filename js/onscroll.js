@@ -1,6 +1,12 @@
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
+    if (scroll < 50) {
+        $("#animated1").addClass("cache");
+        $("#animated2").addClass("cache");
+        $("#animated3").addClass("cache");
+    }
+
     if (scroll >= 100) {
         $("#animated1").removeClass("cache");
         $("#animated2").removeClass("cache");
