@@ -16,8 +16,9 @@ header
 	min-height: 600px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	border-bottom: 12px solid #b3cccc;
+	background-position: center;
 }
 
 button
