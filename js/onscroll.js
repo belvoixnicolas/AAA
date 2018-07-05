@@ -1,23 +1,13 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
-// Get the header
-var anim1 = document.getElementById("animated1");
-var anim2 = document.getElementById("animated2");
-var anim3 = document.getElementById("animated3");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-if (window.pageYOffset >= sticky) {
-  header.classList.add("animated bounceInRight");
-  header.classList.add("animated2 bounceInRight2");
-  header.classList.add("animated3 bounceInRight3");
-} else {
-  header.classList.remove("animated bounceInRight");
-  header.classList.remove("animated2 bounceInRight2");
-  header.classList.remove("animated3 bounceInRight3");
-}
-}
+    if (scroll >= 250) {
+        $("#animated1").addClass("animated bounceInRight");
+        $("#animated2").addClass("animated2 bounceInRight2");
+        $("#animated3").addClass("animated3 bounceInRight3");
+    } else {
+        $("#animated1").removeClass("animated bounceInRight");
+        $("#animated2").removeClass("animated2 bounceInRight2");
+        $("#animated3").removeClass("animated3 bounceInRight3");
+    }
+});
