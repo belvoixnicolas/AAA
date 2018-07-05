@@ -15,8 +15,9 @@ header
 	align-items: center;
 	justify-content: center;
 	min-height: 600px;
+
+	background-attachment: fixed 100px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	margin-bottom: 10px;
 	height:calc(100vh - 100px);
@@ -302,8 +303,8 @@ li {
 
 
 
-.animated {
-						font-size: 3rem;
+.animated1 {
+						font-size: 3.6rem;
             background-repeat: no-repeat;
             padding-top:50px;
             margin-bottom:50px;
@@ -311,6 +312,9 @@ li {
             animation-duration: 3s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+
+						font-weight: bold;
+						text-shadow: 1px 1px 1px red;
 
          }
 
@@ -321,13 +325,13 @@ li {
             }
             60% {
                ;
-               -webkit-transform: translateX(7vw);
+               -webkit-transform: translateX(0vw);
             }
             80% {
-               -webkit-transform: translateX(10vw);
+               -webkit-transform: translateX(3vw);
             }
             100% {
-               -webkit-transform: translateX(9vw);
+               -webkit-transform: translateX(2vw);
             }
          }
 
@@ -338,18 +342,18 @@ li {
             }
             60% {
 
-               transform: translateX(7vw);
+               transform: translateX(0vw);
             }
             80% {
-               transform: translateX(10vw);
+               transform: translateX(3vw);
             }
             100% {
-               transform: translateX(9vw);
+               transform: translateX(2vw);
             }
          }
 
 				 .animated2 {
-				 						font-size: 3rem;
+				 						font-size: 3.6rem;
 				             background-repeat: no-repeat;
 				             padding-top:50px;
 				             margin-bottom:50px;
@@ -358,7 +362,8 @@ li {
 				             -webkit-animation-fill-mode: both;
 				             animation-fill-mode: both;
 										 animation-delay: 1.5s;
-
+										 font-weight: bold;
+ 										text-shadow: 1px 1px 1px red;
 				          }
 
 				          @-webkit-keyframes bounceInRight2 {
@@ -368,13 +373,13 @@ li {
 				             }
 				             60% {
 				                ;
-				                -webkit-transform: translateX(20vw);
+				                -webkit-transform: translateX(10vw);
 				             }
 				             80% {
-				                -webkit-transform: translateX(23vw);
+				                -webkit-transform: translateX(13vw);
 				             }
 				             100% {
-				                -webkit-transform: translateX(22vw);
+				                -webkit-transform: translateX(12vw);
 				             }
 				          }
 
@@ -385,18 +390,18 @@ li {
 				             }
 				             60% {
 
-				                transform: translateX(20vw);
+				                transform: translateX(10vw);
 				             }
 				             80% {
-				                transform: translateX(23vw);
+				                transform: translateX(13vw);
 				             }
 				             100% {
-				                transform: translateX(22vw);
+				                transform: translateX(12vw);
 				             }
 				          }
 
 									.animated3 {
-														 font-size: 3rem;
+														 font-size: 3.6rem;
 															background-repeat: no-repeat;
 															padding-top:50px;
 															margin-bottom:50px;
@@ -405,7 +410,8 @@ li {
 															-webkit-animation-fill-mode: both;
 															animation-fill-mode: both;
 															animation-delay: 3s;
-
+															font-weight: bold;
+															text-shadow: 1px 1px 1px red;
 
 													 }
 
@@ -416,13 +422,13 @@ li {
 															}
 															60% {
 																 ;
-																 -webkit-transform: translateX(35vw);
+																 -webkit-transform: translateX(20vw);
 															}
 															80% {
-																 -webkit-transform: translateX(38vw);
+																 -webkit-transform: translateX(23vw);
 															}
 															100% {
-																 -webkit-transform: translateX(37vw);
+																 -webkit-transform: translateX(22vw);
 															}
 													 }
 
@@ -433,13 +439,13 @@ li {
 															}
 															60% {
 
-																 transform: translateX(35vw);
+																 transform: translateX(20vw);
 															}
 															80% {
-																 transform: translateX(38vw);
+																 transform: translateX(23vw);
 															}
 															100% {
-																 transform: translateX(37vw);
+																 transform: translateX(22vw);
 															}
 													 }
 
@@ -461,6 +467,7 @@ li {
 
 .animTitre {
 	display: flex;
+	flex-direction:row;
 	min-height: 120px;
 }
 .cache {
