@@ -11,11 +11,11 @@ $(window).scroll(function() {
         $("#animated1").removeClass("cache");
         $("#animated2").removeClass("cache");
         $("#animated3").removeClass("cache");
-        $("#animated1").addClass("animated bounceInRight");
+        $("#animated1").addClass("animated1 bounceInRight");
         $("#animated2").addClass("animated2 bounceInRight2");
         $("#animated3").addClass("animated3 bounceInRight3");
     } else {
-        $("#animated1").removeClass("animated bounceInRight");
+        $("#animated1").removeClass("animated1 bounceInRight");
         $("#animated2").removeClass("animated2 bounceInRight2");
         $("#animated3").removeClass("animated3 bounceInRight3");
     }
