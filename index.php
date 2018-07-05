@@ -27,9 +27,9 @@
 		</header>
 		<main>
 			<section class="animTitre">
-				<div id="animated1" class="animated bounceInRight">Réponse sous 24H</div>
-				<div id="animated2" class="animated2 bounceInRight2">Vente simple et rapide</div>
-				<div id="animated3" class="animated3 bounceInRight3">Véhicules Garantis 6 mois</div>
+				<div id="animated1" >Réponse sous 24H</div>
+				<div id="animated2" >Vente simple et rapide</div>
+				<div id="animated3" >Véhicules Garantis 6 mois</div>
 			</section>
 			<section id="presentation">
 				<div class="vide">
