@@ -11,32 +11,30 @@
       <link rel="stylesheet" type="text/css" href="css/nav.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
       <link rel="stylesheet" type="text/css" href="css/vendre.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     </head>
     <body>
       <?php include 'include/navbar.html'; ?>
 
-      <main>
-        <div class="container">
-
+      <main class="container">
+        <form class="venteform" action="index.html" method="post">
           <div class="coordonnées">
             <h3>Coordonnées</h3>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-
-            <form class="venteform" action="index.html" method="post">
-              <input type="radio" name="genre" placeholder="monsieur">Monsieur
-              <input type="radio" name="genre" placeholder="madame"> Madame
-              <input type="radio" name="genre" placeholder="autre">Autre
+            <div class="formulaire1">
+              <input type="radio" name="genre" value="monsieur" required>Monsieur
+              <input type="radio" name="genre" value="madame" required>Madame
               <br>
-              <input type="text" name="prenom" placeholder="Prénom"> <br>
-              <input type="text" name="nom" placeholder="Nom"> <br>
-              <input type="text" name="rue" placeholder="Rue"> <br>
-              <input type="text" name="cp" placeholder="Code postal"> <br>
-              <input type="text" name="ville" placeholder="Ville"> <br>
-              <input type="text" name="tel" placeholder="Téléphone"> <br>
-              <input type="email" name="" placeholder="E-mail"> <br>
-              <input type="submit" class="button" value"submit">
-            </form>
-          </div>
+              <input type="text" name="prenom" id="prenom" placeholder="Prénom"> <br>
+              <input type="text" name="nom" id="nom" placeholder="Nom" required> <br>
+              <input type="text" name="rue" id="rue" placeholder="Rue"> <br>
+
+              <input type="text" name="cp" id="cp" placeholder="Code postal">
+              <input type="text" name="ville" id="ville" placeholder="Ville" required>
+
+              <input type="text" name="tel" id="tel" placeholder="Téléphone" required> <br>
+              <input type="email" name="email" id="email" placeholder="E-mail" required> <br>
+              </div>
           <div class="voiture">
             <h3>Véhicule</h3>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
@@ -45,9 +43,9 @@
             <h3>Commentaire</h3>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
           </div>
-        </div>
-      </main>
+         <input type="submit" class="button" value"submit">
+        </form>
+       </main>
       <?php include 'include/footer.html'; ?>
-
     </body>
   </html>
