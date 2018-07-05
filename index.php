@@ -12,7 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./js/smoothscroll.js"></script>
+		<script src="./js/smoothscroll.js"></script>
+
 		<title>Agence Automobile Ardennaise</title>
 	</head>
 	<body>
@@ -23,7 +24,9 @@
 			<button type="button" name="button2" id="vendre" class="bouton">VENDRE</button>
 		</header>
 		<main>
-
+			<section>
+				<div id="animated-example" class="animated bounceInRight"></div>
+			</section>
 			<section id="presentation">
 				<div class="vide">
 				</div>
@@ -31,11 +34,14 @@
 					<p>
 						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris
 					</p>
+					<div id="faq1">
+					<p id="faq">a</p>
+				</div>
 				</div>
 			</section>
 
-			<section id="faq">
-				<h2 class="text-center faq-heading">See What People Ask to Us</h2>
+			<section id="faqsss">
+				<h2 class="text-center faq-heading"></h2>
   <h1 class="text-center faq-subHeading">FAQS</h1>
 <div class="faqs">
 <div class="box-container-one">

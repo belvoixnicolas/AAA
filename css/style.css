@@ -17,8 +17,7 @@ header
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-bottom: 12px solid #b3cccc;
-	background-position: center;
+	margin-bottom: 30px;
 }
 
 button
@@ -36,6 +35,8 @@ button
 	border: none;
 	border-radius:10px;
 	text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
+	opacity: 0.8;
+	border: 2px solid white;
 }
 
 button:hover
@@ -46,6 +47,7 @@ button:hover
 	transition: 1.2s;
 	text-shadow: 1px 1px 1px black;
 	cursor: pointer;
+	opacity: 0.7;
 }
 
 #presentation
@@ -92,17 +94,21 @@ main .temoignage
 	font-size: 3.8rem;
 	font-weight: bold;
 	text-align: center;
+	color:white;
+	padding-bottom: 18px;
 }
 
 #temoin
 {
-	background: #f0f0f0;
+	background:black;
+	padding: 30px;
 }
 
 #avis p
 {
 	font-size: 1.8rem;
 	text-align: justify;
+	color:white;
 }
 
 #partenaires h2
@@ -277,6 +283,65 @@ div.faqs {
 li {
 	font-size: 2.4rem;
 }
-#faq {
+#faqsss {
 	padding: 40px;
 }
+#faq1 p {
+	color:black;
+}
+
+
+
+
+
+.animated {
+            background-image: url(../img/homer.jpg);
+						background-size: 110px;
+            background-repeat: no-repeat;
+            background-position: center top;
+            padding-top:95px;
+            margin-bottom:60px;
+            -webkit-animation-duration: 2s;
+            animation-duration: 3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+
+         @-webkit-keyframes bounceInRight {
+            0% {
+
+               -webkit-transform: translateX(2000px);
+            }
+            60% {
+               ;
+               -webkit-transform: translateX(-30px);
+            }
+            80% {
+               -webkit-transform: translateX(10px);
+            }
+            100% {
+               -webkit-transform: translateX(0);
+            }
+         }
+
+         @keyframes bounceInRight {
+            0% {
+
+               transform: translateX(2000px);
+            }
+            60% {
+
+               transform: translateX(-30px);
+            }
+            80% {
+               transform: translateX(10px);
+            }
+            100% {
+               transform: translateX(0);
+            }
+         }
+
+         .bounceInRight {
+            -webkit-animation-name: bounceInRight;
+            animation-name: bounceInRight;
+         }
