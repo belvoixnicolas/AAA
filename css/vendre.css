@@ -45,7 +45,6 @@ input[type="text"], input[type="email"]{
 	margin-bottom: 15px;
 	height: 32px;
 	padding: 6px 30px;
-	width: 70%;
 	font-size: 1.5rem;
 }
 
@@ -68,9 +67,12 @@ input[type="radio"]{
 	padding: 6px 16px;
 }
 
-.formulaire{
-	width: 100%;
-	text-align: center;
+.formulaire1{
+  text-align: center;
+}
+
+.frm{
+	padding-left: 19%;
 }
 
 #prenom, #nom, #rue, #cp, #ville, #email, #tel{
@@ -82,30 +84,35 @@ input[type="radio"]{
 
 #prenom{
 	background-image: url("../img/usericon.png");
+	width:60%;
 }
 
 #nom{
 	background-image: url("../img/usericon2.png");
+	width:60%;
 }
 
 #rue{
 	background-image: url("../img/rue.png");
+	width:60%;
 }
 
 #cp{
-	width: 20.5%;
 	background-image: url("../img/cp.png");
+	width:20%;
 }
 
 #ville{
-	width: 55%;
 	background-image: url("../img/ville.png");
+	width:39.3%;
 }
 
 #tel{
 	background-image: url("../img/phone.png");
+	width:60%;
 }
 
 #email{
 	background-image: url("../img/email.png");
+	width:60%;
 }
