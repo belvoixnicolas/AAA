@@ -3,20 +3,89 @@ main select, main input, main a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .filtre {
   background: #F2F2F2;
-  height: calc(100vh - 100px);
   width: 160px;
   padding: 10px;
   float: left;
 }
 
 .filtre form {
-  border: 1px solid red;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 110px;
+  height: 550px;;
+}
+
+/* Reset Select */
+.filtre select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50; /* couleur selecteur */
+  background-image: none;
+}
+/* Custom Select */
+.filtre p {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50; /* aucune idée */
+  overflow: hidden;
+  border-radius: .25em;
+}
+.filtre select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff; /* couleur text */
+  cursor: pointer;
+}
+.filtre select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.filtre p::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e; /* couleur bouton */
+  pointer-events: none;
+}
+/* Transition */
+.filtre p:hover::after {
+  color: #41B0C9;
+}
+.filtre p::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
 }
 
 .liste {
-  width: calc(100vw - 170px);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  max-width: calc(100vw - 170px);
+  padding: 30px;
 }
 
 .tuile {
@@ -24,7 +93,7 @@ main select, main input, main a {
   width: 200px;
   background: #000;
   padding-bottom: 5px;
-  margin: 10px;
+  margin: 10px 10px;
 }
 
 .tuile img {
