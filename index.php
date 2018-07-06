@@ -51,11 +51,11 @@
 <div class="box-container-one">
   <!-- Question 1 -->
   <ul class="box">
-    <li class="question">How Does it work?
+    <li class="question">Quaestione igitur per multiplices dilatata?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">Its simple and easy. You make a reservation with us online or over the phone, and receive an email confirming your trip details. Then your driver will show up on the specified date and time, in a private vehicle of your choosing, and provide you with a comfortable and luxurious way to travel.
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
           </li>
       </ul>
 
@@ -63,34 +63,33 @@
 
   <!-- Question 2 -->
   <ul class="box">
-    <li class="question">Do I pay the driver when they arrive?
+    <li class="question">Quaestione per multiplices ?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">All reservations are payed for with the provided credit card so there is no need to go through the payment process after you reach your destination. If by chance you do wish to pay the driver the full fare in cash, you may do so and your credit card will not be charged. As for the gratuity, you may select a percentage during your online reservation which will be charged on the provided credit card or you may choose to pay the gratuity to the driver in cash.
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
           </li>
       </ul>
   </ul>
 
   <!-- Question 3 -->
   <ul class="box">
-    <li class="question">Is it possible to make it stop?
+    <li class="question">Quaestione igitur multiplices dilatata?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">Yes, a small charge of $20 will be charged for any stop on the way to your destination. Please let us know up front.
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto.
           </li>
       </ul>
   </ul>
 
   <!-- Question 4 -->
   <ul class="box">
-    <li class="question">Do I bring my own child seat?
+    <li class="question">Quaestione igitur per multiplices dilatata?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">No we provide child safety seat for no extra charge, but please let us know when you make your reservation.
-          </li>
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras.
       </ul>
   </ul>
 </div>
@@ -98,33 +97,32 @@
 <div class="box-container-two">
   <!-- Question 5 -->
   <ul class="box">
-    <li class="question">Do I have to share my ride?
+    <li class="question">Quaestione multiplices dilatata?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">No, these are all private rides, we do not do share ride services.
-          </li>
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
       </ul>
   </ul>
 
   <!-- Question 6 -->
   <ul class="box">
-    <li class="question">Do you allow smoking?
+    <li class="question">Quaestione igitur per ?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
     </li>
       <ul>
-          <li class="answer">All of our vehicles are non-smoking.
+          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur.
           </li>
       </ul>
   </ul>
 
   <!-- Question 7 -->
   <ul class="box">
-    <li class="question">What is your cancellation policy?
+    <li class="question">Quaestione igitur per multiplices dilatata?
       <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i>
     </li></span>
       <ul>
-          <li class="answer">You must call us 2 hours before to cancel any ride, if you don’t call us we charge 30% of reservation to your card.
+          <li class="answer">Quaestione igitur per multiplices dilatata
           </li>
       </ul>
   </ul>

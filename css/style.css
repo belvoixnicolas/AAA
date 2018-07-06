@@ -267,12 +267,7 @@ div.faqs {
   background-color: rgb(251, 251, 251);
 }
 
-@media (max-width: 1200px) {
-  div.faqs {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-  }
-}
+
 
 .rotate {
 /* Standard */
@@ -352,7 +347,7 @@ li {
 				             animation-duration: 3s;
 				             -webkit-animation-fill-mode: both;
 				             animation-fill-mode: both;
-										 animation-delay: 1.5s;
+										 animation-delay: 1s;
 										 font-weight: bold;
  										text-shadow: 1px 1px 1px red;
 				          }
@@ -362,13 +357,7 @@ li {
 
 				                -webkit-transform: translateX(110vw);
 				             }
-				             60% {
-				                ;
-				                -webkit-transform: translateX(10vw);
-				             }
-				             80% {
-				                -webkit-transform: translateX(13vw);
-				             }
+
 				             100% {
 				                -webkit-transform: translateX(12vw);
 				             }
@@ -378,13 +367,8 @@ li {
 				             0% {
 
 				                transform: translateX(110vw);
-				             }
-				             60% {
 
-				                transform: translateX(10vw);
-				             }
-				             80% {
-				                transform: translateX(13vw);
+
 				             }
 				             100% {
 				                transform: translateX(12vw);
@@ -400,7 +384,7 @@ li {
 															animation-duration: 3s;
 															-webkit-animation-fill-mode: both;
 															animation-fill-mode: both;
-															animation-delay: 3s;
+															animation-delay: 2s;
 															font-weight: bold;
 															text-shadow: 1px 1px 1px red;
 
@@ -411,13 +395,7 @@ li {
 
 																 -webkit-transform: translateX(110vw);
 															}
-															60% {
-																 ;
-																 -webkit-transform: translateX(20vw);
-															}
-															80% {
-																 -webkit-transform: translateX(23vw);
-															}
+
 															100% {
 																 -webkit-transform: translateX(22vw);
 															}
@@ -428,13 +406,7 @@ li {
 
 																 transform: translateX(110vw);
 															}
-															60% {
 
-																 transform: translateX(20vw);
-															}
-															80% {
-																 transform: translateX(23vw);
-															}
 															100% {
 																 transform: translateX(22vw);
 															}
@@ -463,4 +435,229 @@ li {
 }
 .cache {
 	visibility: hidden;
+}
+
+
+
+@media (max-width: 1500px) {
+  #avis p {
+		font-size: 1.4rem;
+	}
+	#homer {
+		width: 110px;
+	}
+	.animTitre {
+		width:1000px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 3.5rem;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 1220px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+	.animTitre {
+		width:700px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 3rem;
+	}
+	#avis p {
+		font-size: 1.3rem;
+	}
+	#homer {
+		width: 100px;
+	}
+	.test {
+		flex-direction: column;
+	}
+}
+
+
+@media (max-width: 900px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+	.animTitre {
+		width:500px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 2rem;
+	}
+	#avis p {
+		font-size: 1.2rem;
+	}
+	#homer {
+		width: 90px;
+	}
+	.test {
+		flex-direction: column;
+	}
+	#zonetexte p {
+		font-size: 1.5rem;
+	}
+	main .logo {
+		width:100px;
+		height:100px;
+	}
+	li {
+		font-size: 1.8rem;
+	}
+}
+
+
+@media (max-width: 650px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+	.animTitre {
+		width:380px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 1.8rem;
+	}
+	#avis p {
+		font-size: 0.9rem;
+	}
+	#homer {
+		width: 80px;
+	}
+	.test {
+		flex-direction: column;
+	}
+	#zonetexte p {
+		font-size: 1.3rem;
+	}
+	main .logo {
+		width:70px;
+		height:70px;
+	}
+	#partenaires {
+		height:150px;
+	}
+	li {
+		font-size: 1.4rem;
+	}
+	#temoin {
+		height:420px;
+	}
+	.bouton {
+		width: 250px;
+		margin-right: 50px;
+		margin-left: 50px;
+		height: 40px;
+		font-size: 2rem;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+	.animTitre {
+		width:300px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 1.6rem;
+	}
+	#avis p {
+		font-size: 0.8rem;
+	}
+	#homer {
+		width: 70px;
+	}
+	.test {
+		flex-direction: column;
+	}
+	#zonetexte p {
+		font-size: 0.9rem;
+	}
+	main .logo {
+		width:60px;
+		height:60px;
+	}
+	#partenaires {
+		height:140px;
+	}
+	li {
+		font-size: 1.2rem;
+	}
+	#temoin {
+		height:420px;
+	}
+	#temoin h2 {
+		font-size: 3rem;
+	}
+	#partenaires h2 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 450px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+	.animTitre {
+		width:300px;
+	}
+	.animated1, .animated2, .animated3 {
+		font-size: 1.3rem;
+	}
+	#avis p {
+		font-size: 0.6rem;
+	}
+	#homer {
+		width: 60px;
+	}
+	.test {
+		flex-direction: column;
+	}
+	#zonetexte p {
+		font-size: 0.7rem;
+	}
+	main .logo {
+		width:50px;
+		height:50px;
+	}
+	#partenaires {
+		height:140px;
+	}
+	li {
+		font-size: 0.8rem;
+	}
+	#temoin {
+		height:300px;
+	}
+	#temoin h2 {
+		font-size: 2.2rem;
+	}
+	#partenaires h2 {
+		font-size: 2.2rem;
+	}
+	.bouton {
+		width: 200px;
+		margin-right: 30px;
+		margin-left: 30px;
+		height: 30px;
+		font-size: 1.5rem;
+		line-height: 30px;
+	}
 }
