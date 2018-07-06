@@ -38,15 +38,14 @@
             <div class="formulaire2">
 
               <input type="text" name="marque" id="marque" placeholder="Marque" required> <br>
-              <input type="text" name="modele" id="modele" placeholder="Modèle" > <br>
+              <input type="text" name="modele" id="modele" placeholder="Modèle"> <br>
               <input type="text" name="km" id="km" placeholder="Kilométrage" required> <br>
-
               <input type="text" name="annee" id="annee" placeholder="Année"> <br>
               <input type="text" name="energie" id="energie" placeholder="Energie" required> <br>
-          </div>
-              <label style="padding:24%" for="photo">Photo :<input type="file" name="photo"><br></label>
+            </div>
+              <p style="padding-left:24%" for="photo">Photo :<input type="file" name="photo"><br></p>
               </div>
-          <div class="commentaires">
+            <div class="commentaires">
             <h3>Commentaire</h3>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
