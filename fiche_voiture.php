@@ -16,8 +16,7 @@
   <?php include 'include/navbar.html'; ?>
 
   <main>
-    <div class="photo_voiture">
-    </div>
+
 
 
 					<div id="blocTitre">
@@ -27,8 +26,28 @@
 
 
 				<div id="blocDescription">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<table>
+				<tr>
+					<td class="titre"> Marque</td>
+					<td class="contenu"></td>
+				</tr>
+				<tr>
+					<td class="titre">Kilométrage</td>
+					<td class="contenu"></td>
+				</tr>
+				<tr>
+					<td class="titre">Année de mise en circulation</td>
+					<td class="contenu"></td>
+				</tr>
+				<tr>
+					<td class="titre">Energie</td>
+					<td>
+				<tr>
+					<td class="titre">Nombre de places</td>
+					</td class="contenu"></td>
+		</tr>
+
+	</table>
 			</div>
 			<div>
 </div>
