@@ -76,16 +76,11 @@ input[type="radio"]{
 	padding-left: 19.1%;
 }
 
-#prenom, #nom, #rue, #cp, #ville, #email, #tel{
+#nom, #email, #tel, #marque{
 	background-size: 17px 17px;
 	background-position: 6px 6px;
 	background-repeat: no-repeat;
 	opacity: 0.7;
-}
-
-#prenom{
-	background-image: url("../img/usericon.png");
-	width:60%;
 }
 
 #nom{
@@ -93,23 +88,8 @@ input[type="radio"]{
 	width:60%;
 }
 
-#rue{
-	background-image: url("../img/rue.png");
-	width:60%;
-}
-
-#cp{
-	background-image: url("../img/cp.png");
-	width:20%;
-}
-
-#ville{
-	background-image: url("../img/ville.png");
-	width:39.3%;
-}
-
 #tel{
-	background-image: url("../img/phone.png");
+	background-image: url("../img/tel.png");
 	width:60%;
 }
 
@@ -123,6 +103,7 @@ input[type="radio"]{
 }
 
 #marque{
+	background-image: url("../img/car.svg");
 	width:60%;
 }
 
@@ -149,4 +130,7 @@ input[type="radio"]{
 textarea{
 width: 75%;
 height: 200px;
+display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
