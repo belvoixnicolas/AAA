@@ -300,7 +300,7 @@ li {
 
 
 .animated1 {
-						font-size: 3.6rem;
+						font-size: 3.5rem;
             background-repeat: no-repeat;
             padding-top:50px;
             margin-bottom:50px;
@@ -339,7 +339,7 @@ li {
          }
 
 				 .animated2 {
-				 						font-size: 3.6rem;
+				 						font-size: 3.5rem;
 				             background-repeat: no-repeat;
 				             padding-top:50px;
 				             margin-bottom:50px;
@@ -376,7 +376,7 @@ li {
 				          }
 
 									.animated3 {
-														 font-size: 3.6rem;
+														 font-size: 3.5rem;
 															background-repeat: no-repeat;
 															padding-top:50px;
 															margin-bottom:50px;
@@ -638,6 +638,9 @@ li {
 	}
 	#avis p {
 		font-size: 0.6rem;
+	}
+	.fas {
+		font-size: 0.45rem;
 	}
 	#homer {
 		width: 60px;
