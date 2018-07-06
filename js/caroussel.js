@@ -33,7 +33,7 @@ function showSlides(n) {
 
       var owl = $("#owl-demo");
 
-      owl.owlCarousel({
+      owl.container({
         navigation : true,
         singleItem : true,
         transitionStyle : "fade"

@@ -15,10 +15,10 @@
 <body>
   <?php include 'include/navbar.html'; ?>
 	<main>
-<div  class="container">
+<div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
-    <img src="img/voiture1.png" style="width:50%;margin: 0 auto;">
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
@@ -53,9 +53,9 @@
     <p id="caption"></p>
   </div>
 
-  <div id="owl-demo" class="row">
+  <div class="row">
     <div class="column">
-      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
+      <img class="demo cursor" src="img/voiture1png" style="width:70%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
     </div>
     <div class="column">
       <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
