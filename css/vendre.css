@@ -146,9 +146,6 @@ input[type="radio"]{
 	width: 60%;
 }
 
-.textarea{
-	text-align: center;
-}
 textarea{
 	-webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
