@@ -293,6 +293,7 @@ li {
 #faq1 p {
 	color:black;
 	visibility:hidden;
+	font-size: 0.1rem;
 }
 
 
@@ -304,8 +305,8 @@ li {
             background-repeat: no-repeat;
             padding-top:50px;
             margin-bottom:50px;
-            -webkit-animation-duration: 2s;
-            animation-duration: 2.5s;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 2s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
 

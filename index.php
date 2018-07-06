@@ -36,10 +36,10 @@
 				</div>
 				<div id="zonetexte">
 					<p>
-						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris
+						Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis civitatibus multi, qui atrocium criminum ponderibus urgebantur.Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte , incertum <span id="repere"></span>quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris
 					</p>
 					<div id="faq1">
-					<p id="faq">.</p>
+					<p id="faq">greg</p>
 				</div>
 				</div>
 			</section>
