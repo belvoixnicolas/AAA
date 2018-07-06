@@ -53,7 +53,7 @@
             <textarea name="name" rows="" cols="" ></textarea>
          </div>
 
-         <input type="submit" class="button" value"submit">
+         <input type="submit" class="buttonsub" value"submit">
         </form>
        </main>
       <?php include 'include/footer.html'; ?>

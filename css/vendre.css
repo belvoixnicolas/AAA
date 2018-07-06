@@ -49,8 +49,8 @@ input[type="text"], input[type="email"]{
 	font-size: 1.5rem;
 }
 
-.button {
-	display: block;
+.buttonsub {
+	display: flex;
 	margin: 20px auto 0;
 	margin-bottom: 5%;
 	width: 130px;
@@ -60,6 +60,8 @@ input[type="text"], input[type="email"]{
 	color: white;
 	box-shadow: 1px 4px 10px 1px #aaa;
 	background: black;
+	cursor: pointer;
+	font-size: 1.6rem;
 }
 
 input[type="radio"]{
@@ -76,7 +78,7 @@ input[type="radio"]{
 	padding-left: 19.1%;
 }
 
-#nom, #email, #tel, #marque{
+#nom, #email, #tel, #marque, #km, #modele, #annee, #energie{
 	background-size: 17px 17px;
 	background-position: 6px 6px;
 	background-repeat: no-repeat;
@@ -89,7 +91,7 @@ input[type="radio"]{
 }
 
 #tel{
-	background-image: url("../img/tel.png");
+	background-image: url("../img/phone.png");
 	width:60%;
 }
 
@@ -103,24 +105,28 @@ input[type="radio"]{
 }
 
 #marque{
-	background-image: url("../img/car.svg");
+	background-image: url("../img/car.png");
 	width:60%;
 }
 
 #modele{
   width:60%;
+	background-image: url("../img/road.png");
 }
 
 #km{
 	width:60%;
+	background-image: url("../img/km.png");
 }
 
 #annee{
 	width:60%;
+	background-image: url("../img/years.png");
 }
 
 #energie{
 	width:60%;
+	background-image: url("../img/nrj.png");
 }
 
 #photo{
