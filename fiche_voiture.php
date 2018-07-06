@@ -14,47 +14,71 @@
 
 <body>
   <?php include 'include/navbar.html'; ?>
+	<main>
+<div  class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/voiture1.png" style="width:50%;margin: 0 auto;">
+  </div>
 
-  <main>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+  </div>
 
-					<div id="blocTitre">
-      		<div class="ficheTitre">Titre</div>
-      		<div class="fichePrix">Prix € </div>
-				</div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+  </div>
 
-				<div id="blocDescription">
-			<table>
-				<tr>
-					<td class="titre"> Marque</td>
-					<td class="contenu"></td>
-				</tr>
-				<tr>
-					<td class="titre">Kilométrage</td>
-					<td class="contenu"></td>
-				</tr>
-				<tr>
-					<td class="titre">Année de mise en circulation</td>
-					<td class="contenu"></td>
-				</tr>
-				<tr>
-					<td class="titre">Energie</td>
-					<td>
-				<tr>
-					<td class="titre">Nombre de places</td>
-					</td class="contenu"></td>
-		</tr>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
 
-	</table>
-			</div>
-			<div>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div id="owl-demo" class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(5)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(6)" alt="">
+    </div>
+  </div>
 </div>
-
-		</main>
-
-
+	</main>
 		<?php include 'include/footer.html'; ?>
+
+		<script type="text/javascript" src="js/caroussel.js">
+
+		</script>
 	</body>
 </html>

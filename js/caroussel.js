@@ -1,33 +1,42 @@
-$(function() {
-      $('#pagination').hover(
-       function() {
-        $('#carrousel').trigger( 'pause' );
-       }, function() {
-        $('#carrousel').trigger( 'play' );
-       }
-      );
+var slideIndex = 1;
+showSlides(slideIndex);
 
-      $('#carrousel').carouFredSel({
-       scroll: {
-        fx: 'crossfade'
-       },
-       auto: {
-        onBefore: function( oldI, newI ) {
-         $('#thumbnails').trigger( 'slideTo', [ '#thumbnails img[alt='+ newI.attr( 'alt' ) +']', -2 ] );
-        }
-       }
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+        navigation : true,
+        singleItem : true,
+        transitionStyle : "fade"
       });
 
-      $('#thumbnails').carouFredSel({
-       auto: false,
-       items: {
-        start: -2
-       }
-      });
-
-      $('#thumbnails img').click(function() {
-       $('#thumbnails').trigger( 'slideTo', [ this, -2 ] );
-       $('#carrousel').trigger( 'slideTo', [ '#carrousel img[alt='+ $(this).attr( 'alt' ) +']' ] );
-
-      }).css( 'cursor', 'pointer' );
-     });
+    });
