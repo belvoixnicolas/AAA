@@ -43,7 +43,9 @@
               <input type="text" name="annee" id="annee" placeholder="Année" required> <br>
               <input type="text" name="energie" id="energie" placeholder="Energie" required> <br>
             </div>
-              <p style="padding-left:24%" for="photo">Photo :<input type="file" name="photo" required><br></p>
+              <div class="pPhoto" style="padding-left:22.8%" for="photo">Photo : <input type="file" name="photo" required><br></div>
+              <div class="pPhoto" style="padding-left:22.8%" for="photo">Photo : <input type="file" name="photo" required><br></div>
+              <div class="pPhoto" style="padding-left:22.8%" for="photo">Photo : <input type="file" name="photo" required><br></div>
               </div>
             <div class="commentaires">
             <h3>Commentaire</h3>

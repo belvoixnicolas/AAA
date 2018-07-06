@@ -78,7 +78,7 @@ input[type="radio"]{
 	padding-left: 19.1%;
 }
 
-#nom, #email, #tel, #marque, #km, #modele, #annee, #energie{
+#nom, #email, #tel{
 	background-size: 17px 17px;
 	background-position: 6px 6px;
 	background-repeat: no-repeat;
@@ -139,4 +139,10 @@ height: 200px;
 display: block;
  margin-left: auto;
  margin-right: auto;
+}
+
+#marque, #km, #modele, #annee, #energie{
+	background-size: 19px 17px;
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
 }
