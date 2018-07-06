@@ -480,6 +480,9 @@ li {
 	.test {
 		flex-direction: column;
 	}
+	#header {
+		min-height: 500px;
+	}
 }
 
 
@@ -513,6 +516,10 @@ li {
 	}
 	li {
 		font-size: 1.8rem;
+	}
+	#header {
+		min-height: 300px;
+		height:calc(100vh - 100px);
 	}
 }
 
@@ -562,6 +569,10 @@ li {
 		font-size: 2rem;
 		line-height: 40px;
 	}
+	#header {
+		min-height: 300px;
+		height:calc(70vh - 100px);
+	}
 }
 
 @media (max-width: 500px) {
@@ -574,7 +585,7 @@ li {
 		width:300px;
 	}
 	.animated1, .animated2, .animated3 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 	#avis p {
 		font-size: 0.8rem;
@@ -607,6 +618,10 @@ li {
 	#partenaires h2 {
 		font-size: 3rem;
 	}
+	#header {
+		min-height: 250px;
+		height:calc(60vh - 100px);
+	}
 }
 
 @media (max-width: 450px) {
@@ -619,7 +634,7 @@ li {
 		width:300px;
 	}
 	.animated1, .animated2, .animated3 {
-		font-size: 1.3rem;
+		font-size: 1rem;
 	}
 	#avis p {
 		font-size: 0.6rem;
