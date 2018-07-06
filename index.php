@@ -22,7 +22,7 @@
 
 		<header id="header">
 
-			<a href="acheter.php" class="bouton">ACHETER</a>
+			<a href="buy.php" class="bouton">ACHETER</a>
 			<a href="vendre.php" class="bouton">VENDRE</a>
 		</header>
 		<main>
