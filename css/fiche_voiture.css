@@ -1,59 +1,108 @@
-
-main p{
-margin-top: 15px;
-margin-bottom: 30px;
-line-height: 1.2;
-
+body {
+  font-family: Arial;
+  margin: 0;
 }
 
-main{
-
-  margin-left: 8%;
-  margin-right: 8%;
+* {
+  box-sizing: border-box;
 }
 
-#blocDescription{
+img {
+  vertical-align: middle;
+}
 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 50px;
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+
+  font-weight: bold;
   font-size: 20px;
-  font-family: 'Exo', sans-serif;
-  margin-bottom: 50px;
-  text-align:justify;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
 
-  }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-  #blocTitre{
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Exo', sans-serif;
-  }
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
-  .photo_voiture{
+/* Container for image text */
+.row{
+  display: flex;
+  justify-content: center;
 
-    background: url('../img/voiture1.png') no-repeat;
-    background-size: contain;
-    width: 600px;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: auto;
-     margin-right: auto;
-  }
 
-  .titre{
-    background: black;
-    color:white;
-  }
-  .contenu{
-    background: white;
-    color:black;
-  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+
+  width: 150px;
+  margin:15px 5px 15px 5px;
+  border:1px solid grey;
+  border-radius: 5px;
+  background: #f2f2f2;
+
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+    #owl-demo .column img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
