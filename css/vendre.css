@@ -117,3 +117,40 @@ input[type="radio"]{
 	background-image: url("../img/email.png");
 	width:60%;
 }
+
+.formulaire2{
+  text-align: center;
+}
+
+#marque{
+	width:60%;
+}
+
+#modele{
+  width:60%;
+}
+
+#km{
+	width:60%;
+}
+
+#annee{
+	width:60%;
+}
+
+#energie{
+	width:60%;
+}
+
+#photo{
+	width: 60%;
+}
+
+.textarea{
+	text-align: center;
+}
+textarea{
+	-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}

@@ -17,34 +17,40 @@
       <?php include 'include/navbar.html'; ?>
 
       <main class="container">
-        <form class="venteform" action="index.html" method="post">
+        <form class="venteform" action="traitement.php" method="post" enctype="multipart/form-data">
           <div class="coordonnées">
             <h3>Coordonnées</h3>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
             <div class="frm">
-              <input type="radio" name="genre" value="monsieur" required>Monsieur
-              <input type="radio" name="genre" value="madame" required>Madame
+              <input type="radio" name="genre" value="monsieur">Monsieur
+              <input type="radio" name="genre" value="madame">Madame
             </div>
             <div class="formulaire1">
-              <input type="text" name="prenom" id="prenom" placeholder="Prénom"> <br>
-              <input type="text" name="nom" id="nom" placeholder="Nom" required> <br>
-              <input type="text" name="rue" id="rue" placeholder="Rue"> <br>
-
-              <input type="text" name="cp" id="cp" placeholder="Code postal">
-              <input type="text" name="ville" id="ville" placeholder="Ville" required> <br>
-
-              <input type="text" name="tel" id="tel" placeholder="Téléphone" required> <br>
+              <input type="text" name="nom" id="nom" placeholder="Nom prénom" required> <br>
+              <input type="text" name="tel" id="tel" placeholder="Téléphone" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" required> <br>
               <input type="email" name="email" id="email" placeholder="E-mail" required> <br>
               </div>
             </div>
           <div class="voiture">
             <h3>Véhicule</h3>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <div class="formulaire2">
+
+              <input type="text" name="marque" id="marque" placeholder="Marque" required> <br>
+              <input type="text" name="modele" id="modele" placeholder="Modèle" required> <br>
+              <input type="text" name="km" id="km" placeholder="Kilométrage" required> <br>
+
+              <input type="text" name="annee" id="annee" placeholder="Année"> <br>
+              <input type="text" name="energie" id="energie" placeholder="Energie" required> <br>
           </div>
+              <label style="padding:24%" for="photo">Photo :<input type="file" name="photo"><br></label>
+              </div>
           <div class="commentaires">
             <h3>Commentaire</h3>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <textarea class="textarea" name="name" rows="" cols=""></textarea>
           </div>
          <input type="submit" class="button" value"submit">
         </form>
