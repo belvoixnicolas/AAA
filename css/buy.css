@@ -1,0 +1,47 @@
+main select, main input, main a {
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+}
+
+.filtre {
+  background: #F2F2F2;
+  height: calc(100vh - 100px);
+  width: 160px;
+  padding: 10px;
+  float: left;
+}
+
+.filtre form {
+  border: 1px solid red;
+}
+
+.liste {
+  width: calc(100vw - 170px);
+}
+
+.tuile {
+  display: inline-block;
+  width: 200px;
+  background: #000;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+
+.tuile img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.tuile h2, .tuile h3, .tuile p {
+  color: #FFF;
+  margin: 0 5px;
+}
+
+.tuile h2 {
+  font-size: 1.5rem;
+}
+
+.tuile h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
