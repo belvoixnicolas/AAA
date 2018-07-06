@@ -167,7 +167,7 @@
 								</div>
 								<div class="centre">
 									<p>
-										<strong>Roger F (Suisse):</strong>
+										<strong>Roger F (sw):</strong>
 									</p>
 									<p>
 										<i class="fas fa-star"></i>
