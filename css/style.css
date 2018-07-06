@@ -293,6 +293,7 @@ li {
 #faq1 p {
 	color:black;
 	visibility:hidden;
+	font-size: 0.1rem;
 }
 
 
@@ -300,12 +301,12 @@ li {
 
 
 .animated1 {
-						font-size: 3.6rem;
+						font-size: 3.5rem;
             background-repeat: no-repeat;
             padding-top:50px;
             margin-bottom:50px;
-            -webkit-animation-duration: 2s;
-            animation-duration: 2.5s;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 2s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
 
@@ -339,7 +340,7 @@ li {
          }
 
 				 .animated2 {
-				 						font-size: 3.6rem;
+				 						font-size: 3.5rem;
 				             background-repeat: no-repeat;
 				             padding-top:50px;
 				             margin-bottom:50px;
@@ -376,7 +377,7 @@ li {
 				          }
 
 									.animated3 {
-														 font-size: 3.6rem;
+														 font-size: 3.5rem;
 															background-repeat: no-repeat;
 															padding-top:50px;
 															margin-bottom:50px;
@@ -638,6 +639,9 @@ li {
 	}
 	#avis p {
 		font-size: 0.6rem;
+	}
+	.fas {
+		font-size: 0.45rem;
 	}
 	#homer {
 		width: 60px;
