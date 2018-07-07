@@ -5,23 +5,25 @@ html
 	font: 62.5% 'Exo', sans-serif;
 }
 
-
+body {
+	top:0px;
+}
 
 
 header
 {
-	background-image: url('../img/header.jpg');
-	width: 100%;
+	background-image: url('../img/headermodif.jpg');
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 600px;
+	min-height: 500px;
 
-	background-attachment: fixed 100px;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 10px;
-	height:calc(100vh - 100px);
+	margin-bottom: 50px;
+	height:calc(80vh - 100px);
 }
 
 .bouton
