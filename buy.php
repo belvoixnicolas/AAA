@@ -151,7 +151,7 @@
             </p>
           </a>
 
-          <a href="fiche_voiture.php" class="tuile">
+          <a href="fiche_voiture2.php" class="tuile">
             <img src="img/voiture.jpg" alt="voiture">
 
             <h2>Titre</h2>
