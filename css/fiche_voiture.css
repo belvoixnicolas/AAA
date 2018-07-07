@@ -1,12 +1,17 @@
-body {
-  font-family: Arial;
-  margin: 0;
+
+main {
+
+  width:70%;
 }
 
 * {
   box-sizing: border-box;
 }
-
+.centrage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 img {
   vertical-align: middle;
 }
@@ -14,11 +19,14 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+top:0px;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+
+
 }
 
 /* Add a pointer when hovering over the thumbnail images */
