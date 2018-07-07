@@ -29,14 +29,4 @@ function showSlides(n) {
 
 
 
-    $(document).ready(function() {
-
-      var owl = $("#owl-demo");
-
-      owl.container({
-        navigation : true,
-        singleItem : true,
-        transitionStyle : "fade"
-      });
-
-    });
+    
