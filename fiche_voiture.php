@@ -7,6 +7,7 @@
 	<title>Voiture</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fiche_voiture.css">
+    <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
@@ -70,8 +71,47 @@
     </div>
   </div>
 </div>
+            <div  class="titre">
+                <p>Titre</p>
+                <p>Prix</p>
+            </div>        
 
-	</main>
+
+            <table class="tableau">
+
+              <tr>
+                <td class="titretab">MODELE</td>
+                <td class="contenu"></td>
+             </tr>
+
+              <tr>
+               <td class="titretab">DATE DE MISE EN CIRCULATION</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">ENERGIE</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">BOITE DE VITESSE</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">NOMBRE DE PLACES</td>
+                <td class="contenu"></td>
+              </tr>
+                <tr>
+                <td class="titretab">NOMBRE DE CHEVAUX</td>
+                <td class="contenu"></td>
+              </tr>
+
+            </table>
+
+        
+        </main>
 	</div>
 		<?php include 'include/footer.html'; ?>
 
