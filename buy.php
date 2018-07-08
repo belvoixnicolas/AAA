@@ -21,7 +21,7 @@
       <main>
         <section class="filtre">
           <form action="#" method="post">
-            <p>
+            <p class="select">
               <select id="place" name="place">
                 <option value="none" selected>Nombre de place</option>
                 <option value="1">1</option>
@@ -35,56 +35,56 @@
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="max-prix" name="maxPrix">
                 <option value="none" selected>Prix max</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="min-an" name="minAn">
                 <option value="none" selected>Année min</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="max-an" name="maxAn">
                 <option value="none" selected>Année max</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="min-km" name="minKm">
                 <option value="none" selected>Kilomètres min</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="max-km" name="maxKm">
                 <option value="none" selected>Kilomètres max</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="marque" name="marque">
                 <option value="none" selected>Marque</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="energie" name="energie">
                 <option value="none" selected>Energie</option>
               </select>
             </p>
 
-            <p>
+            <p class="select">
               <select id="boite" name="boite">
                 <option value="none" selected>Boîte de vitesse</option>
               </select>
             </p>
 
             <p>
-              <input type="submit" value="Filtre" />
+              <input type="submit" value="Valid" />
               <input type="reset" value="Reset">
             </p>
           </form>
