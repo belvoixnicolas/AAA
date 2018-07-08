@@ -20,27 +20,27 @@
 
 <div class="container">
   <div class="mySlides">
-    <img src="img/golf7.png" class="nature" style="width:80%;margin: 0 auto;">
+    <img src="img/1.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <img src="img/voiture1.png" class="nature" style="width:74.5%;margin: 0 auto;">
+    <img src="img/2.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <img src="img/golf7.png" class="nature" style="width:80%;margin: 0 auto;">
+    <img src="img/3.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <img src="img/voiture1.png" class="nature" style="width:74.5%;margin: 0 auto;">
+    <img src="img/4.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <img src="img/golf7.png" class="nature" style="width:80%;margin: 0 auto;">
+    <img src="img/5.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <img src="img/voiture1.png" class="nature" style="width:74.5%;margin: 0 auto;">
+    <img src="img/6.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -52,29 +52,29 @@
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
+      <img class="demo cursor" src="img/2.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(3)" alt="">
+      <img class="demo cursor" src="img/3.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(3)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(4)" alt="">
+      <img class="demo cursor" src="img/4.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(4)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(5)" alt="">
+      <img class="demo cursor" src="img/5.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(5)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(6)" alt="">
+      <img class="demo cursor" src="img/6.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(6)" alt="">
     </div>
   </div>
 </div>
             <div  class="titre">
                 <p>Titre</p>
                 <p>Prix</p>
-            </div>        
+            </div>
 
 
             <table class="tableau">
@@ -110,7 +110,7 @@
 
             </table>
 
-        
+
         </main>
 	</div>
 		<?php include 'include/footer.html'; ?>
