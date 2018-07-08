@@ -1,4 +1,5 @@
 
+
 main {
 
   width:70%;
@@ -11,6 +12,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 img {
   vertical-align: middle;
@@ -28,7 +30,10 @@ top:0px;
 
 
 }
-
+.nature {
+  border:1px solid black;
+  border-radius: 10px;
+}
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
@@ -89,7 +94,7 @@ top:0px;
 /* Six columns side by side */
 .column {
 
-  width: 150px;
+  width: 120px;
   margin:15px 5px 15px 5px;
   border:1px solid grey;
   border-radius: 5px;
@@ -100,6 +105,7 @@ top:0px;
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+
 }
 
 .active,
@@ -114,4 +120,3 @@ top:0px;
         width: 100%;
         height: auto;
     }
-
