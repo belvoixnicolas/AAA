@@ -28,7 +28,7 @@
 
 					<div class="gauche">
 						<h4>Exemple</h4>
-						<p>bla bla bla bla bla bla bla</p>
+						<p class="p">bla bla bla bla bla bla bla</p>
 
 					</div>
 
@@ -42,7 +42,7 @@
 				<!---
 				<div class="voiture">
 					<h3>Véhicule</h3>
-					<p>
+					<p class="ptemoin">
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					</p>
 					<div class="formulaire2">
@@ -85,10 +85,10 @@
 									<img src="./img/images.jpeg" id="homer" alt="">
 								</div>
 								<div class="centre">
-									<p>
+									<p class="ptemoin">
 										<strong>Sarah V. (35):</strong>
 									</p>
-									<p>
+									<p class="ptemoin">
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
@@ -98,7 +98,7 @@
 								</div>
 							</div>
 							<div class="zut">
-								<p>
+								<p class="ptemoin">
 									"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
 								</p>
 							</div>
@@ -111,10 +111,10 @@
 									<img src="./img/fed1.jpg" id="homer" alt="">
 								</div>
 								<div class="centre">
-									<p>
+									<p class="ptemoin">
 										<strong>Roger F (sw):</strong>
 									</p>
-									<p>
+									<p class="ptemoin">
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
@@ -124,7 +124,7 @@
 								</div>
 							</div>
 							<div class="zut">
-								<p>
+								<p class="ptemoin">
 									"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
 								</p>
 							</div>
@@ -137,10 +137,10 @@
 									<img src="./img/anne.jpeg" id="homer" alt="">
 								</div>
 								<div class="centre">
-									<p>
+									<p class="ptemoin">
 										<strong>Anne H. (51):</strong>
 									</p>
-									<p>
+									<p class="ptemoin">
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
@@ -150,7 +150,7 @@
 								</div>
 							</div>
 							<div class="zut">
-								<p>
+								<p class="ptemoin">
 									"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
 								</p>
 							</div>
@@ -163,10 +163,10 @@
 									<img src="./img/face1.jpeg" id="homer" alt="">
 								</div>
 								<div class="centre">
-									<p>
+									<p class="ptemoin">
 										<strong>David S. (08):</strong>
 									</p>
-									<p>
+									<p class="ptemoin">
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
 										<i class="fas fa-star"></i>
@@ -176,7 +176,7 @@
 								</div>
 							</div>
 							<div class="zut">
-								<p>
+								<p class="ptemoin">
 									"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
 								</p>
 							</div>
