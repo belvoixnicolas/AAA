@@ -42,7 +42,7 @@
 			<section class="animTitre">
 				<div id="animated1" class="cache">Réponse sous 24H</div>
 				<div id="animated2" class="cache">Vente simple et rapide</div>
-				<div id="animated3" class="cache">Véhicules Garantis 6 mois</div>
+				<div id="animated3" class="cache">Véhicules garantis 6 mois</div>
 			</section>
 			<section id="faqsss">
 				<h2 class="text-center faq-heading"></h2>
