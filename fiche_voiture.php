@@ -7,6 +7,7 @@
 	<title>Voiture</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fiche_voiture.css">
+    <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
@@ -14,36 +15,32 @@
 
 <body>
   <?php include 'include/navbar.html'; ?>
+	<div class="centrage">
 	<main>
-<div  class="container">
+
+<div class="container">
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="img/voiture1.png" style="width:50%;margin: 0 auto;">
+    <img src="img/1.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+    <img src="img/2.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+    <img src="img/3.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+    <img src="img/4.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+    <img src="img/5.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="img/golf7.png" style="width:50%;margin: 0 auto;">
+    <img src="img/6.jpg" class="nature" style="width:70%;margin: 0 auto;">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -53,31 +50,73 @@
     <p id="caption"></p>
   </div>
 
-  <div id="owl-demo" class="row">
+  <div class="row">
     <div class="column">
-      <img class="demo cursor" src="img/voiture1.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(1)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
+      <img class="demo cursor" src="img/2.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(2)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(3)" alt="">
+      <img class="demo cursor" src="img/3.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(3)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(4)" alt="">
+      <img class="demo cursor" src="img/4.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(4)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(5)" alt="">
+      <img class="demo cursor" src="img/5.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(5)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img/golf7.png" style="width:70%;margin: 0 auto;" onclick="currentSlide(6)" alt="">
+      <img class="demo cursor" src="img/6.jpg" style="width:100%;margin: 0 auto;" onclick="currentSlide(6)" alt="">
     </div>
   </div>
 </div>
-	</main>
+            <div  class="titre">
+                <p>Titre</p>
+                <p>Prix</p>
+            </div>
+
+
+            <table class="tableau">
+
+              <tr>
+                <td class="titretab">MODELE</td>
+                <td class="contenu"></td>
+             </tr>
+
+              <tr>
+               <td class="titretab">DATE DE MISE EN CIRCULATION</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">ENERGIE</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">BOITE DE VITESSE</td>
+                <td class="contenu"></td>
+              </tr>
+
+              <tr>
+                <td class="titretab">NOMBRE DE PLACES</td>
+                <td class="contenu"></td>
+              </tr>
+                <tr>
+                <td class="titretab">NOMBRE DE CHEVAUX</td>
+                <td class="contenu"></td>
+              </tr>
+
+            </table>
+
+
+        </main>
+	</div>
 		<?php include 'include/footer.html'; ?>
 
 		<script type="text/javascript" src="js/caroussel.js">
+
 
 		</script>
 	</body>

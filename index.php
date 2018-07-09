@@ -26,11 +26,7 @@
 			<a href="vendre.php" class="bouton">VENDRE</a>
 		</header>
 		<main>
-			<section class="animTitre">
-				<div id="animated1" class="cache">Réponse sous 24H</div>
-				<div id="animated2" class="cache">Vente simple et rapide</div>
-				<div id="animated3" class="cache">Véhicules Garantis 6 mois</div>
-			</section>
+
 			<section id="presentation">
 				<div class="vide">
 				</div>
@@ -43,7 +39,11 @@
 				</div>
 				</div>
 			</section>
-
+			<section class="animTitre">
+				<div id="animated1" class="cache">Réponse sous 24H</div>
+				<div id="animated2" class="cache">Vente simple et rapide</div>
+				<div id="animated3" class="cache">Véhicules Garantis 6 mois</div>
+			</section>
 			<section id="faqsss">
 				<h2 class="text-center faq-heading"></h2>
   <h1 class="text-center faq-subHeading">FAQS</h1>

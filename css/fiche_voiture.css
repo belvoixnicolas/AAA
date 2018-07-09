@@ -1,12 +1,19 @@
-body {
-  font-family: Arial;
-  margin: 0;
+
+
+main {
+
+  width:70%;
 }
 
 * {
   box-sizing: border-box;
 }
-
+.centrage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
 img {
   vertical-align: middle;
 }
@@ -14,13 +21,19 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+top:0px;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-}
 
+
+}
+.nature {
+  border:1px solid black;
+  border-radius: 10px;
+}
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
@@ -81,7 +94,7 @@ img {
 /* Six columns side by side */
 .column {
 
-  width: 150px;
+  width: 120px;
   margin:15px 5px 15px 5px;
   border:1px solid grey;
   border-radius: 5px;
@@ -92,6 +105,7 @@ img {
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+
 }
 
 .active,
@@ -101,7 +115,7 @@ img {
 
 
 
-    #owl-demo .column img{
+    #owl-demo img{
         display: block;
         width: 100%;
         height: auto;
