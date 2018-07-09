@@ -99,6 +99,7 @@ main {
   align-content: flex-start;
   max-width: calc(100vw - 170px);
   padding: 30px;
+  padding-left: 5%;
 }
 
 .tuile {
