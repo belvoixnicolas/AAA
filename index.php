@@ -26,7 +26,11 @@
 			<a href="vendre.php" class="bouton">VENDRE</a>
 		</header>
 		<main>
-
+			<section class="animTitre">
+				<div id="animated1" class="cache">Réponse sous 24H</div>
+				<div id="animated2" class="cache">Vente simple et rapide</div>
+				<div id="animated3" class="cache">Véhicules garantis 6 mois</div>
+			</section>
 			<section id="presentation">
 				<div class="vide">
 				</div>
@@ -39,17 +43,17 @@
 				</div>
 				</div>
 			</section>
-			<section class="animTitre">
-				<div id="animated1" class="cache">Réponse sous 24H</div>
-				<div id="animated2" class="cache">Vente simple et rapide</div>
-				<div id="animated3" class="cache">Véhicules garantis 6 mois</div>
-			</section>
+
 			<section id="faqsss">
 
 			</section>
 
 			<section id="temoin">
-				<h2>Nos clients témoignent</h2>
+				<div class="titletemoin">
+					<img src="./img/client.png" class="icone" alt="">
+					<h2>Nos clients témoignent</h2>
+				</div>
+
 				<div id="avis">
 					<div class="temoignage">
 						<div class="pasclasse">
@@ -159,8 +163,13 @@
 			</section>
 
 			<section id="partenaires">
-				<h2>Nos partenaires</h2>
+				<div class="titlepartenaire">
+					<img src="./img/handshake.png" class="icone" alt="">
+					<h2>Nos partenaires</h2>
+				</div>
+
 				<div class="container">
+
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
