@@ -21,12 +21,12 @@
 		<main>
 			<section class="container">
 	  <div id="caroussel">
-	    <figure style="background:url('img/1.jpg'); background-size:cover">1</figure>
-	    <figure style="background:url('img/2.jpg'); background-size:cover">2</figure>
-	    <figure style="background:url('img/3.jpg'); background-size:cover">3</figure>
-	    <figure style="background:url('img/4.jpg'); background-size:cover">4</figure>
-	    <figure style="background:url('img/5.jpg'); background-size:cover">5</figure>
-	    <figure style="background:url('img/6.jpg'); background-size:cover">6</figure>
+	    <figure style="background:url('img/1.jpg'); background-size:cover"></figure>
+	    <figure style="background:url('img/2.jpg'); background-size:cover"></figure>
+	    <figure style="background:url('img/3.jpg'); background-size:cover"></figure>
+	    <figure style="background:url('img/4.jpg'); background-size:cover"></figure>
+	    <figure style="background:url('img/5.jpg'); background-size:cover"></figure>
+	    <figure style="background:url('img/6.jpg'); background-size:cover"></figure>
 
 
 	  </div>
@@ -34,13 +34,13 @@
 	</section>
 	<div class="next"></div>
 	<div class="prev"></div>
-            
+
     <div  class="titre">
         <p>Titre</p>
         <p>Prix</p>
-    </div>        
-        
-        
+    </div>
+
+
     <table class="tableau">
 
       <tr>
@@ -72,7 +72,7 @@
         <td class="contenu"></td>
       </tr>
     </table>
-        
+
         </main>
 	</div>
 		<?php include 'include/footer.html'; ?>
