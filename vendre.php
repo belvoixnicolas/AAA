@@ -28,11 +28,29 @@
 
 					<div class="gauche">
 						<h4>Exemple</h4>
-						<p class="p">bla bla bla bla bla bla bla</p>
+						<p class="p">bla bla bla bla bla bla bla</p> <br>
+						<h4>Exemple</h4>
+						<p class="p">bla bla bla bla bla bla bla</p> <br>
+						<h4>Exemple</h4>
+						<p class="p">bla bla bla bla bla bla bla</p> <br>
 
 					</div>
 
-					<div class="droite">
+					<div class="select">
+						<select class="" name="nom">
+							<option value="1">Peugeot</option>
+							<option value="2">Citroën</option>
+							<option value="3">Fiat</option>
+							<option value="4">Ford</option>
+							<option value="5">Honda</option>
+							<option value="6">Hyundai</option>
+							<option value="7">Kia</option>
+							<option value="8">Opel</option>
+							<option value="9">Toyota</option>
+							<option value="10">Dacia</option>
+							<option value="11">Volkswagen</option>
+							<option value="12">Renault</option>
+						</select>
 					</div>
 
 				</div>
