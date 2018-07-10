@@ -14,7 +14,7 @@ header
 	min-height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:calc(100vh - 100px);
+	height:calc(80vh - 100px);
 }
 
 .bouton
@@ -30,7 +30,7 @@ header
 	background: #020809;
 	font-weight: bold;
 	border: none;
-	text-shadow: 1px 1px 2px red, 0 0 1em #01152b;
+
 	opacity: 0.8;
 	text-decoration: none;
 	line-height:50px;
@@ -45,7 +45,7 @@ header
 	transition: 1.2s;
 	text-shadow: 1px 1px 1px black;
 	cursor: pointer;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #presentation
@@ -80,11 +80,19 @@ header
 	min-height:300px;
 	align-items: center;
 }
+main .titletemoin
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
 
 main .temoignage
 {
 	width:20%;
 	min-height:350px;
+
 }
 
 #temoin h2
@@ -93,7 +101,7 @@ main .temoignage
 	font-weight: bold;
 	text-align: center;
 	color:white;
-	padding-bottom: 30px;
+
 }
 
 #temoin
@@ -118,6 +126,19 @@ main .temoignage
 	font-family: 'Exo', sans-serif;
 	padding-bottom: 2%;
 }
+main .titlepartenaire
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+main .icone{
+		width:120px;
+		height:74px;
+
+	}
 
 main .logo
 {
@@ -305,7 +326,7 @@ li
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight
@@ -347,7 +368,7 @@ li
 	animation-fill-mode: both;
 	animation-delay: 1s;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight2
@@ -388,7 +409,7 @@ li
 	animation-fill-mode: both;
 	animation-delay: 2s;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight3
@@ -563,7 +584,7 @@ li
 	#header
 	{
 		min-height: 300px;
-		height:calc(100vh - 100px);
+		height:calc(80vh - 100px);
 	}
 }
 
@@ -822,7 +843,7 @@ body
 	transition: 1.2s;
 	text-shadow: 1px 1px 1px black;
 	cursor: pointer;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #presentation
@@ -870,7 +891,7 @@ main .temoignage
 	font-weight: bold;
 	text-align: center;
 	color:white;
-	padding-bottom: 30px;
+
 }
 
 #temoin
@@ -1087,7 +1108,7 @@ li
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight
@@ -1100,7 +1121,7 @@ li
 	100%
 	{
 		;
-		-webkit-transform: translateX(3vw);
+		-webkit-transform: translateX(10%);
 	}
 }
 
@@ -1113,7 +1134,7 @@ li
 
 	100%
 	{
-		transform: translateX(3vw);
+		transform: translateX(10%);
 	}
 }
 
@@ -1129,7 +1150,7 @@ li
 	animation-fill-mode: both;
 	animation-delay: 1s;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight2
@@ -1141,7 +1162,7 @@ li
 
 	100%
 	{
-		-webkit-transform: translateX(12vw);
+		-webkit-transform: translateX(40%vw);
 	}
 }
 
@@ -1154,7 +1175,7 @@ li
 
 	100%
 	{
-		transform: translateX(12vw);
+		transform: translateX(40%);
 	}
 }
 
@@ -1170,7 +1191,7 @@ li
 	animation-fill-mode: both;
 	animation-delay: 2s;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px red;
+
 }
 
 @-webkit-keyframes bounceInRight3
@@ -1182,7 +1203,7 @@ li
 
 	100%
 	{
-		-webkit-transform: translateX(22vw);
+		-webkit-transform: translateX(65%);
 	}
 
 }
@@ -1196,7 +1217,7 @@ li
 
 	100%
 	{
-		transform: translateX(22vw);
+		transform: translateX(65%);
 	}
 
 }
@@ -1345,7 +1366,7 @@ li
 	#header
 	{
 		min-height: 300px;
-		height:calc(100vh - 100px);
+		height:calc(80vh - 100px);
 	}
 }
 

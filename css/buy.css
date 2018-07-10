@@ -10,7 +10,7 @@ main {
 
 .filtre {
   background: #F2F2F2;
-  width: 160px;
+  width: 169px;
   padding: 10px;
   float: left;
 }
@@ -93,21 +93,17 @@ main {
 }
 
 .liste {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  max-width: calc(100vw - 170px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: calc(100% - 169px);
   padding: 30px;
   padding-left: 5%;
 }
 
 .tuile {
   display: inline-block;
-  width: 200px;
-  background: #000;
-  padding-bottom: 5px;
-  margin: 10px;
+  max-width: 300px;
+  background: #000;;
 }
 
 .tuile img {
