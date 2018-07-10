@@ -34,45 +34,40 @@
 	</section>
 	<div class="next"></div>
 	<div class="prev"></div>
-            
+
     <div  class="titre">
         <p>Titre</p>
-        <p>Prix</p>
-    </div>        
-        
-        
+        <p class="prix">Prix</p>
+    </div>
+
+<div class="container2">
     <table class="tableau">
+<tr class="l1">
+	<th>Marque</th>
+	<td>Citroen</td>
+</tr>
+<tr class="l2">
+	<th>Modèle</th>
+	<td>C3	</td>
+</tr>
+<tr class="l1">
+	<th>Année de mise en circulation</th>
+	<td>2018</td>
+</tr>
+<tr class="l2">
+	<th>Nombre de places</th>
+	<td>5</td>
+</tr>
+		<tr class="l1">
+			<th>Energie</th>
+			<td>Essence</td>
+		</tr>
+</table>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 
-      <tr>
-        <td class="titretab">MODELE</td>
-        <td class="contenu"></td>
-     </tr>
 
-      <tr>
-       <td class="titretab">DATE DE MISE EN CIRCULATION</td>
-        <td class="contenu"></td>
-      </tr>
-
-      <tr>
-        <td class="titretab">ENERGIE</td>
-        <td class="contenu"></td>
-      </tr>
-
-      <tr>
-        <td class="titretab">BOITE DE VITESSE</td>
-        <td class="contenu"></td>
-      </tr>
-
-      <tr>
-        <td class="titretab">NOMBRE DE PLACES</td>
-        <td class="contenu"></td>
-      </tr>
-        <tr>
-        <td class="titretab">NOMBRE DE CHEVAUX</td>
-        <td class="contenu"></td>
-      </tr>
-    </table>
-        
+<button class="buton">Texte Accrocheur</button>
         </main>
 	</div>
 		<?php include 'include/footer.html'; ?>

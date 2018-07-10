@@ -1,42 +1,44 @@
-/*tableau*/
-
-td{
-
-    width: 10%;
-    text-align: center;
-    font-size: 30px;
-}
-
-
-
-.titretab{
-    background: rgba(0,0,0, 0.7);
-    color: white;
-    padding:  20px;
-
-}
-
-table{
-    align-items: center;
-    margin-bottom: 30px;
-    width: 80%;
-    margin: 0px 200px 20px 200px;
-    font-family: 'Exo', sans-serif;
-}
-
 .titre{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 6600;
-    font-size: 40px;
-    padding-bottom: 30px;
-    margin: 50px 150px;
+  display: flex;
+  margin-top: 20px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 30px;
 
+}
+.prix{
+  text-align: right;
+}
+table{
+  width: 50%;
+}
 
-  }
+.container2{
+  display: flex;
+  justify-content:space-between;
+  margin: 50px;
+  font-size: 20px;
+}
 
-  .contenu{
-   background: rgba(49,40,25, 0.56);
-   color:white;
+p{
+  text-align:justify;
+  width: 50%;
+  padding: 0px 20px;
+}
 
-  }
+.l1{
+  background: rgba(0,0,0);
+  color: white;
+  text-align: center;
+}
+.l2{
+  text-align: center;
+}
+
+.buton{
+  display: block;
+  margin:auto;
+  margin-bottom: 20px;
+
+}
