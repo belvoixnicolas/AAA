@@ -97,6 +97,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   width: calc(100% - 169px);
   padding: 30px;
+  padding-left: 5%;
 }
 
 .tuile {

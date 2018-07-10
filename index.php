@@ -26,7 +26,11 @@
 			<a href="vendre.php" class="bouton">VENDRE</a>
 		</header>
 		<main>
-
+			<section class="animTitre">
+				<div id="animated1" class="cache">Réponse sous 24H</div>
+				<div id="animated2" class="cache">Vente simple et rapide</div>
+				<div id="animated3" class="cache">Véhicules garantis 6 mois</div>
+			</section>
 			<section id="presentation">
 				<div class="vide">
 				</div>
@@ -39,99 +43,17 @@
 				</div>
 				</div>
 			</section>
-			<section class="animTitre">
-				<div id="animated1" class="cache">Réponse sous 24H</div>
-				<div id="animated2" class="cache">Vente simple et rapide</div>
-				<div id="animated3" class="cache">Véhicules Garantis 6 mois</div>
-			</section>
+
 			<section id="faqsss">
-				<h2 class="text-center faq-heading"></h2>
-  <h1 class="text-center faq-subHeading">FAQS</h1>
-<div class="faqs">
-<div class="box-container-one">
-  <!-- Question 1 -->
-  <ul class="box">
-    <li class="question">Quaestione igitur per multiplices dilatata?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
-          </li>
-      </ul>
 
-  </ul>
-
-  <!-- Question 2 -->
-  <ul class="box">
-    <li class="question">Quaestione per multiplices ?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
-          </li>
-      </ul>
-  </ul>
-
-  <!-- Question 3 -->
-  <ul class="box">
-    <li class="question">Quaestione igitur multiplices dilatata?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto.
-          </li>
-      </ul>
-  </ul>
-
-  <!-- Question 4 -->
-  <ul class="box">
-    <li class="question">Quaestione igitur per multiplices dilatata?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras.
-      </ul>
-  </ul>
-</div>
-
-<div class="box-container-two">
-  <!-- Question 5 -->
-  <ul class="box">
-    <li class="question">Quaestione multiplices dilatata?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata constaret, post multorum clades Apollinares ambo pater et filius in exilium acti cum ad locum Crateras nomine pervenissent, villam scilicet suam quae ab Antiochia vicensimo et quarto disiungitur lapide, ut mandatum est, fractis cruribus occiduntur.
-      </ul>
-  </ul>
-
-  <!-- Question 6 -->
-  <ul class="box">
-    <li class="question">Quaestione igitur per ?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
-    </li>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata fortunas cum ambigerentur.
-          </li>
-      </ul>
-  </ul>
-
-  <!-- Question 7 -->
-  <ul class="box">
-    <li class="question">Quaestione igitur per multiplices dilatata?
-      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i>
-    </li></span>
-      <ul>
-          <li class="answer">Quaestione igitur per multiplices dilatata
-          </li>
-      </ul>
-  </ul>
-</div>
-</div>
 			</section>
 
 			<section id="temoin">
-				<h2>Nos clients témoignent</h2>
+				<div class="titletemoin">
+					<img src="./img/client.png" class="icone" alt="">
+					<h2>Nos clients témoignent</h2>
+				</div>
+
 				<div id="avis">
 					<div class="temoignage">
 						<div class="pasclasse">
@@ -241,8 +163,13 @@
 			</section>
 
 			<section id="partenaires">
-				<h2>Nos partenaires</h2>
+				<div class="titlepartenaire">
+					<img src="./img/handshake.png" class="icone" alt="">
+					<h2>Nos partenaires</h2>
+				</div>
+
 				<div class="container">
+
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
