@@ -10,7 +10,7 @@ main {
 
 .filtre {
   background: #F2F2F2;
-  width: 160px;
+  width: 169px;
   padding: 10px;
   float: left;
 }
@@ -93,21 +93,18 @@ main {
 }
 
 .liste {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  max-width: calc(100vw - 170px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: calc(100% - 169px);
   padding: 30px;
   padding-left: 5%;
 }
 
 .tuile {
   display: inline-block;
-  width: 200px;
+  max-width: 300px;
   background: #000;
-  padding-bottom: 5px;
-  margin: 10px;
+  margin: 20px auto;
 }
 
 .tuile img {
@@ -117,14 +114,18 @@ main {
 
 .tuile h2, .tuile h3, .tuile p {
   color: #FFF;
-  margin: 0 5px;
+  margin: 10px;
 }
 
 .tuile h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: -1.5rem;
 }
 
 .tuile h3 {
-  font-size: 1rem;
-  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.tuile p {
+  font-size: 1.5rem;
 }
