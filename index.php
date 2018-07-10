@@ -48,6 +48,8 @@
 
 			</section>
 
+<<<<<<< HEAD
+=======
 			<section id="temoin">
 				<div class="titletemoin">
 					<img src="./img/client.png" class="icone" alt="">
@@ -162,6 +164,7 @@
 				</div>
 			</section>
 
+>>>>>>> 66735ed3195662a70bf98629ccf37773abf397ce
 			<section id="partenaires">
 				<div class="titlepartenaire">
 					<img src="./img/handshake.png" class="icone" alt="">
