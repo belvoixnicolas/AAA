@@ -21,13 +21,12 @@
 		<?php include 'include/navbar.html'; ?>
 
 		<main>
-			<form class="venteform" action="traitement.php" method="post" enctype="multipart/form-data">
-				<h2>Vendez votre véhicule avec simplicité et rapidité !</h2>
+				<h1>Vendez votre véhicule avec simplicité et rapidité !</h1>
 
 				<div class="container">
 
 					<div class="gauche">
-						<h4>Exemple</h4>
+						<h4>Rapide</h4>
 						<p class="p">bla bla bla bla bla bla bla</p> <br>
 						<h4>Exemple</h4>
 						<p class="p">bla bla bla bla bla bla bla</p> <br>
@@ -36,62 +35,43 @@
 
 					</div>
 
-					<div class="select">
-						<select class="" name="nom">
-							<option value="1">Peugeot</option>
-							<option value="2">Citroën</option>
-							<option value="3">Fiat</option>
-							<option value="4">Ford</option>
-							<option value="5">Honda</option>
-							<option value="6">Hyundai</option>
-							<option value="7">Kia</option>
-							<option value="8">Opel</option>
-							<option value="9">Toyota</option>
-							<option value="10">Dacia</option>
-							<option value="11">Volkswagen</option>
-							<option value="12">Renault</option>
-						</select>
+
+					<div class="droite">
+						<div class="col1">
+
+						<form class="" action="index.html" method="post">
+
+							<h2>Votre véhicule :</h2>
+
+							<input type="text" id="marque" name="marque" placeholder="Marque et modèle"> <br>
+							<input type="text" id="energie" name="energie" placeholder="Energie"> <br>
+							<input type="text" id="année" name="année" placeholder="Année"> <br>
+							<input type="text" id="km" name="km" placeholder="Kilomètrage"> <br>
+
+						</div>
+
+						<div class="col2">
+
+							<h2>Vos coordonnées :</h2>
+
+							<input type="text" id="nom" name="nom" placeholder="Nom et prénom"> <br>
+							<input type="text" id="tel" name="tel" placeholder="Téléphone"> <br>
+							<input type="text" id="codepostal" name="codepostal" placeholder="Code postal"> <br>
+							<input type="email" id="mail" name="mail" placeholder="E-mail"> <br>
+
+						</div>
+
+
+						</form>
 					</div>
+
 
 				</div>
 
+										<button class="buttonsub" type="submit" name="button">Submit</button>
 
 
-				<!---
-				<div class="voiture">
-					<h3>Véhicule</h3>
-					<p class="ptemoin">
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-					</p>
-					<div class="formulaire2">
-						<input type="text" name="marque" id="marque" placeholder="Marque" required>
-						<br>
-						<input type="text" name="modele" id="modele" placeholder="Modèle" required>
-						<br>
-						<input type="text" name="km" id="km" placeholder="Kilométrage" required>
-						<br>
-						<input type="text" name="annee" id="annee" placeholder="Année" required>
-						<br>
-						<input type="text" name="energie" id="energie" placeholder="Energie" required>
-						<br>
-					</div>
-					<div class="pPhoto" style="padding-left:22.8%" for="photo">
-						Photo :
-						<input type="file" name="photo" required>
-						<br>
-					</div>
-					<div class="pPhoto" style="padding-left:22.8%" for="photo">
-						Photo :
-						<input type="file" name="photo" required>
-						<br>
-					</div>
-					<div class="pPhoto" style="padding-left:22.8%" for="photo">
-						Photo :
-						<input type="file" name="photo" required>
-						<br>
-					</div>
-				</div>
-				--->
+
 			</form>
 			<section id="temoin">
 				<h2>Nos clients témoignent</h2>

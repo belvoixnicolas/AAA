@@ -1,4 +1,3 @@
-@import "compass/css3";
 
 html
 {
@@ -7,14 +6,25 @@ html
 
 .container{
   margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+
+
+h1{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	padding-top: 20px;
 }
 
 h2{
-	display: flex;
-	justify-content: center;
-
+	padding-bottom: 10px;
 }
-
 
 main h3{
   font-size: 1.8rem;
@@ -23,187 +33,112 @@ background: black;
 color: white;
 }
 
-.coordonnées, .voiture, .commentaires{
-	margin-bottom: 4%;
-	border: 1.2px black solid;
-	margin-top: 4%;
-  padding-bottom: 3%;
+.gauche{
+	width: 50%;
+	padding-left: 20%;
+	margin-top: 20px;
 }
 
-main .ptemoin{
-  padding:1% 5% 3% 5%;
-	font-size: 1.5rem;
-}
-
-
-form{
-margin: 0 auto;
-padding: 20px 50px 40px;
-font-size: 1.5rem;
-}
-
-
-input[type="text"], input[type="email"]{
-	border: 0.5px black solid;
-	margin-bottom: 15px;
-	height: 32px;
-	padding: 6px 30px;
-	font-size: 1.5rem;
-}
-
-.buttonsub {
+.droite{
 	display: flex;
-	margin: 20px auto 0;
-	margin-bottom: 5%;
-	width: 130px;
+	justify-content: space-around;
+	width: 50%;
+  margin-top: 20px;
+}
+
+input{
+	width: 330px;
 	height: 40px;
-	border-radius: 10px;
-	border: none;
-	color: white;
-	box-shadow: 1px 4px 10px 1px #aaa;
-	background: black;
-	cursor: pointer;
-	font-size: 1.6rem;
-}
-
-input[type="radio"]{
-	border: none;
-	margin-bottom: 3%;
-	padding: 6px 16px;
-}
-
-.formulaire1{
-  text-align: center;
-}
-
-.frm{
-	padding-left: 19.1%;
-}
-
-#nom, #email, #tel{
-	background-size: 17px 17px;
-	background-position: 6px 6px;
-	background-repeat: no-repeat;
-	opacity: 0.7;
-}
-
-#nom{
-	background-image: url("../img/usericon2.png");
-	width:60%;
-}
-
-#tel{
-	background-image: url("../img/phone.png");
-	width:60%;
-}
-
-#email{
-	background-image: url("../img/email.png");
-	width:60%;
-}
-
-.formulaire2{
-  text-align: center;
+	margin-bottom: 15px;
+	font-size: 20px;
+	padding-left: 33px;
 }
 
 #marque{
-	width:60%;
-
-}
-
-#modele{
-  width:60%;
-	background-image: url("../img/road.png");
-}
-
-#km{
-	width:60%;
-	background-image: url("../img/km.png");
-}
-
-#annee{
-	width:60%;
-	background-image: url("../img/years.png");
-}
-
-#energie{
-	width:60%;
-	background-image: url("../img/nrj.png");
-}
-
-#photo{
-	width: 60%;
-}
-
-textarea{
-width: 75%;
-height: 200px;
-display: block;
- margin-left: auto;
- margin-right: auto;
-}
-
-#marque, #km, #modele, #annee, #energie{
-	background-size: 19px 17px;
-	background-position: 6px 6px;
+	background-image:url("../img/car2.png");
+	background-position: 5px 5px;
+	background-size: 25px 25px;
 	background-repeat: no-repeat;
 }
 
-/* Reset Select */
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  outline: 0;
-  box-shadow: none;
-  border: 0 !important;
-  background: #2c3e50;
-  background-image: none;
-}
-/* Custom Select */
-.select {
-  position: relative;
-  display: block;
-  width: 20em;
-  height: 3em;
-  line-height: 3;
-  background: #2c3e50;
-  overflow: hidden;
-  border-radius: .25em;
-}
-select {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0 0 0 .5em;
-  color: #fff;
-  cursor: pointer;
-}
-select::-ms-expand {
-  display: none;
-}
-/* Arrow */
-.select::after {
-  content: '\25BC';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0 1em;
-  background: #34495e;
-  pointer-events: none;
-}
-/* Transition */
-.select:hover::after {
-  color: #f39c12;
-}
-.select::after {
-  -webkit-transition: .25s all ease;
-  -o-transition: .25s all ease;
-  transition: .25s all ease;
+#energie{
+	background-image:url("../img/nrj.png");
+	background-position: 0px 3px;
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
 }
 
-select{
-	font-size: 20px;
+#année{
+	background-image:url("../img/years.png");
+	background-position: 4px 4px;
+	background-size: 26px 27px;
+	background-repeat: no-repeat;
+}
+
+#km{
+	background-image:url("../img/km.png");
+	background-position: 4px 4px;
+	background-size: 26px 27px;
+	background-repeat: no-repeat;
+}
+
+
+#nom{
+	background-image:url("../img/usericon2.png");
+	background-position: 5px 8px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+#tel{
+	background-image:url("../img/phone.png");
+	background-position: 4px 4px;
+	background-size: 26px 27px;
+	background-repeat: no-repeat;
+}
+
+#codepostal{
+	background-image:url("../img/cp.png");
+	background-position: 5px 6px;
+	background-size: 23px 23px;
+	background-repeat: no-repeat;
+}
+
+#mail{
+	background-image:url("../img/email.png");
+	background-position: 4px 4px;
+	background-size: 26px 27px;
+	background-repeat: no-repeat;
+}
+
+
+::placeholder {
+    color: black;
+    opacity: 0.4; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+	 opacity: 0.4;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+	 opacity: 0.4;
+}
+
+input:focus::-webkit-input-placeholder{
+	text-indent: -999px;
+}
+
+input:focus::-moz-placeholder{
+     text-indent: -999px;
+}
+
+.col2{
+	padding-right: 15%;
+}
+
+.buttonsub{
+	margin-left: 70%;
 }
