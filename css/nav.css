@@ -56,14 +56,6 @@ nav .tel {
   right: 20px;
 }
 
-nav ul {
-  display: none;
-  position: fixed;
-  top: 100px;
-  right: 148px;
-  background: #000;
-}
-
 #burger {
   display: flex;
   background: #000;
@@ -75,6 +67,10 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   box-shadow: inset 0 10px 10px -10px grey;
+}
+
+nav .portable {
+  display: none;
 }
 
 @media all and (max-width: 1055px) {
@@ -106,6 +102,16 @@ nav ul {
   /* BOUTON MENU BURGER */
 
   .burger {
+    display: none;
+  }
+}
+
+@media all and (max-width: 572px) {
+  nav .portable {
+    display: inline-block;
+  }
+
+  nav .screen {
     display: none;
   }
 }
