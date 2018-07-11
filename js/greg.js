@@ -1,4 +1,5 @@
 var $caroussel = $('#caroussel');
+var $figure = $('figure');
 var $suiv = $('.next');
 var $prec = $('.prev');
 var faces = $caroussel.find('figure');
@@ -17,6 +18,7 @@ $caroussel.click(function(){
 	$caroussel.css({
 		'transform': 'translateZ(-'+rad+'px) rotateY(' + y + 'deg)'
 	})
+
 });
 $suiv.click(function(){
 	y += ty*-1;
