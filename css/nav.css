@@ -56,6 +56,14 @@ nav .tel {
   right: 20px;
 }
 
+nav ul {
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 148px;
+  background: #000;
+}
+
 #burger {
   display: flex;
   background: #000;
@@ -73,6 +81,7 @@ nav .tel {
   /*  BOUTON BURGER */
   .menu-burger {
     display: block;
+    cursor: pointer;
   }
 
   .menu-burger > div {

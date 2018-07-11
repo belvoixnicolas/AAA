@@ -2,9 +2,16 @@
   <a href="index.php"><img src="img/logo.gif" alt="Agence Automobile Ardennaise" class="logo" /></a>
   <a href="tel:+33788453582"><img src="img/tel.png" alt="icon tel" class="tel" />07.88.45.35.82</a>
   <a href="contact.php" class="right burger">Contact</a>
-  <a href="#" class="right burger">Concept</a>
+  <a href="#" id="concept" class="right burger">Concept</a>
   <a href="vendre.php" class="right burger">Vendre</a>
   <a href="buy.php" class="right burger">Acheter</a>
+
+  <ul>
+    <li><a href="#">Processus de vente</a></li>
+    <li><a href="#"> Processus d'achat</a></li>
+    <li><a href="#">Garantie</a></li>
+    <li><a href="#">Financement</a></li>
+  </ul>
 
   <div onclick="expandMenu()" class="menu-burger">
     <div></div>
@@ -32,5 +39,10 @@
         $('nav').animate({height: '100px'}, 'slow');
       }
     }
+
+    $('#concept').click(function() {
+      $('nav ul').animate({height: 'toggle', borderBottomLeftRadius: '10px', borderBottomRightRadius: '10px'}, 'slow');
+      console.log('test');
+    });
 </script>
 </nav>
