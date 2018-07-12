@@ -88,7 +88,7 @@
               <input type="reset" value="Reset">
             </p>
           </form>
-        </section>
+        </section> 
 
         <section class="liste">
           <a href="fiche_voiture.php" class="tuile">
