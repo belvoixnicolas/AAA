@@ -26,7 +26,7 @@
 
 			<div class="container">
 				<div class="gauche">
-					<h4> <img src="./img/.png" alt=""> Rapide</h4>
+					<h4> <img src="./img/fast.png" alt=""> Rapide</h4>
 					<p class="p">
 						bla bla bla bla bla bla bla
 					</p>
@@ -75,115 +75,122 @@
 
 
 
-		<section id="temoin">
-			<h2>Nos clients témoignent</h2>
-			<div id="avis">
-				<div class="temoignage">
-					<div class="pasclasse">
-						<div class="test">
-							<div class="centre">
-								<img src="./img/images.jpeg" id="homer" alt="">
-							</div>
-							<div class="centre">
-								<p class="ptemoin">
-									<strong>Sarah V. (35):</strong>
-								</p>
-								<p class="ptemoin">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</p>
+				<section id="temoin">
+					<div class="titletemoin">
+						<img src="./img/client.png" class="icone" alt="">
+						<h2>Nos clients témoignent</h2>
+					</div>
+
+					<div id="avis">
+						<div class="temoignage">
+							<div class="pasclasse">
+								<div class="test">
+									<div class="">
+										<img src="./img/images.jpeg" id="homer" alt="">
+									</div>
+									<div class="centre">
+										<p>
+											<strong>Sarah V. (35):</strong>
+										</p>
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+								</div>
+								<div class="zut">
+									<p>
+										"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
+									</p>
+								</div>
 							</div>
 						</div>
-						<div class="zut">
-							<p class="ptemoin">
-								"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
-							</p>
+						<div class="temoignage">
+							<div class="pasclasse">
+								<div class="test">
+									<div class="">
+										<img src="./img/fed1.jpg" id="homer" alt="">
+									</div>
+									<div class="centre">
+										<p>
+											<strong>Roger F (sw):</strong>
+										</p>
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+								</div>
+								<div class="zut">
+									<p>
+										"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="temoignage">
+							<div class="pasclasse">
+								<div class="test">
+									<div class="">
+										<img src="./img/anne.jpeg" id="homer" alt="">
+									</div>
+									<div class="centre">
+										<p>
+											<strong>Anne H. (51):</strong>
+										</p>
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+								</div>
+								<div class="zut">
+									<p>
+										"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="temoignage">
+							<div class="pasclasse">
+								<div class="test">
+									<div class="">
+										<img src="./img/face1.jpeg" id="homer" alt="">
+									</div>
+									<div class="centre">
+										<p>
+											<strong>David S. (08):</strong>
+										</p>
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+								</div>
+								<div class="zut">
+									<p>
+										"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="temoignage">
-					<div class="pasclasse">
-						<div class="test">
-							<div class="">
-								<img src="./img/fed1.jpg" id="homer" alt="">
-							</div>
-							<div class="centre">
-								<p class="ptemoin">
-									<strong>Roger F (sw):</strong>
-								</p>
-								<p class="ptemoin">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</p>
-							</div>
-						</div>
-						<div class="zut">
-							<p class="ptemoin">
-								"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="temoignage">
-					<div class="pasclasse">
-						<div class="test">
-							<div class="">
-								<img src="./img/anne.jpeg" id="homer" alt="">
-							</div>
-							<div class="centre">
-								<p class="ptemoin">
-									<strong>Anne H. (51):</strong>
-								</p>
-								<p class="ptemoin">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</p>
-							</div>
-						</div>
-						<div class="zut">
-							<p class="ptemoin">
-								"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="temoignage">
-					<div class="pasclasse">
-						<div class="test">
-							<div class="">
-								<img src="./img/face1.jpeg" id="homer" alt="">
-							</div>
-							<div class="centre">
-								<p class="ptemoin">
-									<strong>David S. (08):</strong>
-								</p>
-								<p class="ptemoin">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</p>
-							</div>
-						</div>
-						<div class="zut">
-							<p class="ptemoin">
-								"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis  "
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+				</section>
+
+
+
 	</main>
 
 	<?php include 'include/footer.html'; ?>

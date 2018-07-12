@@ -164,7 +164,7 @@
 
 			<section id="partenaires">
 				<div class="titlepartenaire">
-					<img src="./img/handshake.png" class="icone" alt="">
+					<img src="./img/handshake.png" class="icone" alt="" style="height:80px;">
 					<h2>Nos partenaires</h2>
 				</div>
 

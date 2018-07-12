@@ -34,7 +34,7 @@
 		opacity: 0.8;
 		text-decoration: none;
 		line-height:50px;
-		
+
 	}
 
 	.bouton:hover
@@ -121,8 +121,7 @@
 	}
 
 	main .icone{
-			width:120px;
-			height:74px;
+			height:65px;
 
 		}
 
