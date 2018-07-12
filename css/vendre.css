@@ -67,39 +67,39 @@ input
 #marque
 {
 	background-image:url("../img/car2.png");
-	background-position: 5px 5px;
-	background-size: 25px 25px;
+	background-position: 7px 9px;
+	background-size: 22px 22px;
 	background-repeat: no-repeat;
 }
 
 #energie
 {
 	background-image:url("../img/nrj.png");
-	background-position: 0px 3px;
-	background-size: 30px 30px;
+	background-position: 9px 7px;
+	background-size: 20px 21px;
 	background-repeat: no-repeat;
 }
 
 #année
 {
 	background-image:url("../img/years.png");
-	background-position: 4px 4px;
-	background-size: 26px 27px;
+	background-position: 5px 6px;
+	background-size: 25px 25px;
 	background-repeat: no-repeat;
 }
 
 #km
 {
 	background-image:url("../img/km.png");
-	background-position: 4px 4px;
-	background-size: 26px 27px;
+	background-position: 8px 8px;
+	background-size: 20px 23px;
 	background-repeat: no-repeat;
 }
 
 #nom
 {
 	background-image:url("../img/usericon2.png");
-	background-position: 5px 8px;
+	background-position: 9px 10px;
 	background-size: 20px 20px;
 	background-repeat: no-repeat;
 }
@@ -107,24 +107,24 @@ input
 #tel
 {
 	background-image:url("../img/phone.png");
-	background-position: 4px 4px;
-	background-size: 26px 27px;
+	background-position: 7px 9px;
+	background-size: 20px 22px;
 	background-repeat: no-repeat;
 }
 
 #codepostal
 {
 	background-image:url("../img/cp.png");
-	background-position: 5px 6px;
-	background-size: 23px 23px;
+	background-position: 8px 8px;
+	background-size: 20px 23px;
 	background-repeat: no-repeat;
 }
 
 #mail
 {
-	background-image:url("../img/email.png");
-	background-position: 4px 4px;
-	background-size: 26px 27px;
+	background-image:url("../img/mail.png");
+	background-position: 8px 10px;
+	background-size: 20px 20px;
 	background-repeat: no-repeat;
 }
 
