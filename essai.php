@@ -1,27 +1,11 @@
 <?php
-
-###########################################
-############ PDO-Extension #############
-###########################################
-
-
-$host_name = 'db745063290.db.1and1.com*';
-$database = 'dbo745063290';
-$user_name = 'dbo745063290';
-$password = ' !Nicolas019';
-
-$dbh = null;
-try {
-  $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
-  echo "<p>Connexion au serveur MySQL établie avec succès via pdo.</p >";
-
-
-  $dbh->exec($sql);
-} catch (PDOException $e) {
-  echo "Erreur!: " . $e->getMessage() . "<br/>";
-  die();
-
+try
+{
+	$bdd = new PDO('mysql:host=db745063290.db.1and1.com;dbname=db745063290;charset=utf8', 'db745063290', ' !Nicolas019');
+echo('Connexiion reussie')
 }
-
-
+catch (Exception $e)
+{
+        die('Erreur : ' . $e->getMessage());
+}
 ?>
