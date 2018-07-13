@@ -2,6 +2,7 @@
 	html
 	{
 		font: 62.5% 'Exo', sans-serif;
+		overflow-x: hidden;
 	}
 
 	header

@@ -2,9 +2,8 @@ html {
   font: 62.5% 'Exo', sans-serif;
 }
 
-.container {
+.conteneur{
   display: flex;
-  justify-content: space-around;
   width: 100%;
   font-size: 2rem;
   margin-bottom: 10px;
@@ -29,18 +28,13 @@ main h3 {
 }
 
 .gauche {
-  margin-top: 60px;
-  margin-left: 10%;
-}
 
-.centre {
-  margin-top: 40px;
-  margin-left: 20%;
 }
 
 .droite {
   margin-top: 40px;
-  margin-right: 5%;
+  display: flex;
+  width: 50%;
 }
 
 input {
@@ -161,12 +155,6 @@ button:hover {
   cursor: pointer;
 }
 
-h4 img{
-  float:left;
-  height:28px;
-  padding-right: 5px;
-}
-
 .bar, .load {
   position: absolute;
   bottom: 10%;
@@ -184,4 +172,64 @@ button:hover .bar {
   opacity: 1;
   -webkit-transition: all 1.9s ease;
   transition: all 1.9s ease;
+}
+
+h4 img{
+  float:left;
+  height:28px;
+  padding-right: 5px;
+}
+
+.divdansunedivbis{
+  margin-left:30px;
+}
+
+.divdiv{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.formvente{
+  display: flex;
+}
+
+@media screen and (max-width: 1408px) {
+  h4 img{
+    height:15px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .droite{
+    flex-direction: column;
+  }
+  .divdansunedivbis{
+    margin-left:0px;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .conteneur{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .conteneur{
+    display:block;
+  }
+  .divdiv{
+    width: 100%;
+    display:block;
+    margin-left: 10px;
+  }
+  h1{
+    text-align: center;
+    display:block;
+  }
 }
