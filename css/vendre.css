@@ -2,33 +2,22 @@ html {
   font: 62.5% 'Exo', sans-serif;
 }
 
-.conteneur{
+.conteneur {
   display: flex;
   width: 100%;
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-h1 {
+.h1vendre {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   padding-top: 20px;
 }
 
-h2 {
+.h2vendre {
   padding-bottom: 10px;
-}
-
-main h3 {
-  font-size: 1.8rem;
-  padding: 2% 0% 2% 5%;
-  background: black;
-  color: white;
-}
-
-.gauche {
-
 }
 
 .droite {
@@ -37,7 +26,7 @@ main h3 {
   width: 50%;
 }
 
-input {
+#marque, #energie, #année, #km, #nom, #tel, #codepostal, #mail {
   width: 330px;
   height: 40px;
   margin-bottom: 15px;
@@ -123,19 +112,11 @@ input {
   opacity: 0.4;
 }
 
-input:focus::-webkit-input-placeholder {
-  text-indent: -999px;
-}
-
-input:focus::-moz-placeholder {
-  text-indent: -999px;
-}
-
 .col2 {
   padding-right: 20%;
 }
 
-button {
+.buttonvendre {
   position: relative;
   width: 120px;
   height: 40px;
@@ -151,7 +132,7 @@ button {
   margin-top: 10px;
 }
 
-button:hover {
+.buttonvendre:hover {
   cursor: pointer;
 }
 
@@ -168,45 +149,45 @@ button:hover {
   margin: 0 4.5px;
 }
 
-button:hover .bar {
+.buttonvendre:hover .bar {
   opacity: 1;
   -webkit-transition: all 1.9s ease;
   transition: all 1.9s ease;
 }
 
-h4 img{
-  float:left;
-  height:28px;
+.h4vendre img {
+  float: left;
+  height: 28px;
   padding-right: 5px;
 }
 
-.divdansunedivbis{
-  margin-left:30px;
+.divdansunedivbis {
+  margin-left: 30px;
 }
 
-.divdiv{
+.divdiv {
   margin-top: 60px;
   display: flex;
   justify-content: center;
   width: 50%;
 }
 
-.formvente{
+.formvente {
   display: flex;
 }
 
 @media screen and (max-width: 1408px) {
-  h4 img{
-    height:15px;
+  .h4vendre img {
+    height: 15px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .droite{
+  .droite {
     flex-direction: column;
   }
-  .divdansunedivbis{
-    margin-left:0px;
+  .divdansunedivbis {
+    margin-left: 0px;
   }
   br {
     display: none;
@@ -214,22 +195,22 @@ h4 img{
 }
 
 @media screen and (max-width: 615px) {
-  .conteneur{
+  .conteneur {
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 895px) {
-  .conteneur{
-    display:block;
+  .conteneur {
+    display: block;
   }
-  .divdiv{
+  .divdiv {
     width: 100%;
-    display:block;
+    display: block;
     margin-left: 10px;
   }
-  h1{
+  .h1vendre {
     text-align: center;
-    display:block;
+    display: block;
   }
 }

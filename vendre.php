@@ -22,22 +22,22 @@
 	<?php include 'include/navbar.html'; ?>
 
 	<main>
-		<h1>Vendez votre véhicule avec simplicité et rapidité !</h1>
+		<h1 class="h1vendre">Vendez votre véhicule avec simplicité et rapidité !</h1>
 
 		<div class="conteneur">
 			<div class="divdiv">
 				<div class="gauche">
-					<h4> <img src="./img/fast.png" alt=""> Rapide</h4>
+					<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
 					<p class="p">
 						bla bla bla bla bla bla bla
 					</p>
 					<br>
-					<h4>Exemple</h4>
+					<h4 class="h4vendre">Exemple</h4>
 					<p class="p">
 						bla bla bla bla bla bla bla
 					</p>
 					<br>
-					<h4>Exemple</h4>
+					<h4 class="h4vendre">Exemple</h4>
 					<p class="p">
 						bla bla bla bla bla bla bla
 					</p>
@@ -47,7 +47,7 @@
 			<form class="formvente" action="index.html" method="post">
 				<div class="droite">
 					<div class="divdansunediv">
-						<h2>Votre véhicule :</h2>
+						<h2 class="h2vendre">Votre véhicule :</h2>
 						<input type="text" id="marque" name="marque" placeholder="Marque et modèle">
 						<br>
 						<input type="text" id="energie" name="energie" placeholder="Energie">
@@ -58,7 +58,7 @@
 						<br>
 					</div>
 					<div class="divdansunedivbis">
-						<h2>Vos coordonnées :</h2>
+						<h2 class="h2vendre">Vos coordonnées :</h2>
 						<input type="text" id="nom" name="nom" placeholder="Nom et prénom">
 						<br>
 						<input type="text" id="tel" name="tel" placeholder="Téléphone">
@@ -67,10 +67,10 @@
 						<br>
 						<input type="email" id="mail" name="mail" placeholder="E-mail">
 						<br>
-						<button type="submit">
+						<button class="buttonvendre" type="submit">
 									Submit
 									<i class="fa fa-paper-plane" aria-hidden="true"></i>
-									<span class="bar"><span class="load"></span></button>
+									<span class="bar"><span class="load"></span></button class="buttonvendre">
 					</div>
 			</form>
 			</div>
