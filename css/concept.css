@@ -1,7 +1,43 @@
-main {
-  
+html {
+  font-family: 'Exo', sans-serif;
 }
 
-article {
+main {
+    padding: 40px 0;
+}
+
+.partie {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: #000;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main article {
   position: relative;
+  width: 70%;
+  margin: 40px auto 0;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+main section {
+  margin: 40px 0;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main h2 img, main a img {
+  display: inline-block;
+  margin-right: 10px;
+  height: 2rem;
 }

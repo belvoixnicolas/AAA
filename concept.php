@@ -192,14 +192,24 @@
       <!-- FOOTER -->
 
       <script type="text/javascript">
-        $('button[name=vente]').click(function() {
-          $('article').animate({opacity: '0', left: '30px'}, 1000, function() {$('article').hide(); animVente();});
+        function animVente(article) {
+          $('#' + article).show();
+          $('#' + article).animate({opacity: '1', left: '0px'}, 1000);
+        }
 
-          function animVente() {
-            $('#vente').show();
-            $('#vente').animate({opacity: '1', left: '0px'}, 1000);
+        $('button').click(function() {
+          var boutonSelect = this.name
+
+          if (document.querySelector('#' + boutonSelect).style.display == 'none') {
+            $('article').animate({opacity: '0', left: '30px'}, 500, function() {$('article').hide(); animVente(boutonSelect);});
           }
         });
+
+        var lesArticles = document.getElementsByTagName('article');
+
+        for (var i = 1; i < lesArticles.length; i++) {
+          lesArticles[i].style.display = 'none';
+        }
       </script>
     </body>
   </html>
