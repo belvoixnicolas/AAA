@@ -10,7 +10,7 @@
       <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel="stylesheet" type="text/css" href="css/nav.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
-      <link rel="stylesheet" type="text/css" href="css/concept.css.css">
+      <link rel="stylesheet" type="text/css" href="css/concept.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
@@ -190,5 +190,16 @@
       <!-- FOOTER -->
         <?php include 'include/footer.html'; ?>
       <!-- FOOTER -->
+
+      <script type="text/javascript">
+        $('button[name=vente]').click(function() {
+          $('article').animate({opacity: '0', left: '30px'}, 1000, function() {$('article').hide(); animVente();});
+
+          function animVente() {
+            $('#vente').show();
+            $('#vente').animate({opacity: '1', left: '0px'}, 1000);
+          }
+        });
+      </script>
     </body>
   </html>
