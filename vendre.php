@@ -25,7 +25,6 @@
 		<h1 class="h1vendre">Vendez votre véhicule avec simplicité et rapidité !</h1>
 
 		<div class="conteneur">
-			<div class="divdiv">
 				<div class="gauche">
 					<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
 					<p class="p">
@@ -43,30 +42,30 @@
 					</p>
 					<br>
 				</div>
-			</div>
 			<form class="formvente" action="index.html" method="post">
-				<div class="droite">
-					<div class="divdansunediv">
+
+				<div class="cars">
 						<h2 class="h2vendre">Votre véhicule :</h2>
 						<input type="text" id="marque" name="marque" placeholder="Marque et modèle">
-						<br>
+
 						<input type="text" id="energie" name="energie" placeholder="Energie">
-						<br>
+
 						<input type="text" id="année" name="année" placeholder="Année">
-						<br>
+
 						<input type="text" id="km" name="km" placeholder="Kilomètrage">
-						<br>
-					</div>
-					<div class="divdansunedivbis">
-						<h2 class="h2vendre">Vos coordonnées :</h2>
+
+				</div>
+
+				<div class="coordonnées">
+						<h2 class="h2vendre">Vos coordonnées&nbsp;:</h2>
 						<input type="text" id="nom" name="nom" placeholder="Nom et prénom">
-						<br>
+
 						<input type="text" id="tel" name="tel" placeholder="Téléphone">
-						<br>
+
 						<input type="text" id="codepostal" name="codepostal" placeholder="Code postal">
-						<br>
+
 						<input type="email" id="mail" name="mail" placeholder="E-mail">
-						<br>
+<br>
 						<button class="buttonvendre" type="submit">
 									Submit
 									<i class="fa fa-paper-plane" aria-hidden="true"></i>
@@ -74,7 +73,6 @@
 					</div>
 			</form>
 			</div>
-		</div>
 
 
 

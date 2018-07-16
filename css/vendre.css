@@ -7,6 +7,8 @@ html {
   width: 100%;
   font-size: 2rem;
   margin-bottom: 10px;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
 .h1vendre {
@@ -26,8 +28,16 @@ html {
   width: 50%;
 }
 
+.gauche{
+  margin-top: 15px;
+}
+
+.cars{
+  margin-right: 20px;
+}
+
 #marque, #energie, #année, #km, #nom, #tel, #codepostal, #mail {
-  width: 330px;
+  width: 100%;
   height: 40px;
   margin-bottom: 15px;
   padding-left: 33px;
@@ -127,7 +137,6 @@ html {
   padding: 0 10px;
   outline: 0;
   float: right;
-  margin-right: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -156,61 +165,60 @@ html {
 }
 
 .h4vendre img {
+  width: 12%;
   float: left;
-  height: 28px;
   padding-right: 5px;
 }
 
-.divdansunedivbis {
-  margin-left: 30px;
-}
-
-.divdiv {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
 
 .formvente {
   display: flex;
+  width: 50%;
 }
 
-@media screen and (max-width: 1408px) {
-  .h4vendre img {
-    height: 15px;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .droite {
+@media screen and (max-width: 470px){
+  .conteneur{
     flex-direction: column;
   }
-  .divdansunedivbis {
-    margin-left: 0px;
+  .cars{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-  br {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 615px) {
-  .conteneur {
+  .formvente{
+    width: 90%;
     flex-direction: column;
   }
+  .h4vendre img{
+    width: 30px;
+  }
+  .gauche{
+    padding-left: 9%;
+    width: 90%;
+  }
+  .coordonnées{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .h1vendre{
+    padding-left: 10%;
+padding-right: 10%;
+  }
 }
 
-@media screen and (max-width: 895px) {
-  .conteneur {
-    display: block;
+@media screen and (max-width: 756px){
+  .conteneur{
+    flex-direction: column;
   }
-  .divdiv {
-    width: 100%;
-    display: block;
-    margin-left: 10px;
+  .formvente{
+    width: 90%;
+    margin-left: 5%;
   }
-  .h1vendre {
-    text-align: center;
-    display: block;
+  .h4vendre img{
+    width: 32px;
+  }
+  .gauche{
+    margin-left: 5%;
   }
 }
