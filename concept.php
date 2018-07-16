@@ -20,7 +20,7 @@
 
       <main>
         <div class="partie">
-          <button type="button" name="vente">Processus de vente</button>
+          <button type="button" name="vente" onclick="truc();">Processus de vente</button>
           <button type="button" name="achat">Processus d'achat</button>
           <button type="button" name="garantie">Les Garanties</button>
           <button type="button" name="financement">Les financements</button>
@@ -78,7 +78,7 @@
             </p>
           </section>
 
-          <a href="vendre.php"><img src="img/icon_vendre.gif"/>Vendre ma voiture</a>
+          <a href="vendre.php" class="fauxbouton"><img src="img/icon_vendre.gif"/>Vendre ma voiture</a>
         </article>
 
         <article id="achat">
@@ -119,7 +119,7 @@
             </p>
           </section>
 
-          <a href="buy.php"><img src="img/icon_acheter.gif"/>Acheter une nouvelle voiture</a>
+          <a href="buy.php" class="fauxbouton"><img src="img/icon_acheter.gif"/>Acheter une nouvelle voiture</a>
         </article>
 
         <article id="garantie">
@@ -192,6 +192,10 @@
       <!-- FOOTER -->
 
       <script type="text/javascript">
+        function truc() {
+          console.log(window.pageYOffset);
+        }
+
         function animVente(article) {
           $('#' + article).show();
           $('#' + article).animate({opacity: '1', left: '0px'}, 1000);
@@ -210,6 +214,15 @@
         for (var i = 1; i < lesArticles.length; i++) {
           lesArticles[i].style.display = 'none';
         }
+
+        setInterval(function(){
+          var filtre = document.querySelector('.partie');
+          if (window.pageYOffset >= 41 && filtre.className == 'partie') {
+            filtre.classList.add('animconcept');
+          }else if (window.pageYOffset < 41) {
+            filtre.classList.remove('animconcept');
+          }
+        }, 5);
       </script>
     </body>
   </html>
