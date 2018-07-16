@@ -10,7 +10,7 @@
       <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel="stylesheet" type="text/css" href="css/nav.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
-      <link rel="stylesheet" type="text/css" href="css/concept.css.css">
+      <link rel="stylesheet" type="text/css" href="css/concept.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
@@ -190,5 +190,26 @@
       <!-- FOOTER -->
         <?php include 'include/footer.html'; ?>
       <!-- FOOTER -->
+
+      <script type="text/javascript">
+        function animVente(article) {
+          $('#' + article).show();
+          $('#' + article).animate({opacity: '1', left: '0px'}, 1000);
+        }
+
+        $('button').click(function() {
+          var boutonSelect = this.name
+
+          if (document.querySelector('#' + boutonSelect).style.display == 'none') {
+            $('article').animate({opacity: '0', left: '30px'}, 500, function() {$('article').hide(); animVente(boutonSelect);});
+          }
+        });
+
+        var lesArticles = document.getElementsByTagName('article');
+
+        for (var i = 1; i < lesArticles.length; i++) {
+          lesArticles[i].style.display = 'none';
+        }
+      </script>
     </body>
   </html>
