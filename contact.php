@@ -24,12 +24,12 @@
             <h2>Agence Automobile Ardennaise</h2>
 
             <ul>
-              <li>Closse Jordan</li>
-              <li>8 Rue de l'Artisanat</li>
-              <li>08000 Charleville-Mézières</li>
-              <li>07.88.45.35.82</li>
-              <li>07.84.46.96.67</li>
-              <li>jordanclosse@maitrise-web.fr</li>
+              <li><img src="img/icon/user.gif">Closse Jordan</li>
+              <li><img src="img/icon/imeuble.gif">8 Rue de l'Artisanat</li>
+              <li><img src="img/icon/imeuble.gif">08000 Charleville-Mézières</li>
+              <li><img src="img/icon/tel.gif">07.88.45.35.82</li>
+              <li><img src="img/icon/tel.gif">07.84.46.96.67</li>
+              <li><img src="img/mail.png">jordanclosse@maitrise-web.fr</li>
             </ul>
           </div>
 
