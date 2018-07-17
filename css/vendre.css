@@ -171,9 +171,65 @@ html {
 }
 
 
-.formvente {
+.formvente{
   display: flex;
   width: 50%;
+}
+
+.témoignages{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+  padding : 20px 20px 20px 20px;
+}
+
+#imgtémoins{
+  border-radius: 100px;
+  width: 120px;
+  overflow: hidden;
+}
+
+.témoinsgauche{
+  display: flex;
+  justify-content: space-around;
+}
+
+.témoinsdroite{
+  display: flex;
+  justify-content: space-around;
+}
+
+.avisD, .avisG, .avisdroite, .avisgauche{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Tem{
+  font-size: 1.6rem;
+  color: white;
+  text-align: justify;
+}
+
+.nametem{
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 200;
+  padding-left: 6px;
+}
+
+.blocnotenom{
+bottom: 20px;
+left: 20px;
+}
+
+#imgtémoins, .blocnotenom{
+  display: inline-block;
+  position: relative;
+}
+
+.étoiles{
+  font-size: 15px;
 }
 
 @media screen and (max-width: 470px){
@@ -202,8 +258,8 @@ html {
     margin-right: 10%;
   }
   .h1vendre{
-    padding-left: 10%;
-padding-right: 10%;
+    padding-left: 14%;
+    padding-right: 10%;
   }
 }
 
@@ -220,5 +276,28 @@ padding-right: 10%;
   }
   .gauche{
     margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .témoignages{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 754px){
+  .témoinsdroite, .témoinsgauche{
+    flex-direction: column;
+  }
+  #stars{
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width: 1392px){
+  .blocnotenom{
+  position: static;
+  display:block;
+  left: 110px;
   }
 }

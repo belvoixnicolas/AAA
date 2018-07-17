@@ -195,7 +195,7 @@
 
 	#homer
 	{
-		width: 140px;
+		width: 120px;
 		overflow:hidden;
 		-webkit-border-radius:110px;
 		-moz-border-radius:110px;
@@ -452,6 +452,7 @@
 	{
 		visibility: hidden;
 	}
+
 
 	@media (max-width: 1500px)
 	{
