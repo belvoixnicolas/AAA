@@ -78,7 +78,7 @@ main p {
 main h2 img, main a img {
   display: inline-block;
   margin-right: 10px;
-  height: 2rem;
+  height: 4rem;
 }
 
 main h2, main p {
@@ -110,6 +110,11 @@ main .fauxbouton:active {
   background-color: #4CAF50;
   color: white;
   border: none;
+}
+
+.fauxbouton span {
+  position: relative;
+  bottom: 8px;
 }
 
 .animconcept {
