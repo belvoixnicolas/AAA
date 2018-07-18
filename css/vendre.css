@@ -181,7 +181,7 @@ html {
   justify-content: space-around;
   width: 100%;
   background-color: black;
-  padding : 20px 20px 20px 20px;
+  padding : 5px 20px 20px 20px;
 }
 
 #imgtémoins{
@@ -304,12 +304,12 @@ padding-top: 30px;
   #stars{
     font-size:15px;
   }
+  .avisG, .avisD, .avisdroite, .avisgauche{
+    margin-top: 20px;
+  }
 }
-
-@media screen and (max-width: 1392px){
+@media screen and (max-width: 1278px){
   .blocnotenom{
-  position: static;
-  display:block;
-  left: 110px;
+    position: static;
   }
 }
