@@ -74,6 +74,10 @@
 			</form>
 		</section>
 
+		<div class="titletemoin">
+			<img src="./img/client.png" class="icone" alt="">
+			<h2>Nos clients témoignent</h2>
+		</div>
 		<section class="témoignages">
 		<div class="témoinsgauche">
 			<div class="avisG">

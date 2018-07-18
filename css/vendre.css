@@ -232,6 +232,18 @@ left: 20px;
   font-size: 15px;
 }
 
+.titletemoin h2{
+  font-size: 3.2rem;
+text-align: center;
+font-weight: 100;
+color: white;
+padding-top: 30px;
+}
+
+.titletemoin{
+  background-color: black;
+}
+
 @media screen and (max-width: 470px){
   .conteneur{
     flex-direction: column;

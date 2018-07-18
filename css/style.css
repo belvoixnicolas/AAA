@@ -18,6 +18,8 @@
 		height:calc(80vh - 100px);
 	}
 
+
+
 	.bouton
 	{
 		display: flex;
@@ -123,7 +125,7 @@
 
 	main .icone{
 			height:65px;
-
+padding-top: 15px;
 		}
 
 	main .logo
