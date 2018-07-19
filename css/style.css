@@ -77,7 +77,14 @@ padding-bottom: 30px;
   height: 40px;
   padding-right: 2px;
   display: inline-block;
+}
 
+.iconetémoins {
+  filter: invert(100%);
+  margin-bottom: 9px;
+  height: 40px;
+  padding-right: 2px;
+  display: inline-block;
 }
 
 main .titletemoin {
@@ -86,13 +93,6 @@ main .titletemoin {
   align-items: center;
 }
 
-.iconetémoins {
-  filter: invert(100%);
-  position: relative;
-  bottom: 6.5px;
-  height: 4.2rem;
-  right: 5px;
-}
 
 .iconesheader{
   height: 3rem;
@@ -115,11 +115,6 @@ margin-right: 5px;
   height: 300px;
 }
 
-main .icone {
-  height: 65px;
-  padding-top: 15px;
-}
-
 main .logo {
   width: 150px;
   height: 150px;
@@ -140,15 +135,6 @@ main .container {
   height: 350px;
 }
 
-.temoignage img {
-  width: 25px;
-}
-
-.temoignage {
-  display: flex;
-  flex-direction: column;
-}
-
 #presentation img {
   width: 80%;
   padding-left: 40px;
@@ -159,91 +145,6 @@ main .container {
   padding-top: 2px;
   padding-left: 5px;
   text-shadow: -1.5px 0 black, 0 1.5px black, 1px 0 black, 0 -1px black;
-}
-
-.test {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.faq-heading {
-  display: block;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 18px;
-  text-transform: none;
-}
-
-.faq-subHeading {
-  margin-top: 0;
-  margin-bottom: 25px;
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #14181c;
-}
-
-li {
-  list-style-type: none;
-}
-
-li.question {
-  cursor: pointer;
-  font-weight: bolder;
-}
-
-ul.box {
-  padding: 10px 0 10px 10px;
-  border: 1px solid black;
-}
-
-li.answer {
-  padding-right: 25px;
-  margin-top: 20px;
-}
-
-span.icon {
-  float: right;
-  width: 36px;
-  height: 26px;
-  padding-top: 10px;
-  margin-top: -10px;
-  padding-right: 15px;
-}
-
-div.faqs {
-  padding: 0 5% 50px 5%;
-  ;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  background-color: rgb(251, 251, 251);
-}
-
-.rotate {
-  /* Standard */
-  transform: rotate(45deg);
-  transition: all 0.5s ease;
-  z-index: 1000;
-}
-
-.reverse {
-  transform: rotate(0deg);
-  transition: all 0.5s ease;
-  z-index: 1000;
-}
-
-li {
-  font-size: 2.4rem;
-}
-
-#faq1 p {
-  color: black;
-  visibility: hidden;
-  font-size: 0.1rem;
 }
 
 .animated1 {
@@ -396,10 +297,7 @@ li {
   li {
     font-size: 1.8rem;
   }
-  #header {
-    min-height: 300px;
-    height: calc(80vh - 100px);
-  }
+
   .animated3, .animated1, .animated2{
     padding-top: 0px;
   }

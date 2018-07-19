@@ -15,7 +15,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="./js/smoothscroll.js"></script>
 	<script src="./js/onscroll.js"></script>
-
 	<title>Agence Automobile Ardennaise</title>
 </head>
 
@@ -27,12 +26,15 @@
 		<a href="buy.php" class="bouton"> <img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter</a>
 		<a href="vendre.php" class="bouton"><img src="./img/icon/vendre.gif" class="iconesheader" alt="">Vendre</a>
 	</header>
+
 	<main>
+
 		<section class="animTitre">
 			<div id="animated1" class="cache"> <img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Réponse sous 24H</div>
 			<div id="animated2" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Vente simple et rapide</div>
 			<div id="animated3" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Véhicules garantis 6 mois</div>
 		</section>
+
 		<section id="presentation">
 			<div class="vide">
 			</div>
@@ -47,28 +49,20 @@
 
 
 		<section class="ventesrapides">
-
 			<h2 class="h2index">Ventes rapides</h2>
-
 			<div class="containerventesrapides">
-
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-
 				<img src="./img/voiture.jpg" class="voitures" alt="">
 			</div>
-
 		</section>
-
-
 
 		<div class="titletemoin">
 			<img src="./img/icon/description.gif" class="iconetémoins" alt="">
 			<h2 class="h2index" style="color:white;">Nos clients témoignent</h2>
 		</div>
+
 		<section class="témoignages">
 			<div class="témoinsgauche">
 				<div class="avisG">
@@ -142,6 +136,7 @@
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 			</div>
 		</section>
+
 	</main>
 	<?php include 'include/footer.html'; ?>
 	<script src="./js/faq.js"></script>
