@@ -75,7 +75,7 @@
 		</section>
 
 		<div class="titletemoin">
-			<img src="./img/client.png" class="icone" alt="">
+			<img src="./img/icon/description.gif" class="iconetémoins" alt="">
 			<h2>Nos clients témoignent</h2>
 		</div>
 		<section class="témoignages">

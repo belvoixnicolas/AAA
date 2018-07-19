@@ -49,56 +49,56 @@ html {
 }
 
 #marque {
-  background-image: url("../img/car2.png");
+  background-image: url("../img/icon/voiture.gif");
   background-position: 7px 9px;
   background-size: 22px 22px;
   background-repeat: no-repeat;
 }
 
 #energie {
-  background-image: url("../img/nrj.png");
+  background-image: url("../img/icon/nrj.png");
   background-position: 9px 7px;
   background-size: 20px 21px;
   background-repeat: no-repeat;
 }
 
 #année {
-  background-image: url("../img/years.png");
-  background-position: 5px 6px;
-  background-size: 25px 25px;
+  background-image: url("../img/icon/calendrier.gif");
+  background-position: 9px 9px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
 }
 
 #km {
-  background-image: url("../img/km.png");
+  background-image: url("../img/icon/km.png");
   background-position: 8px 8px;
   background-size: 20px 23px;
   background-repeat: no-repeat;
 }
 
 #nom {
-  background-image: url("../img/usericon2.png");
-  background-position: 9px 10px;
-  background-size: 20px 20px;
+  background-image: url("../img/icon/user.gif");
+  background-position: 7px 5px;
+  background-size: 25px 25px;
   background-repeat: no-repeat;
 }
 
 #tel {
-  background-image: url("../img/phone.png");
+  background-image: url("../img/icon/tel.gif");
   background-position: 7px 9px;
   background-size: 20px 22px;
   background-repeat: no-repeat;
 }
 
 #codepostal {
-  background-image: url("../img/cp.png");
+  background-image: url("../img/icon/immeuble.gif");
   background-position: 8px 8px;
   background-size: 20px 23px;
   background-repeat: no-repeat;
 }
 
 #mail {
-  background-image: url("../img/mail.png");
+  background-image: url("../img/icon/mail.png");
   background-position: 8px 10px;
   background-size: 20px 20px;
   background-repeat: no-repeat;
@@ -230,14 +230,6 @@ left: 20px;
 
 .étoiles{
   font-size: 15px;
-}
-
-.titletemoin h2{
-  font-size: 3.2rem;
-text-align: center;
-font-weight: 100;
-color: white;
-padding-top: 30px;
 }
 
 .titletemoin{
