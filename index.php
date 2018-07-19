@@ -23,14 +23,14 @@
 
 		<header id="header">
 
-			<a href="buy.php" class="bouton">ACHETER</a>
-			<a href="vendre.php" class="bouton">VENDRE</a>
+			<a href="buy.php" class="bouton"> <img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter</a>
+			<a href="vendre.php" class="bouton"><img src="./img/icon/vendre.gif" class="iconesheader" alt="">Vendre</a>
 		</header>
 		<main>
 			<section class="animTitre">
-				<div id="animated1" class="cache">Réponse sous 24H</div>
-				<div id="animated2" class="cache">Vente simple et rapide</div>
-				<div id="animated3" class="cache">Véhicules garantis 6 mois</div>
+				<div id="animated1" class="cache"> <img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Réponse sous 24H</div>
+				<div id="animated2" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Vente simple et rapide</div>
+				<div id="animated3" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Véhicules garantis 6 mois</div>
 			</section>
 			<section id="presentation">
 				<div class="vide">
@@ -42,16 +42,28 @@
 					<div id="faq1">
 					<p id="faq">greg</p>
 				</div>
-				</div>
+			</div>
 			</section>
 
-			<section id="faqsss">
+			<section class="ventesrapides">
+
+					<img src="./img/voiture.jpg" class="voitures" alt="">
+
+
+
+					<img src="./img/voiture.jpg" class="voitures" alt="">
+
+
+
+          <img src="./img/voiture.jpg" class="voitures" alt="">
+
 
 			</section>
+
 
 
 			<div class="titletemoin">
-				<img src="./img/client.png" class="icone" alt="">
+				<img src="./img/icon/description.gif" class="iconetémoins" alt="">
 				<h2>Nos clients témoignent</h2>
 			</div>
 			<section class="témoignages">
@@ -118,13 +130,8 @@
 			</section>
 
 			<section id="partenaires">
-				<div class="titlepartenaire">
-					<img src="./img/handshake.png" class="icone" alt="" style="height:80px;">
-					<h2>Nos partenaires</h2>
-				</div>
-
+					<h2><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
 				<div class="container">
-
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
 					<img src="./img/logoaaa.jpg" class="logo" alt="">
