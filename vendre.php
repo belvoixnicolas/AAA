@@ -141,8 +141,6 @@
 		</div>
 		</section>
 
-
-
 	</main>
 	<?php include 'include/footer.html'; ?>
 </body>
