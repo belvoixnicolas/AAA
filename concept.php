@@ -20,10 +20,22 @@
 
       <main>
         <div class="partie">
-          <button type="button" name="vente" onclick="truc();">Processus de vente</button>
-          <button type="button" name="achat">Processus d'achat</button>
-          <button type="button" name="garantie">Les Garanties</button>
-          <button type="button" name="financement">Les financements</button>
+          <figure class="vente">
+            <img src="img/icon/vendre.gif" alt="Icon vendre" />
+            <figcaption>Processus de vente</figcaption>
+          </figure>
+          <figure class="achat">
+            <img src="img/icon/acheter.gif" alt="Icon vendre" />
+            <figcaption>Processus d'achat</figcaption>
+          </figure>
+          <figure class="garantie">
+            <img src="img/icon/vendre.gif" alt="Icon vendre" />
+            <figcaption>Les Garanties</figcaption>
+          </figure>
+          <figure class="financement">
+            <img src="img/icon/vendre.gif" alt="Icon vendre" />
+            <figcaption>Les financements</figcaption>
+          </figure>
         </div>
 
         <article id="vente">
@@ -58,7 +70,7 @@
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Deux semaines plus tard, nous aurons trouvé un acquéreur pour votre voiture</h2>
+            <h2><img src="img/icon/defaut.gif"/>Deux semaines plus tard, nous aurons trouvé un acquéreur pour votre voiture</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
@@ -126,28 +138,28 @@
           <h1>Nos garantie</h1>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 1</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 1</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 2</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 2</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 3</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 3</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 4</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 4</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
@@ -158,28 +170,28 @@
           <h1>Nos financements</h1>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 1</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 1</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 2</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 2</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 3</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 3</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
 
           <section>
-            <h2><img src="img/icon/defau.gif"/>Titre 4</h2>
+            <h2><img src="img/icon/defaut.gif"/>Titre 4</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
@@ -192,17 +204,13 @@
       <!-- FOOTER -->
 
       <script type="text/javascript">
-        function truc() {
-          console.log(window.pageYOffset);
-        }
-
         function animVente(article) {
           $('#' + article).show();
           $('#' + article).animate({opacity: '1', left: '0px'}, 1000);
         }
 
-        $('button').click(function() {
-          var boutonSelect = this.name
+        $('figure').click(function() {
+          var boutonSelect = this.className;
 
           if (document.querySelector('#' + boutonSelect).style.display == 'none') {
             $('article').animate({opacity: '0', left: '30px'}, 500, function() {$('article').hide(); animVente(boutonSelect);});
