@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/vendre.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 
@@ -26,48 +26,48 @@
 		<h1 class="h1vendre">Vendez votre véhicule avec simplicité et rapidité&nbsp!</h1>
 
 		<section class="conteneur">
-				<div class="gauche">
-					<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
-					<p class="p">
-						bla bla bla bla bla bla bla
-					</p>
-					<br>
-					<h4 class="h4vendre">Exemple</h4>
-					<p class="p">
-						bla bla bla bla bla bla bla
-					</p>
-					<br>
-					<h4 class="h4vendre">Exemple</h4>
-					<p class="p">
-						bla bla bla bla bla bla bla
-					</p>
-					<br>
-				</div>
+			<div class="gauche">
+				<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
+				<p class="p">
+					bla bla bla bla bla bla bla
+				</p>
+				<br>
+				<h4 class="h4vendre">Exemple</h4>
+				<p class="p">
+					bla bla bla bla bla bla bla
+				</p>
+				<br>
+				<h4 class="h4vendre">Exemple</h4>
+				<p class="p">
+					bla bla bla bla bla bla bla
+				</p>
+				<br>
+			</div>
 			<form class="formvente" action="index.html" method="post">
 
 				<div class="cars">
-						<h2 class="h2vendre">Votre véhicule :</h2>
-						<input type="text" id="marque" name="marque" placeholder="Marque et modèle">
+					<h2 class="h2vendre">Votre véhicule :</h2>
+					<input type="text" id="marque" name="marque" placeholder="Marque et modèle">
 
-						<input type="text" id="energie" name="energie" placeholder="Energie">
+					<input type="text" id="energie" name="energie" placeholder="Energie">
 
-						<input type="text" id="année" name="année" placeholder="Année">
+					<input type="text" id="année" name="année" placeholder="Année">
 
-						<input type="text" id="km" name="km" placeholder="Kilomètrage">
+					<input type="text" id="km" name="km" placeholder="Kilomètrage">
 
 				</div>
 
 				<div class="coordonnées">
-						<h2 class="h2vendre">Vos coordonnées&nbsp;:</h2>
-						<input type="text" id="nom" name="nom" placeholder="Nom et prénom">
+					<h2 class="h2vendre">Vos coordonnées&nbsp;:</h2>
+					<input type="text" id="nom" name="nom" placeholder="Nom et prénom">
 
-						<input type="text" id="tel" name="tel" placeholder="Téléphone">
+					<input type="text" id="tel" name="tel" placeholder="Téléphone">
 
-						<input type="text" id="codepostal" name="codepostal" placeholder="Code postal">
+					<input type="text" id="codepostal" name="codepostal" placeholder="Code postal">
 
-						<input type="email" id="mail" name="mail" placeholder="E-mail">
-<br>
-						<button class="buttonvendre" type="submit">
+					<input type="email" id="mail" name="mail" placeholder="E-mail">
+					<br>
+					<button class="buttonvendre" type="submit">
 									Submit
 									<i class="fa fa-paper-plane" aria-hidden="true"></i>
 									<span class="bar"><span class="load"></span></button class="buttonvendre">

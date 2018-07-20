@@ -41,13 +41,12 @@ header {
   opacity: 0.8;
 }
 
-
-.h2index{
+.h2index {
   font-size: 3.2rem;
-text-align: center;
-font-weight: 100;
-padding-top: 30px;
-padding-bottom: 30px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #presentation {
@@ -72,7 +71,7 @@ padding-bottom: 30px;
   margin-right: 30px;
 }
 
-.iconepartenaires{
+.iconepartenaires {
   margin-bottom: -4px;
   height: 40px;
   padding-right: 2px;
@@ -93,26 +92,30 @@ main .titletemoin {
   align-items: center;
 }
 
-
-.iconesheader{
+.iconesheader {
   height: 3rem;
-filter: invert(100%);
-margin-top: 9px;
-margin-right: 5px;
+  filter: invert(100%);
+  margin-top: 9px;
+  margin-right: 5px;
 }
 
-.ventesrapides{
+.ventesrapides {
   padding: 0px 20px 50px 20px;
 }
 
-.containerventesrapides{
+.containerventesrapides {
   display: flex;
   justify-content: space-around;
 }
 
-.voitures{
-  width: 370px;
-  height: 300px;
+.containervoiture1, .containervoiture2{
+  display: flex;
+  justify-content: center;
+}
+
+.voitures {
+  max-width: 370px;
+  max-height: 300px;
 }
 
 main .logo {
@@ -257,6 +260,12 @@ main .container {
   visibility: hidden;
 }
 
+@media (max-width: 1660px){
+  .containervoiture1,.containervoiture2{
+    margin-right: 10px;
+  }
+
+
 @media (max-width: 1500px) {
   .animTitre {
     width: 1000px;
@@ -264,10 +273,18 @@ main .container {
   .animated1, .animated2, .animated3 {
     font-size: 3.5rem;
   }
+
+  .containerventesrapides{
+    flex-direction: column;
+  }
+
+  .containervoiture1{
+    padding-bottom: 50px;
+  }
+
 }
 
 @media (max-width: 1220px) {
-
   .animTitre {
     width: 700px;
   }
@@ -280,7 +297,6 @@ main .container {
 }
 
 @media (max-width: 900px) {
-
   .animTitre {
     width: 500px;
   }
@@ -297,8 +313,7 @@ main .container {
   li {
     font-size: 1.8rem;
   }
-
-  .animated3, .animated1, .animated2{
+  .animated3, .animated1, .animated2 {
     padding-top: 0px;
   }
 }
@@ -317,7 +332,6 @@ main .container {
   #avis p {
     font-size: 0.9rem;
   }
-
   .test {
     flex-direction: column;
   }
@@ -365,7 +379,6 @@ main .container {
   #avis p {
     font-size: 0.8rem;
   }
-
   .test {
     flex-direction: column;
   }
@@ -389,6 +402,11 @@ main .container {
     min-height: 250px;
     height: calc(60vh - 100px);
   }
+  .containervoiture1{
+    padding-bottom: 30px;
+  }
+
+
 }
 
 @media (max-width: 450px) {
@@ -408,7 +426,6 @@ main .container {
   .fas {
     font-size: 0.45rem;
   }
-
   .test {
     flex-direction: column;
   }
@@ -422,7 +439,6 @@ main .container {
   #partenaires {
     height: 140px;
   }
-
   .bouton {
     width: 200px;
     margin-right: 30px;

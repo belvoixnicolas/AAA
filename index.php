@@ -51,10 +51,14 @@
 		<section class="ventesrapides">
 			<h2 class="h2index">Ventes rapides</h2>
 			<div class="containerventesrapides">
+			 <div class="containervoiture1">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
+				<img src="./img/voiture.jpg" class="voitures" style="margin-left: 10%;" alt="">
+			 </div>
+			 <div class="containervoiture2">
+				<img src="./img/voiture.jpg" class="voitures" style="margin-right: 10%;" alt="">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
+			 </div>
 			</div>
 		</section>
 
