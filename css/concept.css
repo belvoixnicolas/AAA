@@ -6,6 +6,35 @@ main {
     padding: 40px 0;
 }
 
+figure {
+  cursor: pointer;
+  width: 15%;
+  text-align: center;
+  transition: .5s;
+}
+
+figure img {
+  filter: invert(100%);
+  height: 6rem;
+  margin: 0 auto;
+  transition: .5s;
+}
+
+figcaption {
+  font-size: 2rem;
+  color: #FFF;
+  transition: .5s;
+}
+
+figure:hover img {
+  height: 5rem;
+  margin-top: 8px;
+}
+
+figure:hover figcaption {
+  font-size: 1.5rem;
+}
+
 .partie {
   position: sticky;
   top: 100px;

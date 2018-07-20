@@ -12,6 +12,7 @@
       <link rel="stylesheet" type="text/css" href="css/footer.css">
       <link rel="stylesheet" type="text/css" href="css/contact.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     </head>
     <body>
       <!-- navbar -->
@@ -25,11 +26,11 @@
 
             <ul>
               <li><img src="img/icon/user.gif">Closse Jordan</li>
-              <li><img src="img/icon/imeuble.gif">8 Rue de l'Artisanat</li>
-              <li><img src="img/icon/imeuble.gif">08000 Charleville-Mézières</li>
+              <li><img src="img/icon/immeuble.gif">8 Rue de l'Artisanat</li>
+              <li><img src="img/icon/immeuble.gif">08000 Charleville-Mézières</li>
               <li><img src="img/icon/tel.gif">07.88.45.35.82</li>
               <li><img src="img/icon/tel.gif">07.84.46.96.67</li>
-              <li><img src="img/mail.png">jordanclosse@maitrise-web.fr</li>
+              <li><img src="img/icon/mail.png">jordanclosse@maitrise-web.fr</li>
             </ul>
           </div>
 
@@ -50,7 +51,11 @@
               </p>
 
               <p>
-                <input type="submit" value="Envoyer" />
+                <button class="buttonenvoyer" type="submit">
+    									Submit
+    									<i class="fa fa-paper-plane" aria-hidden="true"></i>
+    									<span class="bar"><span class="load"></span>
+                </button class="buttonvendre">
               </p>
             </form>
 

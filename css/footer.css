@@ -33,3 +33,6 @@ footer img:hover {
 main {
   min-height: calc(100vh - 70px - 100px);
 }
+@media all and (max-width: 853px) {
+  
+}

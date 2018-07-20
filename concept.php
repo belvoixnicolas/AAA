@@ -25,15 +25,15 @@
             <figcaption>Processus de vente</figcaption>
           </figure>
           <figure class="achat">
-            <img src="img/icon/acheter.gif" alt="Icon vendre" />
+            <img src="img/icon/acheter.gif" alt="Icon acheter" />
             <figcaption>Processus d'achat</figcaption>
           </figure>
-          <figure class="garantie">
-            <img src="img/icon/vendre.gif" alt="Icon vendre" />
+          <figure name="garantie">
+            <img src="img/icon/garantie.gif" alt="Icon garantie" />
             <figcaption>Les Garanties</figcaption>
           </figure>
-          <figure class="financement">
-            <img src="img/icon/vendre.gif" alt="Icon vendre" />
+          <figure name="financement">
+            <img src="img/icon/finance.gif" alt="Icon financement" />
             <figcaption>Les financements</figcaption>
           </figure>
         </div>
@@ -211,6 +211,7 @@
 
         $('figure').click(function() {
           var boutonSelect = this.className;
+          console.log(boutonSelect);
 
           if (document.querySelector('#' + boutonSelect).style.display == 'none') {
             $('article').animate({opacity: '0', left: '30px'}, 500, function() {$('article').hide(); animVente(boutonSelect);});
@@ -225,6 +226,7 @@
 
         setInterval(function(){
           var filtre = document.querySelector('.partie');
+          //var figure = document.getElementsByTagName('figure');
           if (window.pageYOffset >= 41 && filtre.className == 'partie') {
             filtre.classList.add('animconcept');
           }else if (window.pageYOffset < 41) {
