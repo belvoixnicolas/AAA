@@ -1,4 +1,6 @@
-html {
+html{
+  font-family: 'Libre Franklin', serif;
+  font-size:62.5%;
 }
 
 .conteneur {

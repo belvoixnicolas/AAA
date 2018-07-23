@@ -57,8 +57,7 @@
 		</section>
 
 		<section id="presentation">
-			<div class="vide">
-			</div>
+			<div class="vide"></div>
 			<div id="zonetexte">
 				<p>
 					Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis ut conscius ductus est aliique congregati sunt ex diversis
