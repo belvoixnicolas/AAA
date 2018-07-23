@@ -9,12 +9,12 @@ anime.timeline({loop: true})
     rotateY: [-90, 0],
     duration: 1000,
     delay: function(el, i) {
-      return 80 * i;
+      return 65 * i;
     }
   }).add({
     targets: '.ml10',
     opacity: 0,
     duration: 100,
     easing: "easeOutExpo",
-    delay: 3000
+    delay: 3000,
   });

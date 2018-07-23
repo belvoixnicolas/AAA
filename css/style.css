@@ -56,10 +56,11 @@ header {
   width: 100%;
   text-align: center;
   background: #000 url("../img/description2.png") left/50% no-repeat;
+  height: 300px;
 }
 
 #zonetexte p {
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-align: justify;
   float: right;
   color: white;
@@ -149,7 +150,7 @@ main .container {
 .ml10 {
   display: flex;
   justify-content: space-around;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   height: 200px;
   padding-top: 90px;
 }
@@ -157,9 +158,6 @@ main .container {
 .ml10 .text-wrapper {
   position: relative;
   display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
   overflow: hidden;
 }
 
@@ -169,33 +167,37 @@ main .container {
   transform-origin: 0 0;
 }
 
+.blocanim{
+  display: flex;
+  justify-content: space-around;
+}
+
+#iconedefaut{
+  height: 30px;
+  padding-right: 5px;
+}
+
 
 @media (max-width: 1660px) {
   .containervoiture1, .containervoiture2 {
     margin-right: 10px;
   }
   @media (max-width: 1500px) {
-    .animTitre {
-      width: 1000px;
-    }
-    .containerventesrapides {
-      flex-direction: column;
-    }
     .containervoiture1 {
       padding-bottom: 50px;
     }
   }
   @media (max-width: 1220px) {
-    .animTitre {
-      width: 700px;
+    .ml10 {
+      font-size: 2.4rem;
     }
     header {
       min-height: 500px;
     }
   }
   @media (max-width: 910px) {
-    .animTitre {
-      width: 500px;
+    .ml10 {
+      font-size: 2.0rem;
     }
     #zonetexte p {
       font-size: 1.5rem;
@@ -205,12 +207,24 @@ main .container {
       height: 100px;
     }
   }
-  @media (max-width: 650px) {
-    .animTitre {
-      width: 380px;
+  @media (max-width: 740px) {
+    .ml10 {
+      font-size: 1.8rem;
     }
-    .test {
+  }
+
+
+  @media (max-width: 650px) {
+    .ml10 {
       flex-direction: column;
+      display: block;
+      height: 100px;
+      padding-top: 5px;
+    }
+    .blocanim{
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 30%;
     }
     #zonetexte p {
       font-size: 1.3rem;
@@ -234,17 +248,24 @@ main .container {
       min-height: 300px;
       height: calc(70vh - 100px);
     }
+    .blocanim{
+      padding-left: 10%;
+    }
+    #iconedefaut{
+      padding-top: 5px;
+      height: 26px;
+    }
+    .ml10{
+      padding-top:6px;
+    }
+    .letters{
+    padding-top:5px;
+    }
   }
   @media (max-width: 500px) {
     div.faqs {
       grid-template-columns: 1fr;
       grid-gap: 0;
-    }
-    .animTitre {
-      width: 300px;
-    }
-    .test {
-      flex-direction: column;
     }
     #zonetexte p {
       font-size: 0.9rem;
@@ -265,18 +286,8 @@ main .container {
     }
   }
   @media (max-width: 450px) {
-    div.faqs {
-      grid-template-columns: 1fr;
-      grid-gap: 0;
-    }
-    .animTitre {
-      width: 300px;
-    }
     .fas {
       font-size: 0.45rem;
-    }
-    .test {
-      flex-direction: column;
     }
     #zonetexte p {
       font-size: 0.7rem;
@@ -296,57 +307,31 @@ main .container {
       font-size: 1.5rem;
       line-height: 30px;
     }
+    #iconedefaut{
+      padding-top: 5px;
+      height: 25px;
+    }
+    .letters{
+      padding-top: 4px;
+    }
+    .blocanim{
+      padding-left: 10%;
+    }
   }
+@media (max-width: 360px) {
+  .blocanim{
+    padding-left: 10%;
+  }
+  #iconedefaut{
+    padding-top: 5px;
+    height: 25px;
+  }
+  .letters{
+    padding-top: 4px;
+  }
+}
+
   main .temoignage {
     width: 20%;
     min-height: 350px;
-  }
-  @-webkit-keyframes bounceInRight {
-    0% {
-      -webkit-transform: translateX(110vw);
-    }
-    100% {
-      ;
-      -webkit-transform: translateX(10%);
-    }
-  }
-  @keyframes bounceInRight {
-    0% {
-      transform: translateX(110vw);
-    }
-    100% {
-      transform: translateX(10%);
-    }
-  }
-  @-webkit-keyframes bounceInRight2 {
-    0% {
-      -webkit-transform: translateX(110vw);
-    }
-    100% {
-      -webkit-transform: translateX(40%vw);
-    }
-  }
-  @keyframes bounceInRight2 {
-    0% {
-      transform: translateX(110vw);
-    }
-    100% {
-      transform: translateX(40%);
-    }
-  }
-  @-webkit-keyframes bounceInRight3 {
-    0% {
-      -webkit-transform: translateX(110vw);
-    }
-    100% {
-      -webkit-transform: translateX(65%);
-    }
-  }
-  @keyframes bounceInRight3 {
-    0% {
-      transform: translateX(110vw);
-    }
-    100% {
-      transform: translateX(65%);
-    }
   }

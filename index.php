@@ -32,9 +32,28 @@
 	<main>
 
 		<section class="ml10">
-			<div class="letters" <img src="./img/icon/defaut.gif" alt="">Réponse sous 24H</div>
-			<div class="letters" <img src="./img/icon/defaut.gif" alt="">Vente simple et rapide</div>
-			<div class="letters" <img src="./img/icon/defaut.gif"  alt="">Véhicules garantis 6 mois</div>
+
+			<div class="blocanim">
+				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
+				<div class="letters">
+					<p>Réponse sous 24H</p>
+				</div>
+			</div>
+
+			<div class="blocanim">
+				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
+				<div class="letters">
+					<p>Vente simple et rapide</p>
+				</div>
+			</div>
+
+			<div class="blocanim">
+				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
+				<div class="letters">
+					<p>Véhicule garanti 6 mois</p>
+				</div>
+			</div>
+
 		</section>
 
 		<section id="presentation">
