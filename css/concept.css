@@ -137,8 +137,48 @@ main .fauxbouton:active {
   bottom: 8px;
 }
 
+@media all and (max-width: 1239px) {
+  .partie {
+    width: 90%;
+  }
+
+  main figcaption {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 666px) {
+  figure img {
+    height: 4rem;
+  }
+
+  main figcaption {
+    font-size: 1rem;
+  }
+
+  main .fauxbouton {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 402px) {
+  .partie {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  main figure {
+    width: 40%;
+    margin: 10px;
+  }
+
+  main .fauxbouton, main article {
+    width: 95%;
+  }
+}
+
 .animconcept {
-  width: calc(100%);
+  width: 100%;
   background: #000 url('../img/texture/carbon.png');
   box-shadow: 0 0 20px 0 grey, inset 0 10px 10px -10px #000, inset 0 -10px 10px -10px grey;
   border-radius: 0;
