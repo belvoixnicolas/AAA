@@ -29,11 +29,11 @@
             <img src="img/icon/acheter.gif" alt="Icon acheter" />
             <figcaption>Processus d'achat</figcaption>
           </figure>
-          <figure name="garantie">
+          <figure class="garantie">
             <img src="img/icon/garantie.gif" alt="Icon garantie" />
             <figcaption>Les Garanties</figcaption>
           </figure>
-          <figure name="financement">
+          <figure class="financement">
             <img src="img/icon/finance.gif" alt="Icon financement" />
             <figcaption>Les financements</figcaption>
           </figure>
