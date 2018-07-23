@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/vendre.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script src="./js/smoothscroll.js"></script>
 	<script src="./js/onscroll.js"></script>
 	<title>Agence Automobile Ardennaise</title>
@@ -21,7 +23,7 @@
 <body>
 	<?php include 'include/navbar.html'; ?>
 
-	<header id="header">
+	<header>
 
 		<a href="buy.php" class="bouton"> <img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter</a>
 		<a href="vendre.php" class="bouton"><img src="./img/icon/vendre.gif" class="iconesheader" alt="">Vendre</a>
@@ -29,10 +31,10 @@
 
 	<main>
 
-		<section class="animTitre">
-			<div id="animated1" class="cache"> <img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Réponse sous 24H</div>
-			<div id="animated2" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Vente simple et rapide</div>
-			<div id="animated3" class="cache"><img src="./img/icon/defaut.gif" style="height:2.5rem; display: inline-block; padding-right:5px;" alt="">Véhicules garantis 6 mois</div>
+		<section class="ml10">
+			<div class="letters" <img src="./img/icon/defaut.gif" alt="">Réponse sous 24H</div>
+			<div class="letters" <img src="./img/icon/defaut.gif" alt="">Vente simple et rapide</div>
+			<div class="letters" <img src="./img/icon/defaut.gif"  alt="">Véhicules garantis 6 mois</div>
 		</section>
 
 		<section id="presentation">
@@ -51,14 +53,10 @@
 		<section class="ventesrapides">
 			<h2 class="h2index">Ventes rapides</h2>
 			<div class="containerventesrapides">
-			 <div class="containervoiture1">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" style="margin-left: 10%;" alt="">
-			 </div>
-			 <div class="containervoiture2">
-				<img src="./img/voiture.jpg" class="voitures" style="margin-right: 10%;" alt="">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
-			 </div>
+				<img src="./img/voiture.jpg" class="voitures" alt="">
+				<img src="./img/voiture.jpg" class="voitures" alt="">
 			</div>
 		</section>
 
@@ -143,7 +141,9 @@
 
 	</main>
 	<?php include 'include/footer.html'; ?>
-	<script src="./js/faq.js"></script>
+	<script src="js/animtextindex.js">
+
+	</script>
 </body>
 
 </html>
