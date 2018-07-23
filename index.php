@@ -50,7 +50,7 @@
 			<div class="blocanim">
 				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
 				<div class="letters">
-					<p>Véhicule garanti 6 mois</p>
+					<p>Véhicules garantis 6 mois</p>
 				</div>
 			</div>
 
@@ -149,6 +149,7 @@
 		<section id="partenaires">
 			<h2 class="h2index"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
 			<div class="container">
+				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
