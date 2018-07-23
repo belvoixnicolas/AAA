@@ -6,7 +6,7 @@ footer {
 
 footer p, footer a {
   text-align: center;
-  font-size: 25px;
+  font-size: 2.5rem;
   color: #FFF;
   font-family: 'Exo', sans-serif;
   text-decoration: none;
@@ -33,6 +33,31 @@ footer img:hover {
 main {
   min-height: calc(100vh - 70px - 100px);
 }
+
 @media all and (max-width: 853px) {
-  
+  footer a, footer p{
+    font-size: 1.5rem;
+  }
+
+  .facebook img {
+    height: 50px;
+  }
+}
+
+@media all and (max-width: 558px) {
+  footer {
+    height: 150px;
+  }
+
+  footer p {
+    line-height: 1.5rem;
+  }
+
+  .facebook {
+    float: none;
+  }
+
+  .facebook img {
+    margin: 0;
+  }
 }
