@@ -19,22 +19,125 @@
       <!-- navbar -->
 
       <main>
+        <?php
+  ###########################################
+  ############ PDO-Extension #############
+  ###########################################
+
+  $serveur = 'db745063290.db.1and1.com';
+
+  $login = 'dbo745063290';
+
+  $mot_de_passe = '!Nicolas019';
+
+  $nom_bd = 'db745063290';
+
+
+  $dbh = null;
+  try {
+    $dbh = new PDO("mysql:host=$serveur; dbname=$nom_bd;", $login, $mot_de_passe);
+    $dbh->exec("SET CHARACTER SET utf8");
+  } catch (PDOException $e) {
+    echo "Erreur!: " . $e->getMessage() . "<br/>";
+    die();
+  }
+
+
+  $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
+  $reponse2 = $dbh->query('SELECT * FROM vitesse ORDER BY vitesse');
+  $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee');
+  $reponse4 = $dbh->query('SELECT * FROM options');
+  $reponse5 = $dbh->query('SELECT * FROM options');
+  $reponse6 = $dbh->query('SELECT * FROM options');
+  $reponse7 = $dbh->query('SELECT * FROM options');
+  ?>
+
+
         <section>
 
           <div class="fomfram">
             <form action="traitement.php" method="post">
-              <p>
-                <input type="text" class="left" name="nom" placeholder="Nom" required />
-                <input type="text" class="left" name="nbreplace" placeholder="nbreplace" required />
+
+                <select id="nbreplace" name="nbreplace">
+							<option disabled selected>Nbre places</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+              <option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+
                 <input type="text" class="left" name="km" placeholder="km" required />
+                <input type="text" class="left" name="prix" placeholder="prix" required />
                 <input type="text" class="left" name="modele" placeholder="modele" required />
-                <input type="text" class="left" name="energie" placeholder="energie" required />
-                <input type="text" class="left" name="marques" placeholder="marques" required />
-                <input type="text" class="left" name="vitesse" placeholder="vitesse" required />
-                <input type="text" class="left" name="annee" placeholder="annee" required />
 
-              </p>
+            <select id="energie" name="energie">
+							<option disabled selected>Energie</option>
+							<option value="1">Essence</option>
+							<option value="2">Diesel</option>
+							<option value="3">Electrique</option>
+							<option value="4">Hybride</option>
+							<option value="5">Autre</option>
+						</select>
 
+
+        <select id="marque" name="marque">
+          <option disabled selected>marques</option>
+          <?php while ($a = $reponse->fetch())
+      { ?>
+          <option value="<?php echo $a['id_marque'];?>"><?php echo $a['marque'];?></option><?php } ?>
+        </select>
+
+        <select id="vitesse" name="vitesse">
+          <option disabled selected>boite de vitesse</option>
+          <?php while ($b = $reponse2->fetch())
+      { ?>
+          <option value="<?php echo $b['id_vitesse'];?>"><?php echo $b['vitesse'];?></option><?php } ?>
+        </select>
+
+        <select id="annee" name="annee">
+          <option disabled selected>annee</option>
+          <?php while ($c = $reponse3->fetch())
+      { ?>
+          <option value="<?php echo $c['id_annee'];?>"><?php echo $c['annee'];?></option><?php } ?>
+        </select>
+
+                <input type="textarea" class="left" name="description" required />
+
+
+                <select id="option1" name="option1">
+                  <option disabled selected>option1</option>
+                  <?php while ($d = $reponse4->fetch())
+              { ?>
+                  <option value="<?php echo $d['id_options'];?>"><?php echo $d['options'];?></option><?php } ?>
+                </select>
+
+
+                <select id="option2" name="option2">
+                  <option disabled selected>option2</option>
+                  <?php while ($e = $reponse5->fetch())
+              { ?>
+                  <option value="<?php echo $e['id_options'];?>"><?php echo $e['options'];?></option><?php } ?>
+    						</select>
+
+                <select id="option3" name="option3">
+                  <option disabled selected>option3</option>
+                  <?php while ($f = $reponse6->fetch())
+              { ?>
+                  <option value="<?php echo $f['id_options'];?>"><?php echo $f['options'];?></option><?php } ?>
+    						</select>
+
+                <select id="option4" name="option4">
+                  <option disabled selected>option4</option>
+                  <?php while ($g = $reponse7->fetch())
+              { ?>
+                  <option value="<?php echo $g['id_options'];?>"><?php echo $g['options'];?></option><?php } ?>
+    						</select>
               <p>
                 <input type="submit" value="Envoyer" />
               </p>
