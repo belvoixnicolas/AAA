@@ -275,7 +275,7 @@ main .container {
       margin-top: 3px;
       padding-right: 10px;
     }
-    .containerventesrapides {
+    .ventesrapides {
       grid-template-columns: auto auto;
     }
     .blocanim {
