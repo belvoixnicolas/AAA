@@ -15,6 +15,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="./js/smoothscroll.js"></script>
 	<script src="./js/onscroll.js"></script>
 	<title>Agence Automobile Ardennaise</title>
@@ -31,7 +32,7 @@
 
 	<main>
 
-		<section class="ml10">
+		<section class="ml10 animated bounceInLeft">
 
 			<div class="blocanim">
 				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
@@ -69,7 +70,8 @@
 
 
 		<section class="ventesrapides">
-			<h2 class="h2index">Ventes rapides</h2>
+			<img src="./img/icon/faster.gif" class="" alt="">
+			<h2 class="h2index animated infinite rubberBand delay-20s">Ventes rapides</h2>
 			<div class="containerventesrapides">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
 				<img src="./img/voiture.jpg" class="voitures" alt="">
@@ -80,7 +82,7 @@
 
 		<div class="titletemoin">
 			<img src="./img/icon/description.gif" class="iconetémoins" alt="">
-			<h2 class="h2index" style="color:white;">Nos clients témoignent</h2>
+			<h2 class="h2index animated infinite pulse delay-2s" style="color:white;">Nos clients témoignent</h2>
 		</div>
 
 		<section class="témoignages">
@@ -160,9 +162,6 @@
 
 	</main>
 	<?php include 'include/footer.html'; ?>
-	<script src="js/animtextindex.js">
-
-	</script>
 </body>
 
 </html>
