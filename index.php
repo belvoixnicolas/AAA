@@ -25,7 +25,7 @@
 	<?php include 'include/navbar.html'; ?>
 
 	<header>
-		<div class="boutonsheader wow animated bounceInDown">
+		<div class="boutonsheader wow animated fadeInDown" data-wow-duration="2s">
 			<a href="buy.php" class="bouton">
 				<img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter
 			</a>
@@ -37,7 +37,7 @@
 
 	<main>
 
-		<section class="ml10 wow animated bounceInLeft">
+		<section class="ml10 wow animated fadeInLeft" data-wow-duration="2s">
 
 			<div class="blocanim">
 				<img src="./img/icon/defaut.gif" id="iconedefaut" alt="">
@@ -74,7 +74,7 @@
 		</section>
 
 
-		<div class="titleventesrapides wow animated bounceInRight">
+		<div class="titleventesrapides wow animated fadeInRight" data-wow-duration="2s">
 			<img src="./img/icon/faster.gif" class="iconeventesrapides" alt="">
 			<h2 class="h2index">Ventes rapides</h2>
 		</div>
@@ -87,7 +87,7 @@
 		</section>
 
 		<div class="titletemoin">
-			<h2 class="h2index wow animated bounceInLeft" style="color:white;"><img src="./img/icon/description.gif" class="iconetémoins" alt="">
+			<h2 class="h2index wow animated fadeInLeft" data-wow-duration="2s" style="color:white;"><img src="./img/icon/description.gif" class="iconetémoins" alt="">
 			Nos clients témoignent</h2>
 		</div>
 
@@ -155,7 +155,7 @@
 		</section>
 
 		<section id="partenaires">
-			<h2 class="h2index wow animated bounceInRight"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
+			<h2 class="h2index wow animated fadeInRight" data-wow-duration="2s"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
 			<div class="container">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
