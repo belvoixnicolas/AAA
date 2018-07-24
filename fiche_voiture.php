@@ -11,75 +11,75 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 
 <body>
-  <?php include 'include/navbar.html'; ?>
-	<div class="centrage">
-		<main>
-			<section class="container">
-	  <div id="caroussel">
-	    <figure style="background:url('img/1.jpg'); background-size:cover"></figure>
-	    <figure style="background:url('img/2.jpg'); background-size:cover"></figure>
-	    <figure style="background:url('img/3.jpg'); background-size:cover"></figure>
-	    <figure style="background:url('img/4.jpg'); background-size:cover"></figure>
-	    <figure style="background:url('img/5.jpg'); background-size:cover"></figure>
-	    <figure style="background:url('img/6.jpg'); background-size:cover"></figure>
-
-
-	  </div>
-
-	</section>
-	<div class="next"></div>
-	<div class="prev"></div>
-
-    <div  class="titre">
-        <p>Titre</p>
-        <p>Prix</p>
+  <!-- NAVBAR -->
+    <?php include 'include/navbar.html'; ?>
+  <!-- NAVBAR -->
+  
+  <main>
+    <!-- caroussel -->
+    <div class="scene">
+      <!-- <div class="carousel">
+        <div class="carousel__cell"><img src="img/1.jpg"></div>
+        <div class="carousel__cell"><img src="img/2.jpg"></div>
+        <div class="carousel__cell"><img src="img/3.jpg"></div>
+        <div class="carousel__cell"><img src="img/4.jpg"></div>
+        <div class="carousel__cell"><img src="img/5.jpg"></div>
+        <div class="carousel__cell"><img src="img/6.jpg"></div>
+      </div>
     </div>
+    <p style="text-align: center;">
+      <button class="previous-button">Previous</button>
+      <button class="next-button">Next</button>
+    </p> -->
+    </div>
+    <!-- caroussel -->
 
+    <h2>Titre</h2>
+    <h3>Prix</h3>
 
-    <table class="tableau">
-
+    <table>
       <tr>
-        <td class="titretab">MODELE</td>
-        <td class="contenu"></td>
-     </tr>
-
-      <tr>
-       <td class="titretab">DATE DE MISE EN CIRCULATION</td>
-        <td class="contenu"></td>
+        <th>Marque</th>
+        <td>Oppel</td>
       </tr>
-
       <tr>
-        <td class="titretab">ENERGIE</td>
-        <td class="contenu"></td>
+        <th>Kilomètres</th>
+        <td>1988547454 Km</td>
       </tr>
-
       <tr>
-        <td class="titretab">BOITE DE VITESSE</td>
-        <td class="contenu"></td>
+        <th>Année de mise en service</th>
+        <td>1950</td>
       </tr>
-
       <tr>
-        <td class="titretab">NOMBRE DE PLACES</td>
-        <td class="contenu"></td>
+        <th>Energie</th>
+        <td>Huille de patate</td>
       </tr>
-        <tr>
-        <td class="titretab">NOMBRE DE CHEVAUX</td>
-        <td class="contenu"></td>
+      <tr>
+        <th>Nombre de place</th>
+        <td>1/2 Place</td>
+      </tr>
+      <tr>
+        <th>Boite de vitesse</th>
+        <td>Manuelle</td>
       </tr>
     </table>
 
-        </main>
-	</div>
-		<?php include 'include/footer.html'; ?>
+    <p class="description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
+      illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
+    </p>
 
-		<script type="text/javascript" src="js/greg.js">
+    <button><span>Phrase acrocheuse</span></button>
+  </main>
 
-
-		</script>
-	</body>
+  <!-- FOOTER -->
+    <?php include 'include/footer.html'; ?>
+  <!-- FOOTER -->
+		<script type="text/javascript" src="js/greg.js"></script>
+</body>
 </html>
