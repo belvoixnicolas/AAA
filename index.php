@@ -13,9 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="css/vendre.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="./js/smoothscroll.js"></script>
 	<script src="./js/onscroll.js"></script>
 	<title>Agence Automobile Ardennaise</title>
@@ -25,9 +25,14 @@
 	<?php include 'include/navbar.html'; ?>
 
 	<header>
-
-		<a href="buy.php" class="bouton"> <img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter</a>
-		<a href="vendre.php" class="bouton"><img src="./img/icon/vendre.gif" class="iconesheader" alt="">Vendre</a>
+		<div class="boutonsheader animated bounceInDown">
+			<a href="buy.php" class="bouton">
+				<img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter
+			</a>
+			<a href="vendre.php" class="bouton">
+				<img src="./img/icon/vendre.gif" class="iconesheader" alt="">Vendre
+			</a>
+	 </div>
 	</header>
 
 	<main>
@@ -69,20 +74,21 @@
 		</section>
 
 
+		<div class="titleventesrapides animated bounceInRight">
+			<img src="./img/icon/faster.gif" class="iconeventesrapides" alt="">
+			<h2 class="h2index">Ventes rapides</h2>
+		</div>
+
 		<section class="ventesrapides">
-			<img src="./img/icon/faster.gif" class="" alt="">
-			<h2 class="h2index animated infinite rubberBand delay-20s">Ventes rapides</h2>
-			<div class="containerventesrapides">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
-				<img src="./img/voiture.jpg" class="voitures" alt="">
-			</div>
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
 		</section>
 
 		<div class="titletemoin">
-			<img src="./img/icon/description.gif" class="iconetémoins" alt="">
-			<h2 class="h2index animated infinite pulse delay-2s" style="color:white;">Nos clients témoignent</h2>
+			<h2 class="h2index animated bounceInLeft" style="color:white;"><img src="./img/icon/description.gif" class="iconetémoins" alt="">
+			Nos clients témoignent</h2>
 		</div>
 
 		<section class="témoignages">
@@ -149,7 +155,7 @@
 		</section>
 
 		<section id="partenaires">
-			<h2 class="h2index"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
+			<h2 class="h2index animated bounceInRight"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
 			<div class="container">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
