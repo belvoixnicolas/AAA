@@ -125,15 +125,21 @@
           $idvoiture = $a['id_voiture'];
           $lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
           $lienidpho = $lienidphoto->fetch();
-          $id_photo = $lienidpho['id_photo'];
+          $id_photo = $lienidpho['lien_photo'];
 
 
 
 
           ?>
-					<a href="fiche_voiture.php?id=<?php echo $a['id_voiture'];?>">
-            <img src="<?php echo $id_photo;?>" alt="" class="" />
-            <h2></h2>
+					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
+            <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </a>
 
 					<?php } ?>
