@@ -14,17 +14,6 @@ $option3 = $_POST["option3"];
 $option4 = $_POST["option4"];
 $lienphoto = $_POST["lienphoto"];
 
-$host_name = 'db745063290.db.1and1.com';
-$database = 'db745063290';
-$user_name = 'dbo745063290';
-$password = '!Nicolas019';
-
-
-
-try {
-    $conn = new PDO("mysql:host=$host_name;dbname=$database", $user_name,$password);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 
