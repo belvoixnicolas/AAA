@@ -20,6 +20,9 @@
 
       <main>
         <?php
+        include 'include/connexion_dbh.php';
+        ?>
+        <?php
 
 
 
@@ -85,7 +88,7 @@
           <option disabled selected>annee</option>
           <?php while ($c = $reponse3->fetch())
       { ?>
-          <option value="<?php echo $c['annee'];?>"><?php echo $c['annee'];?></option><?php } ?>
+          <option value="<?php echo $c['ID_annee'];?>"><?php echo $c['annee'];?></option><?php } ?>
         </select>
 
                 <input type="textarea" class="left" name="description" required />

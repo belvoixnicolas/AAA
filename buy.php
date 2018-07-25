@@ -21,6 +21,18 @@
       <!-- NAVBAR -->
 
       <main>
+        <?php
+        include 'include/connexion_dbh.php';
+        ?>
+        <?php 
+        $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
+        $reponse2 = $dbh->query('SELECT * FROM vitesse ORDER BY vitesse');
+        $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
+        $reponse4 = $dbh->query('SELECT * FROM options');
+        $reponse5 = $dbh->query('SELECT * FROM options');
+        $reponse6 = $dbh->query('SELECT * FROM options');
+        $reponse7 = $dbh->query('SELECT * FROM options');
+        ?>
         <section class="filtre">
           <form action="#" method="post">
             <p class="select">
