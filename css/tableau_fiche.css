@@ -7,7 +7,7 @@ body {
 }
 
 .scene {
-  background: red;
+  background: rgba(0, 0, 0, 0.103);
   height: 40vh;
   margin-bottom: 20px;
 }

@@ -116,7 +116,6 @@
         </section>
 
         <section class="liste">
-          <section class="liste">
 
 					<?php
           $searchvoiture = $dbh->query('SELECT id_voiture FROM voiture');
