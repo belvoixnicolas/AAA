@@ -20,27 +20,8 @@
 
       <main>
         <?php
-  ###########################################
-  ############ PDO-Extension #############
-  ###########################################
-
-  $serveur = 'db745063290.db.1and1.com';
-
-  $login = 'dbo745063290';
-
-  $mot_de_passe = '!Nicolas019';
-
-  $nom_bd = 'db745063290';
 
 
-  $dbh = null;
-  try {
-    $dbh = new PDO("mysql:host=$serveur; dbname=$nom_bd;", $login, $mot_de_passe);
-    $dbh->exec("SET CHARACTER SET utf8");
-  } catch (PDOException $e) {
-    echo "Erreur!: " . $e->getMessage() . "<br/>";
-    die();
-  }
 
 
   $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
