@@ -14,6 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/vendre.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -23,10 +26,10 @@
 	<?php include 'include/navbar.html'; ?>
 
 	<main>
-		<h1 class="h1vendre">Vendez votre véhicule avec simplicité et rapidité&nbsp!</h1>
+		<h1 class="h1vendre animated zoomIn">Vendez votre véhicule avec simplicité et rapidité&nbsp!</h1>
 
 		<section class="conteneur">
-			<div class="gauche">
+			<div class="gauche animated fadeInLeft">
 				<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
 				<p class="p">
 					bla bla bla bla bla bla bla
@@ -43,7 +46,7 @@
 				</p>
 				<br>
 			</div>
-			<form class="formvente" action="index.html" method="post">
+			<form class="formvente animated fadeInRight" action="index.html" method="post">
 
 				<div class="cars">
 					<h2 class="h2vendre">Votre véhicule :</h2>
@@ -79,6 +82,7 @@
 			<img src="./img/icon/description.gif" class="iconetémoins" alt="">
 			<h2 class="h2index" style="color:white;">Nos clients témoignent</h2>
 		</div>
+
 		<section class="témoignages">
 		<div class="témoinsgauche">
 			<div class="avisG">
@@ -144,5 +148,9 @@
 
 	</main>
 	<?php include 'include/footer.html'; ?>
+	<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
