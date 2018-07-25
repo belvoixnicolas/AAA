@@ -1,0 +1,21 @@
+.scene {
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+ul {
+    border: 1px solid green;
+    text-align: center;
+}
+
+li {
+    display: none;
+    border: 1px solid black;
+}
+
+li:nth-child(1) {
+    display: inline-block;
+}
+li img {
+    height: 30vh;
+}

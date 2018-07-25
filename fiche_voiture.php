@@ -23,58 +23,55 @@
   <main>
     <!-- caroussel -->
     <div class="scene">
-      <!-- <div class="carousel">
-        <div class="carousel__cell"><img src="img/1.jpg"></div>
-        <div class="carousel__cell"><img src="img/2.jpg"></div>
-        <div class="carousel__cell"><img src="img/3.jpg"></div>
-        <div class="carousel__cell"><img src="img/4.jpg"></div>
-        <div class="carousel__cell"><img src="img/5.jpg"></div>
-        <div class="carousel__cell"><img src="img/6.jpg"></div>
-      </div>
-    </div>
-    <p style="text-align: center;">
-      <button class="previous-button">Previous</button>
-      <button class="next-button">Next</button>
-    </p> -->
+      <ul>
+        <li><img src="img/1.jpg"></li>
+        <li><img src="img/2.jpg"></li>
+        <li><img src="img/3.jpg"></li>
+        <li><img src="img/4.jpg"></li>
+        <li><img src="img/5.jpg"></li>
+        <li><img src="img/6.jpg"></li>
+      </ul>
     </div>
     <!-- caroussel -->
 
-    <h2>Titre</h2>
-    <h3>Prix</h3>
+    <section class='info'>
+      <h2>Titre</h2>
+      <h3>Prix</h3>
 
-    <table>
-      <tr>
-        <th>Marque</th>
-        <td>Oppel</td>
-      </tr>
-      <tr>
-        <th>Kilomètres</th>
-        <td>1988547454 Km</td>
-      </tr>
-      <tr>
-        <th>Année de mise en service</th>
-        <td>1950</td>
-      </tr>
-      <tr>
-        <th>Energie</th>
-        <td>Huille de patate</td>
-      </tr>
-      <tr>
-        <th>Nombre de place</th>
-        <td>1/2 Place</td>
-      </tr>
-      <tr>
-        <th>Boite de vitesse</th>
-        <td>Manuelle</td>
-      </tr>
-    </table>
+      <table>
+        <tr>
+          <th>Marque</th>
+          <td>Oppel</td>
+        </tr>
+        <tr>
+          <th>Kilomètres</th>
+          <td>1988547454 Km</td>
+        </tr>
+        <tr>
+          <th>Année de mise en service</th>
+          <td>1950</td>
+        </tr>
+        <tr>
+          <th>Energie</th>
+          <td>Huille de patate</td>
+        </tr>
+        <tr>
+          <th>Nombre de place</th>
+          <td>1/2 Place</td>
+        </tr>
+        <tr>
+          <th>Boite de vitesse</th>
+          <td>Manuelle</td>
+        </tr>
+      </table>
 
-    <p class="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
-      illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
-    </p>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
+        illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
+      </p>
 
-    <button><span>Phrase acrocheuse</span></button>
+      <button><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
+    </section>
   </main>
 
   <!-- FOOTER -->
