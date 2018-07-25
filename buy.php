@@ -24,7 +24,7 @@
         <?php
         include 'include/connexion_dbh.php';
         ?>
-        <?php 
+        <?php
         $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
         $reponse2 = $dbh->query('SELECT * FROM vitesse ORDER BY vitesse');
         $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
@@ -123,7 +123,7 @@
           while ($a = $searchvoiture->fetch())
 			{
           $idvoiture = $a['id_voiture'];
-          $lienidphoto = $conn->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
+          $lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
           $lienidpho = $lienidphoto->fetch();
           $id_photo = $lienidpho['id_photo'];
 
