@@ -82,10 +82,10 @@
 		</div>
 
 		<section class="ventesrapides">
-			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
-			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
-			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
-			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures" alt="">
 		</section>
 
 		<div class="titletemoin">
