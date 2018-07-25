@@ -118,21 +118,26 @@
         <section class="liste">
 
 					<?php
-          $searchvoiture = $dbh->query('SELECT id_voiture FROM voiture');
+          $searchvoiture = $dbh->query('SELECT id_voiture,id_modele FROM voiture');
           while ($a = $searchvoiture->fetch())
 			{
           $idvoiture = $a['id_voiture'];
+          $idmodele = $a['id_modele'];
           $lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
           $lienidpho = $lienidphoto->fetch();
           $id_photo = $lienidpho['lien_photo'];
 
+          $lienidmarque = $dbh->query('SELECT marque FROM marque NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
+          $lienidmar = $lienidmarque->fetch();
+          $id_marque = $lienidmar['marque'];
 
-
-
+          $lienidmodele = $dbh->query('SELECT modele FROM modele WHERE id_modele = "'.$idmodele.'"');
+          $lienidmod = $lienidmodele->fetch();
+          $id_modele = $lienidmod['modele'];
           ?>
 					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
             <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
-            <h2>Titre</h2>
+            <h2><?php echo $id_marque." ".$id_modele;?></h2>
 
             <h3>prix</h3>
 
