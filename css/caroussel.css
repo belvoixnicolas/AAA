@@ -16,6 +16,10 @@ li {
 li:nth-child(1) {
     display: inline-block;
 }
+
+
+
 li img {
     height: 30vh;
+    margin: 0 10px 2vh;
 }

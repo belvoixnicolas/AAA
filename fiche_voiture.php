@@ -24,7 +24,7 @@
     <!-- caroussel -->
     <div class="scene">
       <ul>
-        <li><img src="img/1.jpg"></li>
+        <li><img src="img/1.jpg"><hr></li>
         <li><img src="img/2.jpg"></li>
         <li><img src="img/3.jpg"></li>
         <li><img src="img/4.jpg"></li>

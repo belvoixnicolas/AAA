@@ -13,6 +13,14 @@ $option2 = $_POST["option2"];
 $option3 = $_POST["option3"];
 $option4 = $_POST["option4"];
 $lienphoto = $_POST["lienphoto"];
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 52a6df7e2e4d683588c7059bb1e845f5e0dafcaf
     //on insére dans la base le modele de la voiture
     $sql3 = "INSERT INTO modele (modele, id_marque)
     VALUES ('$modele','$marque')";
