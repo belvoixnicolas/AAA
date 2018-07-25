@@ -170,7 +170,66 @@ main {
     grid-row: 2 / 1span;
   }
 
+  .select:nth-child(4) {
+    grid-column: 3 / 2 span;
+    grid-row: 2 / 1span;
+  }
+
+  .select:nth-child(5) {
+    grid-column: 1 / 2 span;
+    grid-row: 3 / 1span;
+  }
+
+  .select:nth-child(6) {
+    grid-column: 3 / 2 span;
+    grid-row: 3 / 1span;
+  }
+
+  .select:nth-child(7) {
+    grid-column: 1 / 2 span;
+    grid-row: 4 / 1span;
+  }
+
+  .select:nth-child(8) {
+    grid-column: 3 / 2 span;
+    grid-row: 4 / 1span;
+  }
+
+  .select:nth-child(9) {
+    grid-column: 1 / 4 span;
+    grid-row: 5 / 1 span;
+  }
+
+  form p:nth-child(10) {
+    grid-column: 2 / 2 span;
+    grid-row: 6 / 1 span;
+  }
+
   main {
     flex-direction: column;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .liste {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 584px) {
+  .liste {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (max-width: 326px) {
+  .filtre select, .filtre .select, .filtre input[type=submit], .filtre input[type=reset] {
+    font-size: 1rem;
+    height: 2em;
+    line-height: 2;
+  }
+
+  .filtre form {
+    grid-template-rows: repeat(6, 2em);
   }
 }

@@ -1,44 +1,8 @@
-.titre{
-  display: flex;
-  margin-top: 20px;
-  padding: 20px 50px;
-  justify-content: space-between;
-  font-weight: bold;
-  font-size: 30px;
-
-}
-.prix{
-  text-align: right;
-}
-table{
-  width: 50%;
+.scene {
+  background: red;
+  height: 40vh;
 }
 
-.container2{
-  display: flex;
-  justify-content:space-between;
-  margin: 50px;
-  font-size: 20px;
-}
-
-p{
-  text-align:justify;
-  width: 50%;
-  padding: 0px 20px;
-}
-
-.l1{
-  background: rgba(0,0,0);
-  color: white;
-  text-align: center;
-}
-.l2{
-  text-align: center;
-}
-
-.buton{
-  display: block;
-  margin:auto;
-  margin-bottom: 20px;
-
+main {
+  padding: 0 40px;
 }
