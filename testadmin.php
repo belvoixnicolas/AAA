@@ -45,7 +45,7 @@
 
   $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
   $reponse2 = $dbh->query('SELECT * FROM vitesse ORDER BY vitesse');
-  $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee');
+  $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
   $reponse4 = $dbh->query('SELECT * FROM options');
   $reponse5 = $dbh->query('SELECT * FROM options');
   $reponse6 = $dbh->query('SELECT * FROM options');

@@ -21,11 +21,44 @@
       <!-- NAVBAR -->
 
       <main>
+        <?php
+  ###########################################
+  ############ PDO-Extension #############
+  ###########################################
+
+  $serveur = 'db745063290.db.1and1.com';
+
+  $login = 'dbo745063290';
+
+  $mot_de_passe = '!Nicolas019';
+
+  $nom_bd = 'db745063290';
+
+
+  $dbh = null;
+  try {
+    $dbh = new PDO("mysql:host=$serveur; dbname=$nom_bd;", $login, $mot_de_passe);
+    $dbh->exec("SET CHARACTER SET utf8");
+  } catch (PDOException $e) {
+    echo "Erreur!: " . $e->getMessage() . "<br/>";
+    die();
+  }
+
+
+  $reponse = $dbh->query('SELECT * FROM marque ORDER BY marque');
+  $reponse2 = $dbh->query('SELECT * FROM vitesse ORDER BY vitesse');
+  $reponse3 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
+  $reponse4 = $dbh->query('SELECT * FROM options');
+  $reponse5 = $dbh->query('SELECT * FROM options');
+  $reponse6 = $dbh->query('SELECT * FROM options');
+  $reponse7 = $dbh->query('SELECT * FROM options');
+  ?>
+
         <section class="filtre">
           <form action="#" method="post">
             <p class="select">
-              <select id="place" name="place">
-                <option value="none" selected>Nombre de place</option>
+              <select id="place" name="nbreplace">
+                <option value="none" disabled selected>Nombre de place</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -69,19 +102,30 @@
 
             <p class="select">
               <select id="marque" name="marque">
-                <option value="none" selected>Marque</option>
-              </select>
+              <option disabled selected>Marques</option>
+              <?php while ($a = $reponse->fetch())
+          { ?>
+              <option value="<?php echo $a['id_marque'];?>"><?php echo $a['marque'];?></option><?php } ?>
+            </select>
             </p>
 
             <p class="select">
               <select id="energie" name="energie">
-                <option value="none" selected>Energie</option>
-              </select>
+  							<option disabled selected>Energie</option>
+  							<option value="1">Essence</option>
+  							<option value="2">Diesel</option>
+  							<option value="3">Electrique</option>
+  							<option value="4">Hybride</option>
+  							<option value="5">Autre</option>
+  						</select>
             </p>
 
             <p class="select">
-              <select id="boite" name="boite">
-                <option value="none" selected>Boîte de vitesse</option>
+              <select id="vitesse" name="vitesse">
+                <option disabled selected>Boite de vitesse</option>
+                <?php while ($b = $reponse2->fetch())
+            { ?>
+                <option value="<?php echo $b['id_vitesse'];?>"><?php echo $b['vitesse'];?></option><?php } ?>
               </select>
             </p>
 
