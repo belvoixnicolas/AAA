@@ -12,6 +12,7 @@ $option1 = $_POST["option1"];
 $option2 = $_POST["option2"];
 $option3 = $_POST["option3"];
 $option4 = $_POST["option4"];
+$lienphoto = $_POST["lienphoto"];
 
 $host_name = 'db745063290.db.1and1.com';
 $database = 'db745063290';
@@ -50,7 +51,20 @@ try {
         $id_voiture = $lienidvoit['id_voiture'];
 
 
+        //on insere dans la table photo le lien de la photo
+        $sql4 = "INSERT INTO photo (lien_photo)
+        VALUES ('$lienphoto')";
+        $conn->exec($sql4);
 
+        //on recupere l'id de la photo nouvellement créer
+        $lienidphoto = $conn->query('SELECT id_photo FROM photo WHERE lien_photo = "'.$lienphoto.'"');
+        $lienidpho = $lienidphoto->fetch();
+        $id_photo = $lienidpho['id_photo'];
+
+        //on insére dans la table apourphoto la relation id_voiture-id_photo
+        $insrelapourphoto = ("INSERT INTO apourphoto (id_voiture, id_photo)
+        VALUES ('$id_voiture','$id_photo')");
+        $conn->exec($insrelapourphoto);
 
       //si le champ option1 du formulaire n'est pas vide alors on insére dans la base la relation id_voiture-id_option1
       if (!empty($option1)) {
@@ -104,7 +118,7 @@ try {
     }
 catch(PDOException $e)
     {
-    echo $sql3, $sql1, $insoption1, $insoption2, $insoption3, $insoption4 . "<br>" . $e->getMessage();
+    echo $sql3, $sql1,$sql4,$insrelapourphoto, $insoption1, $insoption2, $insoption3, $insoption4 . "<br>" . $e->getMessage();
     }
 
 

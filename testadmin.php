@@ -57,7 +57,7 @@
 
           <div class="fomfram">
             <form action="traitement.php" method="post">
-
+                  <h3>AJOUTER UN VEHICULE</h3>
                 <select id="nbreplace" name="nbreplace">
 							<option disabled selected>Nbre places</option>
 							<option value="1">1</option>
@@ -138,6 +138,8 @@
               { ?>
                   <option value="<?php echo $g['id_options'];?>"><?php echo $g['options'];?></option><?php } ?>
     						</select>
+
+                <input type="text" class="left" name="lienphoto" placeholder="lienphoto" required />
               <p>
                 <input type="submit" value="Envoyer" />
               </p>
