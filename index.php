@@ -29,10 +29,10 @@
 	<header>
 		<div class="boutonsheader wow animated fadeInDown">
 			<a href="buy.php" class="bouton">
-				<img src="./img/icon/acheter.gif" class="iconesheader" alt="">Acheter
+				<img src="./img/icon/acheterBlanc.gif" class="iconesheader" alt="">Acheter
 			</a>
 			<a href="vendre.php" class="bouton">
-			<!--	<img src="./img/icon/vendre.gif" class="iconesheader" alt="">-->Vendre
+			<img src="./img/icon/vendreBlanc.gif" class="iconesheader" alt="">Vendre
 			</a>
 	 </div>
 	</header>
@@ -82,10 +82,10 @@
 		</div>
 
 		<section class="ventesrapides">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
+			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
+			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
+			<img src="./img/voiture.jpg" class="voitures hvr-grow-shadow" alt="">
 		</section>
 
 		<div class="titletemoin">
