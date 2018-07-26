@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 10% 80% 10%;
     margin-top: 20px;
-    padding: 20px 0 0;
 }
 
 .scene div {
@@ -12,25 +11,43 @@
 ul {
     border: 1px solid green;
     text-align: center;
-    height: 100%;
 }
 
 li {
     display: none;
-    height: 37vh;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 70vh;
 }
 
-li:nth-child(1) {
-    display: inline-block;
-}
+/*li:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 70vh;
+}*/
 
 li hr {
+    opacity: 0;
     border: 2px solid #000;
-    box-shadow: 0 -2px 4px 1px #000;
-    margin-top: 5%;
+    align-self: center;
+    margin-right: 0;
+    width: 0;
+    z-index: 2;
+}
+
+li .droite {
+    box-shadow: -2px 0 4px 1px #000;
+    margin-left: 0;
+    grid-column-start: 3;
+}
+
+li .gauche {
+    box-shadow: 2px 0 4px 1px #000;
+    margin-right: 0;
 }
 
 li img {
-    height: 30vh;
-    margin: 0 10px;
+    position: relative;
+    height: 90%;
+    align-self: center;
+    margin: 0 auto;
 }

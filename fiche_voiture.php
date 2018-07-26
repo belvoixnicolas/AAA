@@ -25,7 +25,7 @@
     <div class="scene">
       <div class="slide_gauche"><</div>
       <ul>
-        <li><img src="img/1.jpg"><hr></li>
+        <li><hr class="gauche"><img src="img/1.jpg"><hr class="droite"></li>
         <li><img src="img/2.jpg"></li>
         <li><img src="img/3.jpg"></li>
         <li><img src="img/4.jpg"></li>
