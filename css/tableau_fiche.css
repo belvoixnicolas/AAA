@@ -7,7 +7,7 @@ body {
 }
 
 .scene {
-  background: rgba(0, 0, 0, 0.103);
+  background: rgba(134, 134, 134, 0.103);
   height: 40vh;
   margin-bottom: 20px;
 }
@@ -47,7 +47,7 @@ table {
 th {
   width: 40%;
   padding: 5px 20px;
-  background: rgba(0, 0, 0, 0.034);
+  background: rgba(134, 134, 134, 0.103);
   color: rgb(46, 46, 46);
   border-radius: 4px;
   font-weight: 600;
@@ -62,6 +62,9 @@ td {
   grid-column-end: 2 span;
   word-spacing: 4px;
   letter-spacing: 1px;
+  background: rgba(134, 134, 134, 0.103);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 button {

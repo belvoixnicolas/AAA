@@ -23,6 +23,7 @@
   <main>
     <!-- caroussel -->
     <div class="scene">
+      <div class="slide_gauche"><</div>
       <ul>
         <li><img src="img/1.jpg"><hr></li>
         <li><img src="img/2.jpg"></li>
@@ -31,6 +32,7 @@
         <li><img src="img/5.jpg"></li>
         <li><img src="img/6.jpg"></li>
       </ul>
+      <div class="slide_droite">></div>
     </div>
     <!-- caroussel -->
 
@@ -77,6 +79,6 @@
   <!-- FOOTER -->
     <?php include 'include/footer.html'; ?>
   <!-- FOOTER -->
-		<script type="text/javascript" src="js/greg.js"></script>
+		<script type="text/javascript" src="js/carousel_voiture.js"></script>
 </body>
 </html>
