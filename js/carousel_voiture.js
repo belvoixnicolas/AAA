@@ -17,7 +17,7 @@ function arriver(increment) {
     $('li img')[i].style.display = 'none';
     $('li img')[i].style.left = '0';
     $('li img')[i].style.right = '0';
-    
+
     $('#' + i +' .gauche').delay('2000').animate({opacity: '1'}, 'slow');
     $('#' + i +' .gauche').animate({height: '95%'}, 'slow', function() {
         $('#' + i +' img').animate({width: 'toggle'}, {queue: false, duration: 1000})

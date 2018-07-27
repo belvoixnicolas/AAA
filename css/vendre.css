@@ -3,7 +3,7 @@ html {
   font-size: 62.5%;
 }
 
-.p{
+.p {
   font-size: 1.8rem;
 }
 
@@ -150,25 +150,6 @@ html {
   cursor: pointer;
 }
 
-.bar, .load {
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
-  width: 75%;
-  height: 2px;
-  background-color: black;
-  border-radius: 5px;
-  opacity: 0;
-  box-sizing: border-box;
-  margin: 0 4.5px;
-}
-
-.buttonvendre:hover .bar {
-  opacity: 1;
-  -webkit-transition: all 1.9s ease;
-  transition: all 1.9s ease;
-}
-
 .h4vendre img {
   width: 12%;
   float: left;
@@ -239,9 +220,136 @@ html {
   background-color: black;
 }
 
+@media screen and (max-width: 756px) {
+  .conteneur {
+    flex-direction: column;
+  }
+  .formvente {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .h4vendre img {
+    width: 32px;
+  }
+  .gauche {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .témoignages {}
+}
+
+@media screen and (max-width: 754px) {
+  .témoinsgauche {}
+  @keyframes slidy {
+    0% {
+      left: 0%;
+    }
+    10% {
+      left: -50%;
+    }
+    25% {
+      left: -50%;
+    }
+    35% {
+      left: -100%;
+    }
+    50% {
+      left: -100%;
+    }
+    60% {
+      left: -150%;
+    }
+    75% {
+      left: -150%;
+    }
+    85% {
+      left: -200%;
+    }
+    100% {
+      left: -200%;
+    }
+  }
+  body {
+    margin: 0;
+  }
+  div#slider {
+    overflow: hidden;
+  }
+  .témoinsgauche {
+    width: 50%;
+    float: left;
+  }
+  .témoignages {
+    position: relative;
+    width: 403%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 35s slidy infinite;
+  }
+  #stars {
+    font-size: 15px;
+  }
+  .avisG, .avisD, .avisdroite, .avisgauche {
+    margin-top: 20px;
+  }
+  #imgtémoins {
+    width: 80px;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .conteneur {
     flex-direction: column;
+  }
+  @keyframes slidy {
+    0% {
+      left: 0%;
+    }
+    10% {
+      left: -100%;
+    }
+    25% {
+      left: -100%;
+    }
+    35% {
+      left: -200%;
+    }
+    50% {
+      left: -200%;
+    }
+    60% {
+      left: -300%;
+    }
+    75% {
+      left: -300%;
+    }
+    85% {
+      left: -400%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+  body {
+    margin: 0;
+  }
+  div#slider {
+    overflow: hidden;
+  }
+  .témoinsgauche {
+    width: 100%;
+    float: left;
+  }
+  .témoignages {
+    position: relative;
+    width: 803%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 35s slidy infinite;
   }
   .cars {
     width: 80%;
@@ -267,43 +375,6 @@ html {
   .h1vendre {
     padding-left: 14%;
     padding-right: 10%;
-  }
-}
-
-@media screen and (max-width: 756px) {
-  .conteneur {
-    flex-direction: column;
-  }
-  .formvente {
-    width: 90%;
-    margin-left: 5%;
-  }
-  .h4vendre img {
-    width: 32px;
-  }
-  .gauche {
-    margin-left: 5%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .témoignages {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 754px) {
-  .témoinsdroite, .témoinsgauche {
-    flex-direction: column;
-  }
-  #stars {
-    font-size: 15px;
-  }
-  .avisG, .avisD, .avisdroite, .avisgauche {
-    margin-top: 20px;
-  }
-  #imgtémoins {
-    width: 80px;
   }
 }
 
