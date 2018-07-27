@@ -22,6 +22,7 @@ main {
   grid-template-rows: 35px auto minmax(50px, auto);
   grid-column-gap: 10px;
   grid-row-gap: 50px;
+  margin-bottom: 20px;
 }
 
 h2, h3 {

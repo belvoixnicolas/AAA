@@ -1,15 +1,32 @@
 .scene {
     display: grid;
     grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 70vh;
     margin-top: 20px;
 }
 
 .scene div {
-    border: 1px solid blue;
+    align-self: center;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 5vh;
+    background: rgba(0, 0, 0, 0.459);
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.scene div:hover {
+    background: #000;
+}
+
+.scene p {
+    line-height: 5vw;
+    color: #FFF;
 }
 
 ul {
-    border: 1px solid green;
     text-align: center;
 }
 
@@ -18,12 +35,6 @@ li {
     grid-template-columns: 20px 1fr 20px;
     grid-template-rows: 70vh;
 }
-
-/*li:nth-child(1) {
-    display: grid;
-    grid-template-columns: 20px 1fr 20px;
-    grid-template-rows: 70vh;
-}*/
 
 li hr {
     opacity: 0;
