@@ -118,11 +118,13 @@
         <section class="liste">
 
 					<?php
-          $searchvoiture = $dbh->query('SELECT id_voiture,id_modele FROM voiture');
+          $searchvoiture = $dbh->query('SELECT id_voiture,id_modele,prix,description FROM voiture');
           while ($a = $searchvoiture->fetch())
 			{
           $idvoiture = $a['id_voiture'];
           $idmodele = $a['id_modele'];
+          $idprix = $a['prix'];
+          $iddescription = $a['description'];
           $lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
           $lienidpho = $lienidphoto->fetch();
           $id_photo = $lienidpho['lien_photo'];
@@ -139,10 +141,10 @@
             <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
             <h2><?php echo $id_marque." ".$id_modele;?></h2>
 
-            <h3>prix</h3>
+            <h3><?php echo $idprix;?> €</h3>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <?php echo $iddescription;?>
             </p>
           </a>
 
