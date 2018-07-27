@@ -179,7 +179,6 @@ html {
 .témoignages {
   display: flex;
   justify-content: space-around;
-  width: 100%;
   background-color: black;
   padding: 5px 20px 20px 20px;
 }
@@ -299,10 +298,11 @@ html {
   .avisG, .avisD, .avisdroite, .avisgauche {
     margin-top: 20px;
   }
-  #imgtémoins{
+  #imgtémoins {
     width: 80px;
   }
 }
+
 @media screen and (max-width: 1278px) {
   .blocnotenom {
     position: static;
