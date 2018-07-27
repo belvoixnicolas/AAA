@@ -30,19 +30,19 @@
 
 		<section class="conteneur">
 			<div class="gauche animated fadeInLeft">
-				<h4 class="h4vendre"> <img src="./img/fast.png" alt=""> Rapide</h4>
+				<h4 class="h4vendre"> <img src="./img/icon/defaut.gif" alt=""> Lorem Ipsum</h4>
 				<p class="p">
-					bla bla bla bla bla bla bla
+					"Lorem ipsum dolor sit amet"
 				</p>
 				<br>
-				<h4 class="h4vendre">Exemple</h4>
+				<h4 class="h4vendre"> <img src="./img/icon/defaut.gif" alt=""> Lorem Ipsum</h4>
 				<p class="p">
-					bla bla bla bla bla bla bla
+					"Lorem ipsum dolor sit amet"
 				</p>
 				<br>
-				<h4 class="h4vendre">Exemple</h4>
+				<h4 class="h4vendre"> <img src="./img/icon/defaut.gif" alt=""> Lorem Ipsum</h4>
 				<p class="p">
-					bla bla bla bla bla bla bla
+					"Lorem ipsum dolor sit amet"
 				</p>
 				<br>
 			</div>

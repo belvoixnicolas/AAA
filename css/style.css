@@ -413,82 +413,39 @@ main .container {
     min-height: 350px;
   }
 
-  @charset "UTF-8";
+ /* ----------------testadmin ---------------- */
 
-.testimonial-slider-container {
-  background: #e6e6e6;
-  padding: 1rem 1rem;
+.containerFormAdmin{
+  border: 2px black solid;
+width: 60%;
+margin: 50px auto 50px;
 }
 
-.testimonial-slider-container .orbit-previous,
-.testimonial-slider-container .orbit-next {
-  color: #0a0a0a;
-}
-
-.testimonial-slider-container .orbit-previous:hover, .testimonial-slider-container .orbit-previous:active, .testimonial-slider-container .orbit-previous:focus,
-.testimonial-slider-container .orbit-next:hover,
-.testimonial-slider-container .orbit-next:active,
-.testimonial-slider-container .orbit-next:focus {
-  background-color: transparent;
-}
-
-.testimonial-slider-container .orbit-previous {
-  left: -1rem;
-}
-
-.testimonial-slider-container .orbit-next {
-  right: -1rem;
-}
-
-.testimonial-slider-container .testimonial-slide {
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.formAdmin{
+  width: 80%;
   display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  padding: 50px 0 50px 0;
+  margin:0 auto;
 }
 
-.testimonial-slider-container .testimonial-slide-content {
-  padding: 1rem 1.5rem;
+.containerFormAdmin select, input{
+  font-size: 2rem;
+border: 1px solid black;
+margin: 10px 10% 10px 10%;
+padding-left: 30px;
+height: 40px;
 }
 
-@media screen and (min-width: 40em) {
-  .testimonial-slider-container .testimonial-slide-content {
-    padding: 1rem 4rem;
-  }
+.envoyer{
+  float:right;
+  padding-left: 0px!important;
+  height: 50px;
+  width: 100px;
 }
 
-.testimonial-slider-container .profile-pic {
-  max-width: 225px;
-}
-
-.testimonial-slider-container .testimonial-slide-text {
-  padding-left: 3rem;
-}
-
-.testimonial-slider-container .testimonial-slide-quotation {
-  font-size: 1.2rem;
-  position: relative;
-}
-
-.testimonial-slider-container .testimonial-slide-quotation::before {
-  content: "“";
-  font-size: 6rem;
-  color: #d6d6d6;
-  position: absolute;
-  top: -3rem;
-  left: -3rem;
-}
-
-.testimonial-slider-container .testimonial-slide-author-container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .testimonial-slider-container .testimonial-slide-author-container .testimonial-slide-author-info {
-    margin-left: 1rem;
-  }
+.h3Admin{
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  margin: 0 auto;
 }
