@@ -150,25 +150,6 @@ html {
   cursor: pointer;
 }
 
-.bar, .load {
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
-  width: 75%;
-  height: 2px;
-  background-color: black;
-  border-radius: 5px;
-  opacity: 0;
-  box-sizing: border-box;
-  margin: 0 4.5px;
-}
-
-.buttonvendre:hover .bar {
-  opacity: 1;
-  -webkit-transition: all 1.9s ease;
-  transition: all 1.9s ease;
-}
-
 .h4vendre img {
   width: 12%;
   float: left;
