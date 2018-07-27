@@ -879,13 +879,6 @@
 		"oAP": "\/build\/include\/.gitignore",
 		"oF": 0
 		},
-	"\/include\/connexion_dbh.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/include\/connexion_dbh.php",
-		"oF": 0
-		},
 	"\/include\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1017,7 +1010,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
