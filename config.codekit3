@@ -13,35 +13,35 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.htaccess",
+		"oAP": "\/build\/.htaccess",
 		"oF": 0
 		},
 	"\/base.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/base.html",
+		"oAP": "\/build\/base.html",
 		"oF": 0
 		},
 	"\/buy.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/buy.php",
+		"oAP": "\/build\/buy.php",
 		"oF": 0
 		},
 	"\/concept.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/concept.php",
+		"oAP": "\/build\/concept.php",
 		"oF": 0
 		},
 	"\/contact.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/contact.php",
+		"oAP": "\/build\/contact.php",
 		"oF": 0
 		},
 	"\/css\/animate.css": {
@@ -50,7 +50,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/animate-min.css",
+		"oAP": "\/build\/css\/animate-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -60,7 +60,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/buy-min.css",
+		"oAP": "\/build\/css\/buy-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -70,7 +70,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/caroussel-min.css",
+		"oAP": "\/build\/css\/caroussel-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -80,7 +80,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/concept-min.css",
+		"oAP": "\/build\/css\/concept-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -90,7 +90,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/contact-min.css",
+		"oAP": "\/build\/css\/contact-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -100,7 +100,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/fiche_voiture-min.css",
+		"oAP": "\/build\/css\/fiche_voiture-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -110,7 +110,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/footer-min.css",
+		"oAP": "\/build\/css\/footer-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -119,8 +119,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/hover-min-min.css",
+		"oA": 1,
+		"oAP": "\/build\/css\/hover-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -130,7 +130,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/hover-min.css",
+		"oAP": "\/build\/css\/hover-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -140,7 +140,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/mentions_legales-min.css",
+		"oAP": "\/build\/css\/mentions_legales-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -150,7 +150,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/nav-min.css",
+		"oAP": "\/build\/css\/nav-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -160,7 +160,17 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/reset-min.css",
+		"oAP": "\/build\/css\/reset-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -170,7 +180,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
+		"oAP": "\/build\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -180,7 +190,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/tableau_fiche-min.css",
+		"oAP": "\/build\/css\/tableau_fiche-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -190,7 +200,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/vendre-min.css",
+		"oAP": "\/build\/css\/vendre-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -198,7 +208,7 @@
 		"ft": 32768,
 		"iS": 19169,
 		"oA": 0,
-		"oAP": "\/document\/accueil.png",
+		"oAP": "\/build\/document\/accueil.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -209,21 +219,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/document\/base.html",
+		"oAP": "\/build\/document\/base.html",
 		"oF": 0
 		},
 	"\/document\/Cahier des charges du site Agence Automobile Ardennaise.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/document\/Cahier des charges du site Agence Automobile Ardennaise.docx",
+		"oAP": "\/build\/document\/Cahier des charges du site Agence Automobile Ardennaise.docx",
 		"oF": 0
 		},
 	"\/document\/charte_graphique.png": {
 		"ft": 32768,
 		"iS": 131885,
 		"oA": 0,
-		"oAP": "\/document\/charte_graphique.png",
+		"oAP": "\/build\/document\/charte_graphique.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -234,14 +244,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/document\/exemple_base_donnees_AAA.odt",
+		"oAP": "\/build\/document\/exemple_base_donnees_AAA.odt",
 		"oF": 0
 		},
 	"\/document\/fiche_voiture.png": {
 		"ft": 32768,
 		"iS": 10431,
 		"oA": 0,
-		"oAP": "\/document\/fiche_voiture.png",
+		"oAP": "\/build\/document\/fiche_voiture.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -252,7 +262,7 @@
 		"ft": 32768,
 		"iS": 63902,
 		"oA": 0,
-		"oAP": "\/document\/gloomap_d2e98f46.png",
+		"oAP": "\/build\/document\/gloomap_d2e98f46.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -263,14 +273,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/document\/lien_arboresance_site.txt",
+		"oAP": "\/build\/document\/lien_arboresance_site.txt",
 		"oF": 0
 		},
 	"\/document\/liste_voiture.png": {
 		"ft": 32768,
 		"iS": 13050,
 		"oA": 0,
-		"oAP": "\/document\/liste_voiture.png",
+		"oAP": "\/build\/document\/liste_voiture.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -282,7 +292,7 @@
 		"iS": 75887,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/document\/palette de couleur.jpg",
+		"oAP": "\/build\/document\/palette de couleur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -292,7 +302,7 @@
 		"ft": 32768,
 		"iS": 14036,
 		"oA": 0,
-		"oAP": "\/document\/utilisateur.png",
+		"oAP": "\/build\/document\/utilisateur.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -303,21 +313,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/essai.php",
+		"oAP": "\/build\/essai.php",
 		"oF": 0
 		},
 	"\/fiche_voiture.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fiche_voiture.php",
+		"oAP": "\/build\/fiche_voiture.php",
 		"oF": 0
 		},
 	"\/fiche_voiture2.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fiche_voiture2.php",
+		"oAP": "\/build\/fiche_voiture2.php",
 		"oF": 0
 		},
 	"\/img\/1.jpg": {
@@ -325,7 +335,7 @@
 		"iS": 81233,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/1.jpg",
+		"oAP": "\/build\/img\/1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -336,7 +346,7 @@
 		"iS": 68061,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/2.jpg",
+		"oAP": "\/build\/img\/2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -347,7 +357,7 @@
 		"iS": 84737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/3.jpg",
+		"oAP": "\/build\/img\/3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -358,7 +368,7 @@
 		"iS": 85769,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/4.jpg",
+		"oAP": "\/build\/img\/4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -369,7 +379,7 @@
 		"iS": 99681,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/5.jpg",
+		"oAP": "\/build\/img\/5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -380,7 +390,7 @@
 		"iS": 100441,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/6.jpg",
+		"oAP": "\/build\/img\/6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -391,7 +401,7 @@
 		"iS": 214208,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/AAA_LOGO1.jpg",
+		"oAP": "\/build\/img\/AAA_LOGO1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -401,7 +411,7 @@
 		"ft": 32768,
 		"iS": 223646,
 		"oA": 0,
-		"oAP": "\/img\/blackwall.png",
+		"oAP": "\/build\/img\/blackwall.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -412,7 +422,7 @@
 		"ft": 32768,
 		"iS": 62481,
 		"oA": 0,
-		"oAP": "\/img\/comment.png",
+		"oAP": "\/build\/img\/comment.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -423,7 +433,7 @@
 		"ft": 32768,
 		"iS": 12847920,
 		"oA": 0,
-		"oAP": "\/img\/description2.png",
+		"oAP": "\/build\/img\/description2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -434,7 +444,7 @@
 		"ft": 32768,
 		"iS": 382469,
 		"oA": 0,
-		"oAP": "\/img\/golf7.png",
+		"oAP": "\/build\/img\/golf7.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -446,7 +456,7 @@
 		"iS": 3624340,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/header.jpg",
+		"oAP": "\/build\/img\/header.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -457,7 +467,7 @@
 		"iS": 6484672,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/headermodif.jpg",
+		"oAP": "\/build\/img\/headermodif.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -467,7 +477,7 @@
 		"ft": 4194304,
 		"iS": 2258,
 		"oA": 0,
-		"oAP": "\/img\/icon\/acheterBlanc.gif",
+		"oAP": "\/build\/img\/icon\/acheterBlanc.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -475,7 +485,7 @@
 		"ft": 4194304,
 		"iS": 784,
 		"oA": 0,
-		"oAP": "\/img\/icon\/avis-client.gif",
+		"oAP": "\/build\/img\/icon\/avis-client.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -483,7 +493,7 @@
 		"ft": 4194304,
 		"iS": 760,
 		"oA": 0,
-		"oAP": "\/img\/icon\/billet.gif",
+		"oAP": "\/build\/img\/icon\/billet.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -491,7 +501,7 @@
 		"ft": 4194304,
 		"iS": 502,
 		"oA": 0,
-		"oAP": "\/img\/icon\/calendrier.gif",
+		"oAP": "\/build\/img\/icon\/calendrier.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -499,7 +509,7 @@
 		"ft": 4194304,
 		"iS": 700,
 		"oA": 0,
-		"oAP": "\/img\/icon\/conducteur.gif",
+		"oAP": "\/build\/img\/icon\/conducteur.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -507,7 +517,7 @@
 		"ft": 4194304,
 		"iS": 469,
 		"oA": 0,
-		"oAP": "\/img\/icon\/consulter.gif",
+		"oAP": "\/build\/img\/icon\/consulter.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -515,7 +525,7 @@
 		"ft": 4194304,
 		"iS": 450,
 		"oA": 0,
-		"oAP": "\/img\/icon\/contrat.gif",
+		"oAP": "\/build\/img\/icon\/contrat.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -523,7 +533,7 @@
 		"ft": 4194304,
 		"iS": 729,
 		"oA": 0,
-		"oAP": "\/img\/icon\/defaut.gif",
+		"oAP": "\/build\/img\/icon\/defaut.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -531,7 +541,7 @@
 		"ft": 4194304,
 		"iS": 529,
 		"oA": 0,
-		"oAP": "\/img\/icon\/description.gif",
+		"oAP": "\/build\/img\/icon\/description.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -539,7 +549,7 @@
 		"ft": 4194304,
 		"iS": 548,
 		"oA": 0,
-		"oAP": "\/img\/icon\/energie.gif",
+		"oAP": "\/build\/img\/icon\/energie.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -547,7 +557,7 @@
 		"ft": 4194304,
 		"iS": 496,
 		"oA": 0,
-		"oAP": "\/img\/icon\/facebook.gif",
+		"oAP": "\/build\/img\/icon\/facebook.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -555,7 +565,7 @@
 		"ft": 4194304,
 		"iS": 505,
 		"oA": 0,
-		"oAP": "\/img\/icon\/fast.gif",
+		"oAP": "\/build\/img\/icon\/fast.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -563,7 +573,7 @@
 		"ft": 32768,
 		"iS": 1552,
 		"oA": 0,
-		"oAP": "\/img\/icon\/fast.png",
+		"oAP": "\/build\/img\/icon\/fast.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -574,7 +584,7 @@
 		"ft": 4194304,
 		"iS": 835,
 		"oA": 0,
-		"oAP": "\/img\/icon\/faster.gif",
+		"oAP": "\/build\/img\/icon\/faster.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -582,7 +592,7 @@
 		"ft": 4194304,
 		"iS": 902,
 		"oA": 0,
-		"oAP": "\/img\/icon\/finance.gif",
+		"oAP": "\/build\/img\/icon\/finance.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -590,7 +600,7 @@
 		"ft": 32768,
 		"iS": 2864,
 		"oA": 0,
-		"oAP": "\/img\/icon\/finance.png",
+		"oAP": "\/build\/img\/icon\/finance.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -601,7 +611,7 @@
 		"ft": 4194304,
 		"iS": 541,
 		"oA": 0,
-		"oAP": "\/img\/icon\/garantie.gif",
+		"oAP": "\/build\/img\/icon\/garantie.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -609,7 +619,7 @@
 		"ft": 32768,
 		"iS": 1103,
 		"oA": 0,
-		"oAP": "\/img\/icon\/garantie.png",
+		"oAP": "\/build\/img\/icon\/garantie.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -620,7 +630,7 @@
 		"ft": 4194304,
 		"iS": 635,
 		"oA": 0,
-		"oAP": "\/img\/icon\/immeuble.gif",
+		"oAP": "\/build\/img\/icon\/immeuble.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -628,7 +638,7 @@
 		"ft": 4194304,
 		"iS": 578,
 		"oA": 0,
-		"oAP": "\/img\/icon\/inspection.gif",
+		"oAP": "\/build\/img\/icon\/inspection.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -636,7 +646,7 @@
 		"ft": 4194304,
 		"iS": 528,
 		"oA": 0,
-		"oAP": "\/img\/icon\/jaime.gif",
+		"oAP": "\/build\/img\/icon\/jaime.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -644,7 +654,7 @@
 		"ft": 4194304,
 		"iS": 421,
 		"oA": 0,
-		"oAP": "\/img\/icon\/km.gif",
+		"oAP": "\/build\/img\/icon\/km.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -652,7 +662,7 @@
 		"ft": 32768,
 		"iS": 1212,
 		"oA": 0,
-		"oAP": "\/img\/icon\/km.png",
+		"oAP": "\/build\/img\/icon\/km.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -663,7 +673,7 @@
 		"ft": 4194304,
 		"iS": 653,
 		"oA": 0,
-		"oAP": "\/img\/icon\/livre.gif",
+		"oAP": "\/build\/img\/icon\/livre.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -671,7 +681,7 @@
 		"ft": 4194304,
 		"iS": 507,
 		"oA": 0,
-		"oAP": "\/img\/icon\/mail.gif",
+		"oAP": "\/build\/img\/icon\/mail.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -679,7 +689,7 @@
 		"ft": 32768,
 		"iS": 1581,
 		"oA": 0,
-		"oAP": "\/img\/icon\/mail.png",
+		"oAP": "\/build\/img\/icon\/mail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -690,7 +700,7 @@
 		"ft": 4194304,
 		"iS": 521,
 		"oA": 0,
-		"oAP": "\/img\/icon\/nrj.gif",
+		"oAP": "\/build\/img\/icon\/nrj.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -698,7 +708,7 @@
 		"ft": 32768,
 		"iS": 1048,
 		"oA": 0,
-		"oAP": "\/img\/icon\/nrj.png",
+		"oAP": "\/build\/img\/icon\/nrj.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -709,7 +719,7 @@
 		"ft": 4194304,
 		"iS": 926,
 		"oA": 0,
-		"oAP": "\/img\/icon\/partenaire.gif",
+		"oAP": "\/build\/img\/icon\/partenaire.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -717,7 +727,7 @@
 		"ft": 4194304,
 		"iS": 441,
 		"oA": 0,
-		"oAP": "\/img\/icon\/rdv.gif",
+		"oAP": "\/build\/img\/icon\/rdv.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -725,7 +735,7 @@
 		"ft": 4194304,
 		"iS": 791,
 		"oA": 0,
-		"oAP": "\/img\/icon\/reserver.gif",
+		"oAP": "\/build\/img\/icon\/reserver.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -733,7 +743,7 @@
 		"ft": 4194304,
 		"iS": 447,
 		"oA": 0,
-		"oAP": "\/img\/icon\/tel.gif",
+		"oAP": "\/build\/img\/icon\/tel.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -741,7 +751,7 @@
 		"ft": 4194304,
 		"iS": 324,
 		"oA": 0,
-		"oAP": "\/img\/icon\/text.gif",
+		"oAP": "\/build\/img\/icon\/text.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -749,7 +759,7 @@
 		"ft": 4194304,
 		"iS": 651,
 		"oA": 0,
-		"oAP": "\/img\/icon\/user.gif",
+		"oAP": "\/build\/img\/icon\/user.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -757,7 +767,7 @@
 		"ft": 4194304,
 		"iS": 3623,
 		"oA": 0,
-		"oAP": "\/img\/icon\/vendreBlanc.gif",
+		"oAP": "\/build\/img\/icon\/vendreBlanc.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -765,7 +775,7 @@
 		"ft": 4194304,
 		"iS": 636,
 		"oA": 0,
-		"oAP": "\/img\/icon\/voiture.gif",
+		"oAP": "\/build\/img\/icon\/voiture.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -773,7 +783,7 @@
 		"ft": 32768,
 		"iS": 10687,
 		"oA": 0,
-		"oAP": "\/img\/icone-client.png",
+		"oAP": "\/build\/img\/icone-client.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -785,7 +795,7 @@
 		"iS": 4391,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/images.jpg",
+		"oAP": "\/build\/img\/images.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -795,7 +805,7 @@
 		"ft": 4194304,
 		"iS": 1580,
 		"oA": 0,
-		"oAP": "\/img\/logo.gif",
+		"oAP": "\/build\/img\/logo.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -803,7 +813,7 @@
 		"ft": 4194304,
 		"iS": 2168,
 		"oA": 0,
-		"oAP": "\/img\/logo_num.gif",
+		"oAP": "\/build\/img\/logo_num.gif",
 		"oF": 0,
 		"opt": 0
 		},
@@ -812,7 +822,7 @@
 		"iS": 126431,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/logoaaa.jpg",
+		"oAP": "\/build\/img\/logoaaa.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -822,7 +832,7 @@
 		"ft": 32768,
 		"iS": 142694,
 		"oA": 0,
-		"oAP": "\/img\/map.png",
+		"oAP": "\/build\/img\/map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -833,7 +843,7 @@
 		"ft": 32768,
 		"iS": 305,
 		"oA": 0,
-		"oAP": "\/img\/tel.png",
+		"oAP": "\/build\/img\/tel.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -844,7 +854,7 @@
 		"ft": 32768,
 		"iS": 2924,
 		"oA": 0,
-		"oAP": "\/img\/texture\/carbon.png",
+		"oAP": "\/build\/img\/texture\/carbon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -856,7 +866,7 @@
 		"iS": 81233,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/voiture.jpg",
+		"oAP": "\/build\/img\/voiture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -866,35 +876,35 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/include\/.gitignore",
+		"oAP": "\/build\/include\/.gitignore",
 		"oF": 0
 		},
 	"\/include\/connexion_dbh.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/include\/connexion_dbh.php",
+		"oAP": "\/build\/include\/connexion_dbh.php",
 		"oF": 0
 		},
 	"\/include\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/include\/footer.html",
+		"oAP": "\/build\/include\/footer.html",
 		"oF": 0
 		},
 	"\/include\/navbar.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/include\/navbar.html",
+		"oAP": "\/build\/include\/navbar.html",
 		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.php",
+		"oAP": "\/build\/index.php",
 		"oF": 0
 		},
 	"\/js\/carousel_voiture.js": {
@@ -902,7 +912,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/carousel_voiture-min.js",
+		"oAP": "\/build\/js\/carousel_voiture-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -912,7 +922,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/caroussel-min.js",
+		"oAP": "\/build\/js\/caroussel-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -922,7 +932,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/onscroll-min.js",
+		"oAP": "\/build\/js\/onscroll-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -932,7 +942,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/vendre-min.js",
+		"oAP": "\/build\/js\/vendre-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -942,7 +952,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/wow.min-min.js",
+		"oAP": "\/build\/js\/wow.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -951,7 +961,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/legal.php",
+		"oAP": "\/build\/legal.php",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -963,7 +973,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/build\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -976,21 +986,21 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/testadmin.php",
+		"oAP": "\/build\/testadmin.php",
 		"oF": 0
 		},
 	"\/traitement.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/traitement.php",
+		"oAP": "\/build\/traitement.php",
 		"oF": 0
 		},
 	"\/vendre.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/vendre.php",
+		"oAP": "\/build\/vendre.php",
 		"oF": 0
 		}
 	},
@@ -1259,7 +1269,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -3156,7 +3166,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }
