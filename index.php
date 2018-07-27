@@ -82,10 +82,10 @@
 		</div>
 
 		<section class="ventesrapides">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
-			<img src="./img/voiture.jpg" class="voitures" alt="">
+			<div class="voituresVR"></div>
+			<div class="voituresVR"></div>
+			<div class="voituresVR"></div>
+			<div class="voituresVR"></div>
 		</section>
 
 		<div class="titletemoin">
@@ -221,7 +221,6 @@
 		<section id="partenaires">
 			<h2 class="h2index wow animated fadeInRight" data-wow-duration="2s"><img src="./img/icon/partenaire.gif" class="iconepartenaires" alt="">Nos partenaires</h2>
 			<div class="container">
-				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">
 				<img src="./img/logoaaa.jpg" class="logo" alt="">

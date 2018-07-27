@@ -204,12 +204,31 @@ main .titletemoin {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
+  overflow: hidden;
 }
 
-.voitures {
-  max-width: 100%;
-  height: auto !important;
-  cursor: pointer;
+
+.voituresVR{
+  background-image: url("../img/voiture.jpg");
+  height: 250px;
+  width: 333px;
+  background-size: contain;
+  background-position:center;
+transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+}
+
+.voituresVR:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */
 }
 
 main .logo {
