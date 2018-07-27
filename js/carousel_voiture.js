@@ -18,11 +18,9 @@ function arriver(increment) {
     $('li img')[i].style.left = '0';
     $('li img')[i].style.right = '0';
 
-    $('#' + i +' .gauche').delay('2000').animate({opacity: '1'}, 'slow');
-    $('#' + i +' .gauche').animate({height: '95%'}, 'slow', function() {
+    $('#' + i +' .gauche').delay('2000').animate({opacity: '1', width: '1px'}, 'slow', function() {
         $('#' + i +' img').animate({width: 'toggle'}, {queue: false, duration: 1000})
         .delay('710').animate({left: $('#' + i +' img').parent().width() /2 - $('#' + i +' img').width() /2}, 1000, function() {
-            $('#' + i +' .gauche').animate({height: '0%'}, 'slow');
             $('#' + i +' .gauche').animate({opacity: '0'}, 'slow', function() {
                 i++;
             });
@@ -33,12 +31,9 @@ function arriver(increment) {
 function depart() {
     var x = i - 1;
     
-    
-    $('#' + x +' .droite').animate({opacity: '1'}, 'slow');
-    $('#' + x +' .droite').animate({height: '95%'}, 'slow', function() {
+    $('#' + x +' .droite').animate({width: '1', opacity: '1'}, 'slow', function() {
         $('#' + x +' img').animate({left: $('#' + x +' img').parent().width() - $('#' + x +' img').width() - 40}, {queue: false, duration: 'slow'})
         .delay('550').animate({left: $('#' + x +' img').parent().width() - 40, width: 'toggle'}, 'slow', function() {
-            $('#' + x +' .droite').animate({height: '0%'}, 'slow');
             $('#' + x +' .droite').animate({opacity: '0'}, 'slow', function() {liste[x].style.display = 'none';});
         });
     });

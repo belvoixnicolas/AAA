@@ -6,6 +6,10 @@ body {
   font-size: 1.5rem;
 }
 
+main {
+  overflow: hidden;
+}
+
 .scene {
   background: rgba(134, 134, 134, 0.103);
   height: 70vh;
