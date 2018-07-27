@@ -36,7 +36,7 @@
         <section class="filtre">
           <form action="#" method="post">
             <p class="select">
-              <select id="place" name="nbreplace">
+              <select id="place" name="nbreplace" onchange="filtre1()">
                 <option value="none" disabled selected>Nombre de place</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -167,5 +167,8 @@
 
       <!-- FOOTER -->
         <?php include 'include/footer.html'; ?>
+        <?php function filtre1() {
+
+        }
     </body>
   </html>

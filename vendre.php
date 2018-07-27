@@ -82,13 +82,8 @@
 			<h2 class="h2index wow animated fadeInLeft" data-wow-duration="2s" style="color:white;"><img src="./img/icon/description.gif" class="iconetémoins" alt="">
 			Nos clients témoignent</h2>
 		</div>
-<<<<<<< HEAD
-
-		<section class="témoignages">
-=======
 		<div id="slider">
 			<section class="témoignages">
->>>>>>> b8782334ce69482fc88843e261c2be38bb653479
 			<div class="témoinsgauche">
 				<div class="avisG">
 					<img id=imgtémoins src="./img/images.jpeg" alt="img1">
@@ -101,7 +96,6 @@
 							<i id="stars" class="fas fa-star"></i>
 							<i id="stars" class="fas fa-star"></i>
 						</div>
-<<<<<<< HEAD
 					</div>
 					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
 				</div>
@@ -119,25 +113,6 @@
 					</div>
 					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
 				</div>
-=======
-					</div>
-					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
-				</div>
-				<div class="avisD">
-					<img id=imgtémoins src="./img/images.jpeg" alt="img2">
-					<div class="blocnotenom">
-						<h4 class="nametem">Sarah V.(35)</h4>
-						<div class="étoiles">
-							<i id="stars" class="fas fa-star"></i>
-							<i id="stars" class="fas fa-star"></i>
-							<i id="stars" class="fas fa-star"></i>
-							<i id="stars" class="fas fa-star"></i>
-							<i id="stars" class="fas fa-star"></i>
-						</div>
-					</div>
-					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
-				</div>
->>>>>>> b8782334ce69482fc88843e261c2be38bb653479
 			</div>
 			<div class="témoinsgauche">
 				<div class="avisG">
@@ -229,12 +204,7 @@
 					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
 				</div>
 			</div>
-<<<<<<< HEAD
 		</section>
-=======
-			</section>
-		</div>
->>>>>>> b8782334ce69482fc88843e261c2be38bb653479
 
 	</main>
 	<?php include 'include/footer.html'; ?>
