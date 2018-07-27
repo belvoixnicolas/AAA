@@ -94,8 +94,8 @@ div#slider {
 }
 
 header {
-background-image: url("../img/header.jpg");
- display: flex;
+  background-image: url("../img/header.jpg");
+  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 600px;
@@ -213,14 +213,14 @@ main .titletemoin {
   overflow: hidden;
 }
 
-
-.voituresVR{
+.voituresVR {
   background-image: url("../img/voiture.jpg");
   background-position: center;
   height: 250px;
   width: 333px;
-  background-size: contain;
+  background-size: 100%;
   background-position: center;
+  transition: 1s;
 }
 
 .voituresVR:hover {
