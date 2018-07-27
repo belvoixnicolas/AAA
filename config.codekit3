@@ -283,7 +283,7 @@
 		"oAP": "\/build\/document\/liste_voiture.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -305,7 +305,7 @@
 		"oAP": "\/build\/document\/utilisateur.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -349,7 +349,7 @@
 		"oAP": "\/build\/img\/2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/3.jpg": {
@@ -382,7 +382,7 @@
 		"oAP": "\/build\/img\/5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/6.jpg": {
@@ -436,7 +436,7 @@
 		"oAP": "\/build\/img\/description2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -495,7 +495,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/icon\/billet.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/icon\/calendrier.gif": {
 		"ft": 4194304,
@@ -511,7 +511,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/icon\/conducteur.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/icon\/consulter.gif": {
 		"ft": 4194304,
@@ -519,7 +519,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/icon\/consulter.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/icon\/contrat.gif": {
 		"ft": 4194304,
@@ -527,7 +527,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/icon\/contrat.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/icon\/defaut.gif": {
 		"ft": 4194304,
@@ -559,7 +559,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/icon\/facebook.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/icon\/fast.gif": {
 		"ft": 4194304,
@@ -576,7 +576,7 @@
 		"oAP": "\/build\/img\/icon\/fast.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -622,7 +622,7 @@
 		"oAP": "\/build\/img\/icon\/garantie.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -692,7 +692,7 @@
 		"oAP": "\/build\/img\/icon\/mail.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -798,7 +798,7 @@
 		"oAP": "\/build\/img\/images.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/logo.gif": {
@@ -846,7 +846,7 @@
 		"oAP": "\/build\/img\/tel.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -869,7 +869,7 @@
 		"oAP": "\/build\/img\/voiture.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/include\/.gitignore": {
