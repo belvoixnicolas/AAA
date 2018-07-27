@@ -1,7 +1,16 @@
 var i = 0;
 var liste = $('li');
 
-function arriver() {
+function arriver(increment) {
+    if (increment == 1) {
+        if (i < 0) {
+            i = liste.length;
+        }else {
+            i = i - 2;
+        }
+    }
+
+
     liste[i].style.display = 'grid';
     $('li img')[i].style.marginLeft = '0';
     $('li img')[i].style.marginRight = '0';
@@ -14,16 +23,16 @@ function arriver() {
         $('#' + i +' img').animate({width: 'toggle'}, {queue: false, duration: 1000})
         .delay('710').animate({left: $('#' + i +' img').parent().width() /2 - $('#' + i +' img').width() /2}, 1000, function() {
             $('#' + i +' .gauche').animate({height: '0%'}, 'slow');
-            $('#' + i +' .gauche').animate({opacity: '0'}, 'slow');
+            $('#' + i +' .gauche').animate({opacity: '0'}, 'slow', function() {
+                i++;
+            });
         });
     });
 }
 
 function depart() {
     var x = i - 1;
-    if (x == -1) {
-        x = liste.length;
-    }
+    
     
     $('#' + x +' .droite').animate({opacity: '1'}, 'slow');
     $('#' + x +' .droite').animate({height: '95%'}, 'slow', function() {
@@ -33,22 +42,36 @@ function depart() {
             $('#' + x +' .droite').animate({opacity: '0'}, 'slow', function() {liste[x].style.display = 'none';});
         });
     });
+
+    if (i == liste.length || i > liste.length) {
+        i = 0;
+    }else if (i < 0) {
+        i = liste.length;
+    }
 }
 
 function suivent() {
-    if (i == liste.length || i > liste.length) {
-        i = 0;
-    }else {
-        i++;
-    }
+
 
     depart();
 
     var truc = setInterval(
         function() {
-            arriver();
+            arriver(0);
             clearInterval(truc);
-        },2000);
+        },3000);
 }
 
-arriver();
+function présédent() {
+
+
+    depart();
+
+    var truc = setInterval(
+        function() {
+            arriver(1);
+            clearInterval(truc);
+        },3000);
+}
+
+arriver(0);
