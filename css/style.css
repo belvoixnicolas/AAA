@@ -94,12 +94,14 @@ div#slider {
 }
 
 header {
-  background-image: url('../img/header.jpg');
-  display: flex;
+background-image: url("../img/header.jpg");
+ display: flex;
   align-items: center;
   justify-content: center;
   min-height: 600px;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: calc(80vh - 100px);
 }
 
@@ -214,25 +216,15 @@ main .titletemoin {
 
 .voituresVR{
   background-image: url("../img/voiture.jpg");
+  background-position: center;
   height: 250px;
   width: 333px;
   background-size: contain;
-  background-position:center;
-transition: all 1s ease;
--moz-transition: all 1s ease;
--ms-transition: all 1s ease;
--webkit-transition: all 1s ease;
--o-transition: all 1s ease;
+  background-position: center;
 }
 
 .voituresVR:hover {
-  transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5); /* IE 9 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
-   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */
+  background-size: 120%;
 }
 
 main .logo {
