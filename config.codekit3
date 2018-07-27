@@ -453,7 +453,7 @@
 		},
 	"\/img\/header.jpg": {
 		"ft": 16384,
-		"iS": 3624340,
+		"iS": 797586,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/header.jpg",
@@ -462,15 +462,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/headermodif.jpg": {
-		"ft": 16384,
-		"iS": 6484672,
-		"jF": 0,
+	"\/img\/header.png": {
+		"ft": 32768,
+		"iS": 774201,
 		"oA": 0,
-		"oAP": "\/build\/img\/headermodif.jpg",
+		"oAP": "\/build\/img\/header.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/icon\/acheterBlanc.gif": {
