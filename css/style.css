@@ -66,6 +66,10 @@ div#slider {
   animation: 35s slidy infinite;
 }
 
+.témoignages:hover {
+  animation: paused;
+}
+
 /*FIN CAROUSEL TEMOIGNAGES */
 
 .item {

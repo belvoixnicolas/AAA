@@ -23,13 +23,13 @@
   <main>
     <!-- caroussel -->
     <div class="scene">
-      <div class="slide_gauche 2"><</div>
+      <div class="slide_gauche" onclick="présédent();"><p><</p></div>
       <ul>
         <li id="0"><hr class="gauche"><img src="img/1.jpg"><hr class="droite"></li>
         <li id="1"><hr class="gauche"><img src="img/2.jpg"><hr class="droite"></li>
         <li id="2"><hr class="gauche"><img src="img/3.jpg"><hr class="droite"></li>
       </ul>
-      <div class="slide_droite" onclick="suivent();">></div>
+      <div class="slide_droite" onclick="suivent();"><p>></p></div>
     </div>
     <!-- caroussel -->
 
