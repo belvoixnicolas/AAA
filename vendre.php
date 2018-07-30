@@ -50,25 +50,25 @@
 
 				<div class="cars">
 					<h2 class="h2vendre">Votre véhicule :</h2>
-					<input type="text" id="marque" name="marque" placeholder="Marque et modèle">
+					<input type="text" id="marque" name="marque" placeholder="Marque et modèle" required>
 
-					<input type="text" id="energie" name="energie" placeholder="Energie">
+					<input type="text" id="energie" name="energie" placeholder="Energie" required>
 
-					<input type="text" id="année" name="année" placeholder="Année">
+					<input type="text" id="année" name="année" placeholder="Année" required>
 
-					<input type="text" id="km" name="km" placeholder="Kilomètrage">
+					<input type="text" id="km" name="km" placeholder="Kilomètrage" required>
 
 				</div>
 
 				<div class="coordonnées">
 					<h2 class="h2vendre">Vos coordonnées&nbsp;:</h2>
-					<input type="text" id="nom" name="nom" placeholder="Nom et prénom">
+					<input type="text" id="nom" name="nom" placeholder="Nom et prénom" required>
 
-					<input type="text" id="tel" name="tel" placeholder="Téléphone">
+					<input type="text" id="tel" name="tel" placeholder="Téléphone" required>
 
-					<input type="text" id="codepostal" name="codepostal" placeholder="Code postal">
+					<input type="text" id="codepostal" name="codepostal" placeholder="Code postal" required>
 
-					<input type="email" id="mail" name="mail" placeholder="E-mail">
+					<input type="email" id="mail" name="mail" placeholder="E-mail" required>
 					<br>
 					<button class="buttonvendre" type="submit">
 									Submit
@@ -204,8 +204,10 @@
 					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
 				</div>
 			</div>
-		</section>
+			</section>
+		</div>
 
+		
 	</main>
 	<?php include 'include/footer.html'; ?>
 	<script src="js/wow.min.js"></script>

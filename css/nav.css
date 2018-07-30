@@ -2,16 +2,12 @@
 
 html {
   font-size: 62.5%;
-}
-
-body {
-  overflow: initial;
+  font-family: 'Exo', sans-serif;
 }
 
 nav {
   background-color: #000;
   position: sticky;
-  -webkit-position: sticky;
   top: 0px;
   height: 100px;
   padding: 0 20px;

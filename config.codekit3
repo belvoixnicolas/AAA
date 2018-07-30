@@ -23,6 +23,12 @@
 		"oAP": "\/build\/base.html",
 		"oF": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/buy.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -569,6 +575,16 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/icon\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/icon\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icon\/fast.gif": {
 		"ft": 4194304,
 		"iS": 505,
@@ -1003,6 +1019,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/traitement.php",
+		"oF": 0
+		},
+	"\/traitementbuy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/traitementbuy.php",
 		"oF": 0
 		},
 	"\/vendre.php": {
