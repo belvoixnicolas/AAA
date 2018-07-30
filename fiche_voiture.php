@@ -19,7 +19,7 @@
   <!-- NAVBAR -->
     <?php include 'include/navbar.html'; ?>
   <!-- NAVBAR -->
-  
+
   <main>
     <!-- caroussel -->
     <div class="scene">
@@ -32,6 +32,43 @@
       <div class="slide_droite" onclick="suivent();"><p>></p></div>
     </div>
     <!-- caroussel -->
+
+
+
+<?php
+		while ($a = $searchvoiture->fetch())
+		{
+		$idvoiture = $a['id_voiture'];
+		$idmodele = $a['id_modele'];
+		$idprix = $a['prix'];
+		$iddescription = $a['description'];
+		$lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidpho = $lienidphoto->fetch();
+		$id_photo = $lienidpho['lien_photo'];
+
+		$lienidmarque = $dbh->query('SELECT marque FROM marque NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidmar = $lienidmarque->fetch();
+		$id_marque = $lienidmar['marque'];
+
+		$lienidmodele = $dbh->query('SELECT modele FROM modele WHERE id_modele = "'.$idmodele.'"');
+		$lienidmod = $lienidmodele->fetch();
+		$id_modele = $lienidmod['modele'];
+		?>
+		<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
+			<img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
+			<h2><?php echo $id_marque." ".$id_modele;?></h2>
+
+			<h3><?php echo $idprix;?> €</h3>
+
+			<p>
+				<?php echo $iddescription;?>
+			</p>
+		</a>
+
+		<?php } ?>
+
+
+
 
     <section class='info'>
       <h2>Titre</h2>
@@ -65,7 +102,7 @@
       </table>
 
       <p class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe
         illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
       </p>
 
