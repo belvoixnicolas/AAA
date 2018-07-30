@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="css/nav.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" type="text/css" href="css/buy.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
       </head>
@@ -264,7 +264,7 @@ $searchvoiture = $dbh->query($query);
             $lienidmod = $lienidmodele->fetch();
             $id_modele = $lienidmod['modele'];
             ?>
-  					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
+  					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile wow animated zoomIn">
               <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
               <h2><?php echo $id_marque." ".$id_modele;?></h2>
 

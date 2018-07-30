@@ -32,11 +32,108 @@
         $reponse5 = $dbh->query('SELECT * FROM options');
         $reponse6 = $dbh->query('SELECT * FROM options');
         $reponse7 = $dbh->query('SELECT * FROM options');
+        $reponse8 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
         ?>
         <section class="filtre">
-          <form action="traitementbuy.php" method="post">
+          <form action="#" method="post">
+
             <p class="select">
-              <select id="place" name="nbreplace" onchange="filtre1()">
+              <select id="min-prix" name="minPrix">
+                <option value="none" disabled selected>Prix min</option>
+                <option value="0">0</option>
+                <option value="2000">2000</option>
+                <option value="5000">5000</option>
+                <option value="7500">7500</option>
+                <option value="10000">10000</option>
+                <option value="15000">15000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+                <option value="40000">40000</option>
+                <option value="50000">50000</option>
+                <option value="75000">75000</option>
+                <option value="100000">100000</option>
+                <option value="150000">150000</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="max-prix" name="maxPrix">
+                <option value="none" disabled selected>Prix max</option>
+                <option value="0">0</option>
+                <option value="2000">2000</option>
+                <option value="5000">5000</option>
+                <option value="7500">7500</option>
+                <option value="10000">10000</option>
+                <option value="15000">15000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+                <option value="40000">40000</option>
+                <option value="50000">50000</option>
+                <option value="75000">75000</option>
+                <option value="100000">100000</option>
+                <option value="150000">150000</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="min-an" name="minAn">
+                <option value="none" disabled selected>Année min</option>
+                <?php while ($a = $reponse3->fetch())
+            { ?>
+                <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="max-an" name="maxAn">
+                <option value="none" disabled selected>Année max</option>
+                <?php while ($a = $reponse8->fetch())
+            { ?>
+                <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="min-km" name="minKm">
+                <option value="none" disabled selected>Kilomètres min</option>
+                <option value="10000">10000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+                <option value="40000">40000</option>
+                <option value="50000">50000</option>
+                <option value="60000">60000</option>
+                <option value="70000">70000</option>
+                <option value="80000">80000</option>
+                <option value="90000">90000</option>
+                <option value="100000">100000</option>
+                <option value="120000">120000</option>
+                <option value="150000">150000</option>
+                <option value="200000">200000</option>
+
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="max-km" name="maxKm">
+                <option value="none" disabled selected>Kilomètres max</option>
+                <option value="10000">10000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+                <option value="40000">40000</option>
+                <option value="50000">50000</option>
+                <option value="60000">60000</option>
+                <option value="70000">70000</option>
+                <option value="80000">80000</option>
+                <option value="90000">90000</option>
+                <option value="100000">100000</option>
+                <option value="120000">120000</option>
+                <option value="150000">150000</option>
+                <option value="200000">200000</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <select id="place" name="nbreplace">
                 <option value="none" disabled selected>Nombre de place</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -46,36 +143,6 @@
                 <option value="6">6</option>
                 <option value="7">7</option>
                 <option value="8">8</option>
-              </select>
-            </p>
-
-            <p class="select">
-              <select id="max-prix" name="maxPrix">
-                <option value="none" selected>Prix max</option>
-              </select>
-            </p>
-
-            <p class="select">
-              <select id="min-an" name="minAn">
-                <option value="none" selected>Année min</option>
-              </select>
-            </p>
-
-            <p class="select">
-              <select id="max-an" name="maxAn">
-                <option value="none" selected>Année max</option>
-              </select>
-            </p>
-
-            <p class="select">
-              <select id="min-km" name="minKm">
-                <option value="none" selected>Kilomètres min</option>
-              </select>
-            </p>
-
-            <p class="select">
-              <select id="max-km" name="maxKm">
-                <option value="none" selected>Kilomètres max</option>
               </select>
             </p>
 
@@ -90,13 +157,13 @@
 
             <p class="select">
               <select id="energie" name="energie">
-  							<option disabled selected>Energie</option>
-  							<option value="1">Essence</option>
-  							<option value="2">Diesel</option>
-  							<option value="3">Electrique</option>
-  							<option value="4">Hybride</option>
-  							<option value="5">Autre</option>
-  						</select>
+                <option disabled selected>Energie</option>
+                <option value="1">Essence</option>
+                <option value="2">Diesel</option>
+                <option value="3">Electrique</option>
+                <option value="4">Hybride</option>
+                <option value="5">Autre</option>
+              </select>
             </p>
 
             <p class="select">
@@ -104,7 +171,7 @@
                 <option disabled selected>Boite de vitesse</option>
                 <?php while ($b = $reponse2->fetch())
             { ?>
-                <option value="<?php echo $b['id_vitesse'];?>"<?php echo $b['vitesse'];?></option><?php } ?>
+                <option value="<?php echo $b['id_vitesse'];?>"><?php echo $b['vitesse'];?></option><?php } ?>
               </select>
             </p>
 
@@ -117,10 +184,70 @@
 
         <section class="liste">
 
-					<?php
-          $searchvoiture = $dbh->query('SELECT id_voiture,id_modele,prix,description FROM voiture');
+          <?php
+
+          $query = 'SELECT id_voiture,id_modele,prix,description,ID_annee FROM voiture
+  WHERE 1=1';
+
+
+      if(!empty($_POST['minPrix']))
+      {
+      $query .= ' AND prix >= \'' .$_POST['minPrix']. '\'';
+      }
+
+      if(!empty($_POST['maxPrix']))
+      {
+      $query .= ' AND prix <= \'' .$_POST['maxPrix']. '\'';
+      }
+
+      if(!empty($_POST['minAn']))
+      {
+      $query .= ' AND ID_annee >= \'' .$_POST['minAn']. '\'';
+      }
+
+      if(!empty($_POST['maxAn']))
+      {
+      $query .= ' AND ID_annee <= \'' .$_POST['maxAn']. '\'';
+      }
+
+      if(!empty($_POST['minKm']))
+      {
+      $query .= ' AND km >= \'' .$_POST['minKm']. '\'';
+      }
+
+      if(!empty($_POST['maxKm']))
+      {
+      $query .= ' AND km <= \'' .$_POST['maxKm']. '\'';
+      }
+      if(!empty($_POST['nbreplace']))
+      {
+          $query .= ' AND nbre_place = \'' .$_POST['nbreplace']. '\'';
+      }
+
+
+      if(!empty($_POST['marque']))
+      {
+          $query .= ' AND id_marque = \'' .$_POST['marque']. '\'';
+      }
+
+      if(!empty($_POST['energie']))
+      {
+          $query .= ' AND id_energie = \'' .$_POST['energie']. '\'';
+      }
+
+      if(!empty($_POST['vitesse']))
+      {
+          $query .= ' AND id_vitesse = \'' .$_POST['vitesse']. '\'';
+      }
+
+
+
+
+$searchvoiture = $dbh->query($query);
+
+
           while ($a = $searchvoiture->fetch())
-			{
+      {
           $idvoiture = $a['id_voiture'];
           $idmodele = $a['id_modele'];
           $idprix = $a['prix'];
@@ -137,7 +264,7 @@
           $lienidmod = $lienidmodele->fetch();
           $id_modele = $lienidmod['modele'];
           ?>
-					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
+					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile wow animated zoomIn">
             <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
             <h2><?php echo $id_marque." ".$id_modele;?></h2>
 
@@ -665,7 +792,7 @@
         <script src="js/wow.min.js"></script>
         <script>
           new WOW().init();
-          
+
         </script>
     </body>
   </html>
