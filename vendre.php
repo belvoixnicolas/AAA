@@ -204,8 +204,10 @@
 					<p class="Tem">"Quae dum ita struuntur, indicatum est apud Tyrum indumentum regale textum occulte, incertum quo locante vel cuius usibus apparatum. ideoque rector provinciae tunc pater Apollinaris eiusdem nominis " </p>
 				</div>
 			</div>
-		</section>
+			</section>
+		</div>
 
+		
 	</main>
 	<?php include 'include/footer.html'; ?>
 	<script src="js/wow.min.js"></script>
