@@ -31,7 +31,7 @@ $lienphoto = $_POST["lienphoto"];
         VALUES ('$description','$place','$km','$prix','$idmodele','1','$energie','$marque','$vitesse','$annee')";
         $dbh->exec($sql1);
         //on recupere l'id de la voiture nouvellement créer
-        $lienidvoiture = $dbh->query('SELECT id_voiture FROM voiture WHERE description = "'.$description.'"');
+        $lienidvoiture = $dbh->query('SELECT id_voiture FROM voiture WHERE description = "'.$description.'" AND km = "'.$km.'" AND prix = "'.$prix.'"');
         $lienidvoit = $lienidvoiture->fetch();
         $id_voiture = $lienidvoit['id_voiture'];
         //on insere dans la table photo le lien de la photo
