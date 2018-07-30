@@ -206,45 +206,44 @@ main .titletemoin {
 }
 
 .ventesrapides {
-  padding: 0px 20px 50px 20px;
+  padding: 20px 0px 20px 0px;
+  justify-items: center;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  grid-gap: 30px;
   overflow: hidden;
 }
 
 .voituresVR {
   background-image: url("../img/voiture.jpg");
   background-position: center;
-  height: 250px;
-  width: 333px;
+  height: 210px;
+  width: 280px;
   background-size: 100%;
-  background-position: center;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .voituresVR:hover {
   background-size: 120%;
 }
 
+main .container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  justify-items: center;
+    margin-bottom: 50px;
+}
+
 main .logo {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   transition: transform .3s;
 }
 
 main .logo:hover {
   cursor: pointer;
   transform: scale(1.2);
-}
-
-main .container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  justify-content: center;
-  padding-bottom: 25px;
-  grid-column-gap: 5%;
 }
 
 #presentation img {
@@ -316,6 +315,7 @@ main .container {
   }
 }
 
+
 @media (max-width: 1100px) {
   main .logo {
     width: 100px;
@@ -384,9 +384,6 @@ main .container {
     margin-top: 3px;
     padding-right: 10px;
   }
-  .ventesrapides {
-    grid-template-columns: auto auto;
-  }
   .blocanim {
     display: flex;
     justify-content: flex-start;
@@ -426,20 +423,15 @@ main .container {
 
 @media (max-width: 500px) {
   main .logo {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
   }
   main .container {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    padding-bottom: 25px;
     grid-column-gap: 30px;
     grid-row-gap: 10px;
-  }
-  main .logo {
-    width: 90px;
-    height: 90px;
   }
   header {
     min-height: 250px;
