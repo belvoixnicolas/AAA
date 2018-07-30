@@ -104,7 +104,7 @@
                 <option disabled selected>Boite de vitesse</option>
                 <?php while ($b = $reponse2->fetch())
             { ?>
-                <option value="<?php echo $b['id_vitesse'];?>"><?php echo $b['vitesse'];?></option><?php } ?>
+                <option value="<?php echo $b['id_vitesse'];?>"<?php echo $b['vitesse'];?></option><?php } ?>
               </select>
             </p>
 
@@ -169,6 +169,6 @@
         <?php include 'include/footer.html'; ?>
         <?php function filtre1() {
 
-        }
+        }?>
     </body>
   </html>
