@@ -35,22 +35,16 @@
           ?>
           <section class="filtre">
             <form action="#" method="post">
+
+
               <p class="select">
-                <select id="place" name="nbreplace">
-                  <option value="none" disabled selected>Nombre de place</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
+                <select id="max-prix" name="maxPrix">
+                  <option value="none" selected>Prix max</option>
                 </select>
               </p>
 
               <p class="select">
-                <select id="max-prix" name="maxPrix">
+                <select id="min-prix" name="minPrix">
                   <option value="none" selected>Prix max</option>
                 </select>
               </p>
@@ -79,6 +73,20 @@
                 </select>
               </p>
 
+              <p class="select">
+                <select id="place" name="nbreplace">
+                  <option value="none" disabled selected>Nombre de place</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </p>
+              
               <p class="select">
                 <select id="marque" name="marque">
                 <option disabled selected>Marques</option>
