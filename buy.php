@@ -34,7 +34,7 @@
         $reponse7 = $dbh->query('SELECT * FROM options');
         ?>
         <section class="filtre">
-          <form action="#" method="post">
+          <form action="traitementbuy.php" method="post">
             <p class="select">
               <select id="place" name="nbreplace" onchange="filtre1()">
                 <option value="none" disabled selected>Nombre de place</option>
