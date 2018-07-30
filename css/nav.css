@@ -4,6 +4,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  overflow: hidden;
+}
+
 nav {
   background-color: #000;
   position: sticky;
