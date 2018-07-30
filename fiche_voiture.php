@@ -124,11 +124,7 @@
         <?php echo $id_description; ?>
       </p>
 
-<<<<<<< HEAD
       <button class="contact wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>    
-=======
-      <button><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
->>>>>>> 37b81dcb023c87178cb060a8da487377daeac77c
     </section>
 
     <form action="#" method="post">
