@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
@@ -70,8 +71,30 @@
         illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
       </p>
 
-      <button class="wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
+      <button class="contact wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>    
     </section>
+
+    <form action="#" method="post">
+        <p>
+          <input type="text" class="left" name="nom" placeholder="Nom" required />
+          <input type="text" class="right" name="prenom" placeholder="Prénom" required />
+        </p>
+
+        <p>
+          <input type="email" class="left" name="mail" placeholder="Mail" required />
+          <input type="tel" class="right" name="tel" placeholder="Tel" required />
+        </p>
+
+        <p>
+          <textarea name="text" placeholder="Text" required></textarea>
+        </p>
+
+        <p>
+          <button class="buttonenvoyer" type="submit">
+    				Submit
+          </button class="buttonvendre">
+        </p>
+      </form>  
   </main>
 
   <!-- FOOTER -->
@@ -81,6 +104,11 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+    </script>
+    <script type="text/javascript">
+    $('.contact').click(function() {
+      $('form').animate({height: 'toggle'}, 'slow');
+    });
     </script>
 </body>
 </html>
