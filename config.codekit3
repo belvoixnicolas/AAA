@@ -462,17 +462,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/header.png": {
-		"ft": 32768,
-		"iS": 774201,
-		"oA": 0,
-		"oAP": "\/build\/img\/header.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/icon\/acheter.gif": {
 		"ft": 4194304,
 		"iS": 413,
