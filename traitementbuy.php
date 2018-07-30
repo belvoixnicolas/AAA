@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="css/nav.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" type="text/css" href="css/buy.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
       </head>
@@ -32,44 +32,103 @@
           $reponse5 = $dbh->query('SELECT * FROM options');
           $reponse6 = $dbh->query('SELECT * FROM options');
           $reponse7 = $dbh->query('SELECT * FROM options');
+          $reponse8 = $dbh->query('SELECT * FROM annee ORDER BY annee DESC');
           ?>
           <section class="filtre">
             <form action="#" method="post">
 
-
               <p class="select">
-                <select id="max-prix" name="maxPrix">
-                  <option value="none" selected>Prix max</option>
+                <select id="min-prix" name="minPrix">
+                  <option value="none" disabled selected>Prix min</option>
+                  <option value="0">0</option>
+                  <option value="2000">2000</option>
+                  <option value="5000">5000</option>
+                  <option value="7500">7500</option>
+                  <option value="10000">10000</option>
+                  <option value="15000">15000</option>
+                  <option value="20000">20000</option>
+                  <option value="30000">30000</option>
+                  <option value="40000">40000</option>
+                  <option value="50000">50000</option>
+                  <option value="75000">75000</option>
+                  <option value="100000">100000</option>
+                  <option value="150000">150000</option>
                 </select>
               </p>
 
               <p class="select">
-                <select id="min-prix" name="minPrix">
-                  <option value="none" selected>Prix max</option>
+                <select id="max-prix" name="maxPrix">
+                  <option value="none" disabled selected>Prix max</option>
+                  <option value="0">0</option>
+                  <option value="2000">2000</option>
+                  <option value="5000">5000</option>
+                  <option value="7500">7500</option>
+                  <option value="10000">10000</option>
+                  <option value="15000">15000</option>
+                  <option value="20000">20000</option>
+                  <option value="30000">30000</option>
+                  <option value="40000">40000</option>
+                  <option value="50000">50000</option>
+                  <option value="75000">75000</option>
+                  <option value="100000">100000</option>
+                  <option value="150000">150000</option>
                 </select>
               </p>
 
               <p class="select">
                 <select id="min-an" name="minAn">
-                  <option value="none" selected>Année min</option>
+                  <option value="none" disabled selected>Année min</option>
+                  <?php while ($a = $reponse3->fetch())
+              { ?>
+                  <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
                 </select>
               </p>
 
               <p class="select">
                 <select id="max-an" name="maxAn">
-                  <option value="none" selected>Année max</option>
+                  <option value="none" disabled selected>Année max</option>
+                  <?php while ($a = $reponse8->fetch())
+              { ?>
+                  <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
                 </select>
               </p>
 
               <p class="select">
                 <select id="min-km" name="minKm">
-                  <option value="none" selected>Kilomètres min</option>
+                  <option value="none" disabled selected>Kilomètres min</option>
+                  <option value="10000">10000</option>
+                  <option value="20000">20000</option>
+                  <option value="30000">30000</option>
+                  <option value="40000">40000</option>
+                  <option value="50000">50000</option>
+                  <option value="60000">60000</option>
+                  <option value="70000">70000</option>
+                  <option value="80000">80000</option>
+                  <option value="90000">90000</option>
+                  <option value="100000">100000</option>
+                  <option value="120000">120000</option>
+                  <option value="150000">150000</option>
+                  <option value="200000">200000</option>
+
                 </select>
               </p>
 
               <p class="select">
                 <select id="max-km" name="maxKm">
-                  <option value="none" selected>Kilomètres max</option>
+                  <option value="none" disabled selected>Kilomètres max</option>
+                  <option value="10000">10000</option>
+                  <option value="20000">20000</option>
+                  <option value="30000">30000</option>
+                  <option value="40000">40000</option>
+                  <option value="50000">50000</option>
+                  <option value="60000">60000</option>
+                  <option value="70000">70000</option>
+                  <option value="80000">80000</option>
+                  <option value="90000">90000</option>
+                  <option value="100000">100000</option>
+                  <option value="120000">120000</option>
+                  <option value="150000">150000</option>
+                  <option value="200000">200000</option>
                 </select>
               </p>
 
@@ -86,7 +145,7 @@
                   <option value="8">8</option>
                 </select>
               </p>
-              
+
               <p class="select">
                 <select id="marque" name="marque">
                 <option disabled selected>Marques</option>
@@ -127,11 +186,39 @@
 
   					<?php
 
-            $query = 'SELECT id_voiture,id_modele,prix,description FROM voiture
+            $query = 'SELECT id_voiture,id_modele,prix,description,ID_annee FROM voiture
     WHERE 1=1';
 
 
+        if(!empty($_POST['minPrix']))
+        {
+        $query .= ' AND prix >= \'' .$_POST['minPrix']. '\'';
+        }
 
+        if(!empty($_POST['maxPrix']))
+        {
+        $query .= ' AND prix <= \'' .$_POST['maxPrix']. '\'';
+        }
+
+        if(!empty($_POST['minAn']))
+        {
+        $query .= ' AND ID_annee >= \'' .$_POST['minAn']. '\'';
+        }
+
+        if(!empty($_POST['maxAn']))
+        {
+        $query .= ' AND ID_annee <= \'' .$_POST['maxAn']. '\'';
+        }
+
+        if(!empty($_POST['minKm']))
+        {
+        $query .= ' AND km >= \'' .$_POST['minKm']. '\'';
+        }
+
+        if(!empty($_POST['maxKm']))
+        {
+        $query .= ' AND km <= \'' .$_POST['maxKm']. '\'';
+        }
         if(!empty($_POST['nbreplace']))
         {
             $query .= ' AND nbre_place = \'' .$_POST['nbreplace']. '\'';
@@ -177,7 +264,7 @@ $searchvoiture = $dbh->query($query);
             $lienidmod = $lienidmodele->fetch();
             $id_modele = $lienidmod['modele'];
             ?>
-  					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile">
+  					<a href="fiche_voiture.php?id=<?php echo $idvoiture;?>" class="tuile wow animated zoomIn">
               <img src="<?php echo $id_photo;?>" alt="<?php echo $id_photo;?>" class="" />
               <h2><?php echo $id_marque." ".$id_modele;?></h2>
 
@@ -190,18 +277,6 @@ $searchvoiture = $dbh->query($query);
 
   					<?php } ?>
 
-
-            <a href="fiche_voiture.php" class="tuile">
-              <img src="img/voiture.jpg" alt="voiture">
-
-              <h2>Titre</h2>
-
-              <h3>prix</h3>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </a>
           </section>
         </main>
 

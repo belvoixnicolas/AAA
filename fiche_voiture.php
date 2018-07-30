@@ -12,8 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+=======
+>>>>>>> 37b81dcb023c87178cb060a8da487377daeac77c
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 
@@ -21,10 +24,10 @@
   <!-- NAVBAR -->
     <?php include 'include/navbar.html'; ?>
   <!-- NAVBAR -->
-  
+
   <main>
     <!-- caroussel -->
-    <div class="scene wow animated zoomIn">
+    <div class="scene">
       <div class="slide_gauche" onclick="présédent();"><p><</p></div>
       <ul>
         <li id="0"><hr class="gauche"><img src="img/1.jpg"><hr class="droite"></li>
@@ -35,43 +38,97 @@
     </div>
     <!-- caroussel -->
 
-    <section class='info'>
-      <h2>Titre</h2>
-      <h3>Prix</h3>
 
-      <table class="wow animated slideInLeft">
+		<?php
+		include 'include/connexion_dbh.php';
+		?>
+<?php
+
+		$idvoiture = $_GET['id'];
+
+		$lienidphoto = $dbh->query('SELECT lien_photo FROM photo NATURAL JOIN apourphoto WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidpho = $lienidphoto->fetch();
+		$id_photo = $lienidpho['lien_photo'];
+
+		$lienidmarque = $dbh->query('SELECT marque FROM marque NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidmar = $lienidmarque->fetch();
+		$id_marque = $lienidmar['marque'];
+
+		$lienidmodele = $dbh->query('SELECT modele FROM modele NATURAL JOIN voiture WHERE id_voiture = "'.$id_voiture.'"');
+		$lienidmod = $lienidmodele->fetch();
+		$id_modele = $lienidmod['modele'];
+
+		$lienprix = $dbh->query('SELECT prix FROM voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidprix = $lienprix->fetch();
+		$id_prix = $lienidprix['prix'];
+
+		$lienkm = $dbh->query('SELECT km FROM voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidkm = $lienkm->fetch();
+		$id_km = $lienidkm['km'];
+
+		$lienannee = $dbh->query('SELECT ID_annee FROM voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidannee = $lienannee->fetch();
+		$id_annee = $lienidannee['ID_annee'];
+
+		$lienenergie = $dbh->query('SELECT energie FROM energie NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidenergie = $lienenergie->fetch();
+		$id_energie = $lienidenergie['energie'];
+
+		$lienplace = $dbh->query('SELECT nbre_place FROM voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidplace = $lienplace->fetch();
+		$id_nbreplace = $lienidplace['nbre_place'];
+
+		$lienvitesse = $dbh->query('SELECT vitesse FROM vitesse NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lienidvitesse = $lienvitesse->fetch();
+		$id_vitesse = $lienidvitesse['vitesse'];
+
+		$liendescription = $dbh->query('SELECT description FROM voiture WHERE id_voiture = "'.$idvoiture.'"');
+		$lieniddescription = $liendescription->fetch();
+		$id_description = $lieniddescription['description'];
+		?>
+
+
+
+    <section class='info'>
+      <h2><?php echo $id_marque." ".$id_modele;?></h2>
+      <h3><?php echo $id_prix;?> €</h3>
+
+      <table>
         <tr>
           <th>Marque</th>
-          <td>Oppel</td>
+          <td><?php echo $id_marque; ?></td>
         </tr>
         <tr>
           <th>Kilomètres</th>
-          <td>1988547454 Km</td>
+          <td><?php echo $id_km; ?></td>
         </tr>
         <tr>
           <th>Année de mise en service</th>
-          <td>1950</td>
+          <td><?php echo $id_annee; ?></td>
         </tr>
         <tr>
           <th>Energie</th>
-          <td>Huille de patate</td>
+          <td><?php echo $id_energie; ?></td>
         </tr>
         <tr>
           <th>Nombre de place</th>
-          <td>1/2 Place</td>
+          <td><?php echo $id_nbreplace; ?></td>
         </tr>
         <tr>
           <th>Boite de vitesse</th>
-          <td>Manuelle</td>
+          <td><?php echo $id_vitesse; ?></td>
         </tr>
       </table>
 
-      <p class="description wow animated slideInRight">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
-        illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
+      <p class="description">
+        <?php echo $id_description; ?>
       </p>
 
+<<<<<<< HEAD
       <button class="contact wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>    
+=======
+      <button><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
+>>>>>>> 37b81dcb023c87178cb060a8da487377daeac77c
     </section>
 
     <form action="#" method="post">
@@ -100,6 +157,7 @@
   <!-- FOOTER -->
     <?php include 'include/footer.html'; ?>
   <!-- FOOTER -->
+<<<<<<< HEAD
     <script type="text/javascript" src="js/carousel_voiture.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
@@ -110,5 +168,8 @@
       $('form').animate({height: 'toggle'}, 'slow');
     });
     </script>
+=======
+		<script type="text/javascript" src="js/carousel_voiture.js"></script>
+>>>>>>> 37b81dcb023c87178cb060a8da487377daeac77c
 </body>
 </html>
