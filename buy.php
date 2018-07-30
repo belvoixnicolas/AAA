@@ -11,8 +11,8 @@
       <link rel="stylesheet" type="text/css" href="css/nav.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
       <link rel="stylesheet" type="text/css" href="css/buy.css">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     </head>
     <body>
@@ -151,7 +151,499 @@
 					<?php } ?>
 
 
-          <a href="fiche_voiture.php" class="tuile">
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
+            <img src="img/voiture.jpg" alt="voiture">
+
+            <h2>Titre</h2>
+
+            <h3>prix</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+
+          <a href="fiche_voiture.php" class="tuile wow animated zoomIn">
             <img src="img/voiture.jpg" alt="voiture">
 
             <h2>Titre</h2>
@@ -170,5 +662,9 @@
         <?php function filtre1() {
 
         }?>
+        <script src="js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
     </body>
   </html>
