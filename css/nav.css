@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  overflow: visible;
+  overflow: initial;
 }
 
 nav {
