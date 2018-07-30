@@ -12,6 +12,7 @@
       <link rel="stylesheet" type="text/css" href="css/footer.css">
       <link rel="stylesheet" type="text/css" href="css/concept.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     </head>
     <body>
@@ -33,7 +34,7 @@
             <img src="img/icon/garantie.gif" alt="Icon garantie" />
             <figcaption>Les Garanties</figcaption>
           </figure>
-          <figure class="financement">
+          <figure class="financemen">
             <img src="img/icon/finance.gif" alt="Icon financement" />
             <figcaption>Les financements</figcaption>
           </figure>
@@ -235,5 +236,6 @@
           }
         }, 5);
       </script>
+      <script src="js/wow.min.js"></script>
     </body>
   </html>

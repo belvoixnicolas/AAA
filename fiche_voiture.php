@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/tableau_fiche.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
   
   <main>
     <!-- caroussel -->
-    <div class="scene">
+    <div class="scene wow animated zoomIn">
       <div class="slide_gauche" onclick="présédent();"><p><</p></div>
       <ul>
         <li id="0"><hr class="gauche"><img src="img/1.jpg"><hr class="droite"></li>
@@ -37,7 +38,7 @@
       <h2>Titre</h2>
       <h3>Prix</h3>
 
-      <table>
+      <table class="wow animated slideInLeft">
         <tr>
           <th>Marque</th>
           <td>Oppel</td>
@@ -64,18 +65,22 @@
         </tr>
       </table>
 
-      <p class="description">
+      <p class="description wow animated slideInRight">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis nesciunt repudiandae officia inventore, esse saepe 
         illum quidem nisi officiis iusto ex corporis, velit dicta voluptatem voluptatibus doloribus accusantium veritatis!
       </p>
 
-      <button><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
+      <button class="wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
     </section>
   </main>
 
   <!-- FOOTER -->
     <?php include 'include/footer.html'; ?>
   <!-- FOOTER -->
-		<script type="text/javascript" src="js/carousel_voiture.js"></script>
+    <script type="text/javascript" src="js/carousel_voiture.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>
