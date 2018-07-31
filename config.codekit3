@@ -23,12 +23,6 @@
 		"oAP": "\/build\/base.html",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/buy.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -459,24 +453,13 @@
 		},
 	"\/img\/header.jpg": {
 		"ft": 16384,
-		"iS": 797586,
+		"iS": 241718,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/header.png": {
-		"ft": 32768,
-		"iS": 774201,
-		"oA": 0,
-		"oAP": "\/build\/img\/header.png",
-		"oF": 0,
-		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/icon\/acheter.gif": {
@@ -909,6 +892,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/include\/.gitignore",
+		"oF": 0
+		},
+	"\/include\/connexion_dbh.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/include\/connexion_dbh.php",
 		"oF": 0
 		},
 	"\/include\/footer.html": {
