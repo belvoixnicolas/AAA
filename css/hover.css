@@ -10,7 +10,6 @@
 /* 2D TRANSITIONS */
 /* Grow */
 .hvr-grow {
-  display: flex;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -64,7 +63,6 @@
   }
 }
 .hvr-pulse {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -1188,7 +1186,6 @@
 /* BACKGROUND TRANSITIONS */
 /* Fade */
 .hvr-fade {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -1216,7 +1213,7 @@
   }
 }
 .hvr-back-pulse {
-  display: inline-block;
+  display: flex;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
