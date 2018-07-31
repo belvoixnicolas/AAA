@@ -207,7 +207,11 @@
 			</section>
 		</div>
 
-		
+		<section class="rappelconcept">
+			<a class="concept" href="concept.php"><p class="hvr-pulse animated">Notre concept</p></a>
+		</section>
+
+
 	</main>
 	<?php include 'include/footer.html'; ?>
 	<script src="js/wow.min.js"></script>

@@ -23,6 +23,13 @@
 		"oAP": "\/build\/base.html",
 		"oF": 0
 		},
+	"\/buy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/buy.php",
+		"oF": 0
+		},
 	"\/concept.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -104,16 +111,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/hover-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/css\/hover-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -307,6 +304,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/essai.php",
+		"oF": 0
+		},
+	"\/fiche_voiture.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fiche_voiture.php",
 		"oF": 0
 		},
 	"\/fiche_voiture2.php": {
