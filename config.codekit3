@@ -23,13 +23,6 @@
 		"oAP": "\/build\/base.html",
 		"oF": 0
 		},
-	"\/buy.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/buy.php",
-		"oF": 0
-		},
 	"\/concept.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -314,13 +307,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/essai.php",
-		"oF": 0
-		},
-	"\/fiche_voiture.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/fiche_voiture.php",
 		"oF": 0
 		},
 	"\/fiche_voiture2.php": {
