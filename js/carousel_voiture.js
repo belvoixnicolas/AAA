@@ -20,7 +20,7 @@ function arriver(increment) {
 
     $('#' + i +' .gauche').delay('2000').animate({opacity: '1', width: '1px'}, 'slow', function() {
         $('#' + i +' img').animate({width: 'toggle'}, {queue: false, duration: 1000})
-        .delay('710').animate({left: $('#' + i +' img').parent().width() /2 - $('#' + i +' img').width() /2}, 1000, function() {
+        .delay('710').animate({left: $('#' + i).width() /2 - $('#' + i +' img').width() /2 - 20}, 1000, function() {
             $('#' + i +' .gauche').animate({opacity: '0'}, 'slow', function() {
                 i++;
             });
@@ -32,8 +32,8 @@ function depart() {
     var x = i - 1;
     
     $('#' + x +' .droite').animate({width: '1', opacity: '1'}, 'slow', function() {
-        $('#' + x +' img').animate({left: $('#' + x +' img').parent().width() - $('#' + x +' img').width() - 40}, {queue: false, duration: 'slow'})
-        .delay('550').animate({left: $('#' + x +' img').parent().width() - 40, width: 'toggle'}, 'slow', function() {
+        $('#' + x +' img').animate({left: $('#' + x +' img').parent().width() - $('#' + x +' img').width() - 20}, {queue: false, duration: 'slow'})
+        .delay('490').animate({left: $('#' + x +' img').parent().width() - 40, width: 'toggle'}, 'slow', function() {
             $('#' + x +' .droite').animate({opacity: '0'}, 'slow', function() {liste[x].style.display = 'none';});
         });
     });
@@ -54,7 +54,7 @@ function suivent() {
         function() {
             arriver(0);
             clearInterval(truc);
-        },3000);
+        },400);
 }
 
 function présédent() {
