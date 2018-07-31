@@ -207,12 +207,9 @@
 			</section>
 		</div>
 
-<<<<<<< HEAD
-=======
 		<section class="rappelconcept">
 			<a class="concept" href="concept.php"><p class="hvr-pulse animated">Notre concept</p></a>
 		</section>
->>>>>>> e9accffc5e539c8ede566243913912bb5be1ea93
 
 
 	</main>
