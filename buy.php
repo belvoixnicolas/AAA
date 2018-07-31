@@ -39,26 +39,40 @@
 
             <p class="select">
               <select id="min-prix" name="minPrix" onchange="this.form.submit()">
+                <?php if(!empty($_POST['minPrix']))
+                { ?>
+                  <option value="<?php echo $_POST['minPrix']; ?>" selected><?php echo $_POST['minPrix']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Prix min</option>
-                <option value="0">0</option>
-                <option value="2000">2000</option>
-                <option value="5000">5000</option>
-                <option value="7500">7500</option>
-                <option value="10000">10000</option>
-                <option value="15000">15000</option>
-                <option value="20000">20000</option>
-                <option value="30000">30000</option>
-                <option value="40000">40000</option>
-                <option value="50000">50000</option>
-                <option value="75000">75000</option>
-                <option value="100000">100000</option>
-                <option value="150000">150000</option>
+                <?php } ?>
+                  <option value="0">0</option>
+                  <option value="2000">2000</option>
+                  <option value="5000">5000</option>
+                  <option value="7500">7500</option>
+                  <option value="10000">10000</option>
+                  <option value="15000">15000</option>
+                  <option value="20000">20000</option>
+                  <option value="30000">30000</option>
+                  <option value="40000">40000</option>
+                  <option value="50000">50000</option>
+                  <option value="75000">75000</option>
+                  <option value="100000">100000</option>
+                  <option value="150000">150000</option>
               </select>
+
             </p>
+
+
+
 
             <p class="select">
               <select id="max-prix" name="maxPrix" onchange="this.form.submit()">
+                <?php if(!empty($_POST['maxPrix']))
+                { ?>
+                  <option value="<?php echo $_POST['maxPrix']; ?>" selected><?php echo $_POST['maxPrix']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Prix max</option>
+                <?php } ?>
                 <option value="0">0</option>
                 <option value="2000">2000</option>
                 <option value="5000">5000</option>
@@ -77,7 +91,12 @@
 
             <p class="select">
               <select id="min-an" name="minAn" onchange="this.form.submit()">
+                <?php if(!empty($_POST['minAn']))
+                { ?>
+                  <option value="<?php echo $_POST['minAn']; ?>" selected><?php echo $_POST['minAn']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Année min</option>
+                <?php } ?>
                 <?php while ($a = $reponse3->fetch())
             { ?>
                 <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
@@ -86,7 +105,12 @@
 
             <p class="select">
               <select id="max-an" name="maxAn" onchange="this.form.submit()">
+                <?php if(!empty($_POST['maxAn']))
+                { ?>
+                  <option value="<?php echo $_POST['maxAn']; ?>" selected><?php echo $_POST['maxAn']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Année max</option>
+                <?php } ?>
                 <?php while ($a = $reponse8->fetch())
             { ?>
                 <option value="<?php echo $a['ID_annee'];?>"><?php echo $a['annee'];?></option><?php } ?>
@@ -95,7 +119,12 @@
 
             <p class="select">
               <select id="min-km" name="minKm" onchange="this.form.submit()">
+                <?php if(!empty($_POST['minKm']))
+                { ?>
+                  <option value="<?php echo $_POST['minKm']; ?>" selected><?php echo $_POST['minKm']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Kilomètres min</option>
+                <?php } ?>
                 <option value="10000">10000</option>
                 <option value="20000">20000</option>
                 <option value="30000">30000</option>
@@ -115,7 +144,12 @@
 
             <p class="select">
               <select id="max-km" name="maxKm" onchange="this.form.submit()">
+                <?php if(!empty($_POST['maxKm']))
+                { ?>
+                  <option value="<?php echo $_POST['maxKm']; ?>" selected><?php echo $_POST['maxKm']; ?></option>
+                <?php }  else { ?>
                 <option value="none" disabled selected>Kilomètres max</option>
+                <?php } ?>
                 <option value="10000">10000</option>
                 <option value="20000">20000</option>
                 <option value="30000">30000</option>
@@ -134,7 +168,12 @@
 
             <p class="select">
               <select id="place" name="nbreplace" onchange="this.form.submit()">
-                <option value="none" disabled selected>Nombre de place</option>
+                <?php if(!empty($_POST['nbreplace']))
+                { ?>
+                  <option value="<?php echo $_POST['nbreplace']; ?>" selected><?php echo $_POST['nbreplace']; ?></option>
+                <?php }  else { ?>
+                <option value="none" disabled selected>Nombre de places</option>
+                <?php } ?>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -148,7 +187,17 @@
 
             <p class="select">
               <select id="marque" name="marque" onchange="this.form.submit()">
-              <option disabled selected>Marques</option>
+                <?php if(!empty($_POST['marque']))
+                {
+                  $idmarque = $_POST['marque'];
+                  $lienmarque = $dbh->query('SELECT marque FROM marque WHERE id_marque = "'.$idmarque.'"');
+                  $lienidmarque = $lienmarque->fetch();
+                  $marque = $lienidmarque['marque'];
+                  ?>
+                  <option value="<?php echo $_POST['marque']; ?>" selected><?php echo $marque; ?></option>
+                <?php }  else { ?>
+                <option value="none" disabled selected>Marque</option>
+                <?php } ?>
               <?php while ($a = $reponse->fetch())
           { ?>
               <option value="<?php echo $a['id_marque'];?>"><?php echo $a['marque'];?></option><?php } ?>
@@ -157,7 +206,17 @@
 
             <p class="select">
               <select id="energie" name="energie" onchange="this.form.submit()">
-                <option disabled selected>Energie</option>
+                <?php if(!empty($_POST['energie']))
+                {
+                  $idenergie = $_POST['energie'];
+                  $lienenergie = $dbh->query('SELECT energie FROM energie WHERE id_energie = "'.$idenergie.'"');
+                  $lienidenergie = $lienenergie->fetch();
+                  $energie = $lienidenergie['energie'];
+                  ?>
+                  <option value="<?php echo $_POST['energie']; ?>" selected><?php echo $energie; ?></option>
+                <?php }  else { ?>
+                <option value="none" disabled selected>Energie</option>
+                <?php } ?>
                 <option value="1">Essence</option>
                 <option value="2">Diesel</option>
                 <option value="3">Electrique</option>
@@ -168,7 +227,17 @@
 
             <p class="select">
               <select id="vitesse" name="vitesse" onchange="this.form.submit()">
-                <option disabled selected>Boite de vitesse</option>
+                <?php if(!empty($_POST['vitesse']))
+                {
+                  $idvitesse = $_POST['vitesse'];
+                  $lienvitesse = $dbh->query('SELECT vitesse FROM vitesse WHERE id_vitesse = "'.$idvitesse.'"');
+                  $lienidvitesse = $lienvitesse->fetch();
+                  $vitesse = $lienidvitesse['vitesse'];
+                  ?>
+                  <option value="<?php echo $_POST['vitesse']; ?>" selected><?php echo $vitesse; ?></option>
+                <?php }  else { ?>
+                <option value="none" disabled selected>Vitesse</option>
+                <?php } ?>
                 <?php while ($b = $reponse2->fetch())
             { ?>
                 <option value="<?php echo $b['id_vitesse'];?>"><?php echo $b['vitesse'];?></option><?php } ?>
@@ -176,8 +245,8 @@
             </p>
 
             <p>
-              <input type="submit" value="Valid" />
-              <input type="reset" value="Reset">
+              
+              <input type="button" id="refresh" value="Rafraichir" OnClick="window.location.href='buy.php'" />
             </p>
           </form>
         </section>

@@ -8,6 +8,7 @@ main {
 }
 
 .filtre {
+  display: flex;
   background: #F2F2F2;
   width: 169px;
   padding: 10px;
@@ -15,15 +16,18 @@ main {
 }
 
 .filtre form {
+  margin-top: 50px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 110px;
   height: 440px;
 }
 
 /* Reset Select */
+
 .filtre select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -32,32 +36,41 @@ main {
   outline: 0;
   box-shadow: none;
   border: 0 !important;
-  background: #000; /* couleur selecteur */
+  background: #000;
+  /* couleur selecteur */
   background-image: none;
 }
+
 /* Custom Select */
+
 .filtre .select {
   position: relative;
   display: block;
   width: 100%;
   height: 3em;
   line-height: 3;
-  background: #000; /* aucune idée */
+  background: #000;
+  /* aucune idée */
   overflow: hidden;
   border-radius: .25em;
 }
+
 .filtre select {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0 0 0 .5em;
-  color: #fff; /* couleur text */
+  color: #fff;
+  /* couleur text */
   cursor: pointer;
 }
+
 .filtre select::-ms-expand {
   display: none;
 }
+
 /* Arrow */
+
 .filtre .select::after {
   content: '\25BC';
   position: absolute;
@@ -65,22 +78,27 @@ main {
   right: 0;
   bottom: 0;
   padding: 0 1em;
-  background: #2D2D2D; /* couleur bouton */
+  background: #2D2D2D;
+  /* couleur bouton */
   pointer-events: none;
 }
+
 /* Transition */
+
 .filtre .select:hover::after {
   color: #41B0C9;
 }
+
 .filtre .select::after {
   -webkit-transition: .25s all ease;
   -o-transition: .25s all ease;
   transition: .25s all ease;
 }
 
-.filtre input[type=submit], .filtre input[type=reset] {
-  height: 30px;;
-  width: 40%;
+#refresh {
+  margin-top: 20px;
+  height: 30px;
+  width: 100%;
   border-radius: 5px;
   border: none;
   background: #000;
@@ -92,6 +110,7 @@ main {
 }
 
 .liste {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 400px;
@@ -105,7 +124,7 @@ main {
 
 .tuile {
   display: inline-block;
-  max-width: 250px;
+  max-width: 300px;
   background: #000;
   margin: 0 auto;
 }
@@ -143,12 +162,10 @@ main {
   .liste {
     width: 100%;
   }
-
   .filtre {
     width: 100%;
     float: none;
   }
-
   .filtre form {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -156,55 +173,44 @@ main {
     grid-gap: 10px;
     height: auto;
   }
-
   .select:nth-child(1) {
     grid-column: 1 / 2 span;
   }
-
   .select:nth-child(2) {
     grid-column: 3 / 2 span;
   }
-
   .select:nth-child(3) {
     grid-column: 1 / 2 span;
     grid-row: 2 / 1span;
   }
-
   .select:nth-child(4) {
     grid-column: 3 / 2 span;
     grid-row: 2 / 1span;
   }
-
   .select:nth-child(5) {
     grid-column: 1 / 2 span;
     grid-row: 3 / 1span;
   }
-
   .select:nth-child(6) {
     grid-column: 3 / 2 span;
     grid-row: 3 / 1span;
   }
-
   .select:nth-child(7) {
     grid-column: 1 / 2 span;
     grid-row: 4 / 1span;
   }
-
   .select:nth-child(8) {
     grid-column: 3 / 2 span;
     grid-row: 4 / 1span;
   }
-
   .select:nth-child(9) {
     grid-column: 1 / 4 span;
     grid-row: 5 / 1 span;
   }
-
   form p:nth-child(10) {
     grid-column: 2 / 2 span;
     grid-row: 6 / 1 span;
   }
-
   main {
     flex-direction: column;
   }
@@ -228,7 +234,6 @@ main {
     height: 2em;
     line-height: 2;
   }
-
   .filtre form {
     grid-template-rows: repeat(6, 2em);
   }
