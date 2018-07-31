@@ -24,6 +24,7 @@
 .scene p {
     line-height: 5vw;
     color: #FFF;
+    cursor: pointer;
 }
 
 ul {
