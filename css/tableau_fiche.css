@@ -213,18 +213,35 @@ margin-bottom: 5px;
   }
 
   h2 {
-    grid-column-end: 1 span;
+    grid-column-end: 2 span;
   }
   
   h3 {
-    grid-column: 2 / 1 span;
+    grid-column: 1 / 2 span;
+    font-size: 2rem;
+    position: relative;
+    top: -50px;
+    text-align: left;
+  }
+
+  table {
+    position: relative;
+    top: -50px;
   }
 
   .description {
     grid-column-end: 2 span;
+    position: relative;
+    top: -50px;
   }
 
   .info button {
     grid-column: 1 / 2 span;
+    position: relative;
+    top: -50px;
+  }
+
+  main form {
+    margin: 0 auto 50px;
   }
 }

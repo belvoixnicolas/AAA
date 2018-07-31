@@ -50,25 +50,25 @@
 
 				<div class="cars">
 					<h2 class="h2vendre">Votre véhicule :</h2>
-					<input type="text" id="marque" name="marque" placeholder="Marque et modèle" required>
+					<input type="text" id="marque" name="marque" placeholder="Marque et modèle*" required>
 
-					<input type="text" id="energie" name="energie" placeholder="Energie" required>
+					<input type="text" id="energie" name="energie" placeholder="Energie*" required>
 
-					<input type="text" id="année" name="année" placeholder="Année" required>
+					<input type="text" id="année" name="année" placeholder="Année*" required>
 
-					<input type="text" id="km" name="km" placeholder="Kilomètrage" required>
+					<input type="text" id="km" name="km" placeholder="Kilomètrage*" required>
 
 				</div>
 
 				<div class="coordonnées">
 					<h2 class="h2vendre">Vos coordonnées&nbsp;:</h2>
-					<input type="text" id="nom" name="nom" placeholder="Nom et prénom" required>
+					<input type="text" id="nom" name="nom" placeholder="Nom et prénom*" required>
 
-					<input type="text" id="tel" name="tel" placeholder="Téléphone" required>
+					<input type="text" id="tel" name="tel" placeholder="Téléphone*" required>
 
-					<input type="text" id="codepostal" name="codepostal" placeholder="Code postal" required>
+					<input type="text" id="codepostal" name="codepostal" placeholder="Code postal*" required>
 
-					<input type="email" id="mail" name="mail" placeholder="E-mail" required>
+					<input type="email" id="mail" name="mail" placeholder="E-mail*" required>
 					<br>
 					<button class="buttonvendre" type="submit">
 									Submit
@@ -207,6 +207,12 @@
 			</section>
 		</div>
 
+<<<<<<< HEAD
+=======
+		<section class="rappelconcept">
+			<a class="concept" href="concept.php"><p class="hvr-pulse animated">Notre concept</p></a>
+		</section>
+>>>>>>> e9accffc5e539c8ede566243913912bb5be1ea93
 
 
 	</main>

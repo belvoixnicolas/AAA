@@ -14,7 +14,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 
@@ -151,7 +150,6 @@
   <!-- FOOTER -->
     <?php include 'include/footer.html'; ?>
   <!-- FOOTER -->
-
     <script type="text/javascript" src="js/carousel_voiture.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
@@ -162,8 +160,5 @@
       $('form').animate({height: 'toggle'}, 'slow');
     });
     </script>
-
-		<script type="text/javascript" src="js/carousel_voiture.js"></script>
-
 </body>
 </html>

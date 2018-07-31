@@ -109,26 +109,18 @@ html {
   background-repeat: no-repeat;
 }
 
-::placeholder {
-  color: black;
-  opacity: 0.4;
-  /* Firefox */
+.rappelconcept{
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
 }
 
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
+.concept{
+  text-decoration: none;
+  font-size: 3.5rem;
   color: black;
-  opacity: 0.4;
-}
+  vertical-align: middle;
 
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: black;
-  opacity: 0.4;
-}
-
-.col2 {
-  padding-right: 20%;
 }
 
 .buttonvendre {
