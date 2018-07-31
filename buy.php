@@ -38,7 +38,7 @@
           <form action="#" method="post">
 
             <p class="select">
-              <select id="min-prix" name="minPrix">
+              <select id="min-prix" name="minPrix" onchange="this.form.submit()">
                 <option value="none" disabled selected>Prix min</option>
                 <option value="0">0</option>
                 <option value="2000">2000</option>
@@ -57,7 +57,7 @@
             </p>
 
             <p class="select">
-              <select id="max-prix" name="maxPrix">
+              <select id="max-prix" name="maxPrix" onchange="this.form.submit()">
                 <option value="none" disabled selected>Prix max</option>
                 <option value="0">0</option>
                 <option value="2000">2000</option>
@@ -76,7 +76,7 @@
             </p>
 
             <p class="select">
-              <select id="min-an" name="minAn">
+              <select id="min-an" name="minAn" onchange="this.form.submit()">
                 <option value="none" disabled selected>Année min</option>
                 <?php while ($a = $reponse3->fetch())
             { ?>
@@ -85,7 +85,7 @@
             </p>
 
             <p class="select">
-              <select id="max-an" name="maxAn">
+              <select id="max-an" name="maxAn" onchange="this.form.submit()">
                 <option value="none" disabled selected>Année max</option>
                 <?php while ($a = $reponse8->fetch())
             { ?>
@@ -94,7 +94,7 @@
             </p>
 
             <p class="select">
-              <select id="min-km" name="minKm">
+              <select id="min-km" name="minKm" onchange="this.form.submit()">
                 <option value="none" disabled selected>Kilomètres min</option>
                 <option value="10000">10000</option>
                 <option value="20000">20000</option>
@@ -114,7 +114,7 @@
             </p>
 
             <p class="select">
-              <select id="max-km" name="maxKm">
+              <select id="max-km" name="maxKm" onchange="this.form.submit()">
                 <option value="none" disabled selected>Kilomètres max</option>
                 <option value="10000">10000</option>
                 <option value="20000">20000</option>
@@ -133,7 +133,7 @@
             </p>
 
             <p class="select">
-              <select id="place" name="nbreplace">
+              <select id="place" name="nbreplace" onchange="this.form.submit()">
                 <option value="none" disabled selected>Nombre de place</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -147,7 +147,7 @@
             </p>
 
             <p class="select">
-              <select id="marque" name="marque">
+              <select id="marque" name="marque" onchange="this.form.submit()">
               <option disabled selected>Marques</option>
               <?php while ($a = $reponse->fetch())
           { ?>
@@ -156,7 +156,7 @@
             </p>
 
             <p class="select">
-              <select id="energie" name="energie">
+              <select id="energie" name="energie" onchange="this.form.submit()">
                 <option disabled selected>Energie</option>
                 <option value="1">Essence</option>
                 <option value="2">Diesel</option>
@@ -167,7 +167,7 @@
             </p>
 
             <p class="select">
-              <select id="vitesse" name="vitesse">
+              <select id="vitesse" name="vitesse" onchange="this.form.submit()">
                 <option disabled selected>Boite de vitesse</option>
                 <?php while ($b = $reponse2->fetch())
             { ?>
@@ -278,7 +278,7 @@ $searchvoiture = $dbh->query($query);
 					<?php } ?>
 
 
-          
+
         </section>
       </main>
 

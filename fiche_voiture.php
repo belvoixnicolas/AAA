@@ -14,6 +14,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 04d34f6a76fe178c1c7a211db7f5ab34477acca8
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 
@@ -51,7 +55,7 @@
 		$lienidmar = $lienidmarque->fetch();
 		$id_marque = $lienidmar['marque'];
 
-		$lienidmodele = $dbh->query('SELECT modele FROM modele NATURAL JOIN voiture WHERE id_voiture = "'.$id_voiture.'"');
+		$lienidmodele = $dbh->query('SELECT modele FROM modele NATURAL JOIN voiture WHERE id_voiture = "'.$idvoiture.'"');
 		$lienidmod = $lienidmodele->fetch();
 		$id_modele = $lienidmod['modele'];
 
@@ -121,7 +125,7 @@
         <?php echo $id_description; ?>
       </p>
 
-      <button class="contact wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>    
+      <button class="contact wow animated zoomIn"><img src="img/icon/defaut.gif"><span>Essayer la</span></button>
     </section>
 
     <form action="#" method="post">
@@ -144,7 +148,7 @@
     				Submit
           </button class="buttonvendre">
         </p>
-      </form>  
+      </form>
   </main>
 
   <!-- FOOTER -->
